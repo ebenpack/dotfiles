@@ -1,1 +1,26 @@
+function __tc {
+    if [ "$1" == 'mount' ];
+    then
+        sudo cryptsetup --type tcrypt open $HOME/Dropbox/pass.truecrypt passfile
+        sudo mount /dev/mapper/passfile /mnt/passfile
+        echo "Passfile is available at /mnt/passfile"
+    elif [ "$1" == 'unmount' ];
+    then
+        sudo umount /mnt/passfile
+        sudo cryptsetup close passfile
+    else
+        echo "Usage: truecrypt <mount|unmount>"
+    fi
+}
+
+export TERM=xterm-256color
+
 alias update='$HOME/.local/bin/update.sh'
+alias truecrypt="__tc"
+
+alias svim='SUDO_EDITOR=vim sudoedit'
+alias sudovim='SUDO_EDITOR=vim sudoedit'
+
+alias gs='git status'
+alias gl='git log'
+alias gca='git commit -a'

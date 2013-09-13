@@ -1,5 +1,8 @@
-set statusline=%M%h%y\ %t\ %F\ %p%%\ %l/%L\ %=[%{&ff},%{&ft}]\ [a=\%03.3b]\ [h=\%02.2B]\ [%l,%v]
-set title titlelen=150 titlestring=%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
+set title                " change the terminal's title
+set visualbell           " don't beep
+set noerrorbells         " don't beep
+
+let mapleader=","
 
 set tabstop=4       " Number of spaces that a <Tab> in the file counts for.
  
@@ -9,7 +12,13 @@ set expandtab       " Use the appropriate number of spaces to insert a <Tab>.
                     " Spaces are used in indents with the '>' and '<' commands
                     " and when 'autoindent' is on. To insert a real tab when
                     " 'expandtab' is on, use CTRL-V <Tab>.
- 
+
+set nowrap
+
+set backspace=indent,eol,start
+
+set hidden
+
 set smarttab        " When on, a <Tab> in front of a line inserts blanks
                     " according to 'shiftwidth'. 'tabstop' is used in other
                     " places. A <BS> will delete a 'shiftwidth' worth of space
@@ -22,7 +31,9 @@ set showmatch       " When a bracket is inserted, briefly jump to the matching
                     " screen. The time to show the match can be set with
                     " 'matchtime'.
 
-set history=3000    " keep 3000 lines of command line history
+set history=1000    " keep 3000 lines of command line history
+
+set undolevels=1000
 
 set magic           " Enable the "magic"
 
@@ -44,7 +55,8 @@ set smartcase       " Override the 'ignorecase' option if the search pattern
 set autoindent      " Copy indent from current line when starting a new line
 set smartindent     " (typing <CR> in Insert mode or when using the "o" or "O"
                     " command).
-
+set shiftwidth=4
+set shiftround      " Use multiple of shiftwidth when indenting with '<' and '>'
 set autoread        " watch for file changes
 
 set cursorline      " show the cursor line
@@ -62,5 +74,32 @@ set ruler           " Show the line and column number of the cursor position,
 
 set mouse=a         " Enable the use of the mouse.
 
+set pastetoggle=<F2>
+
+" Use pathogen to easily modify the runtime path to include all
+" plugins under the ~/.vim/bundle directory
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
 filetype plugin indent on
-syntax on
+if has('autocmd')
+    autocmd filetype python set expandtab
+    autocmd filetype html,xml set listchars-=tab:>.
+endif
+
+if &t_Co >= 256 || has("gui_running")
+    colorscheme molokai
+endif
+
+if &t_Co > 2 || has("gui_running")
+   " switch syntax highlighting on, when the terminal has colors
+   syntax on
+endif
+
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+
