@@ -99,6 +99,7 @@ community/terminator 0.97-1
 core/texinfo 5.1-1 (base base-devel)
 community/tmux 1.8-1
 extra/transmission-gtk 2.81-1
+extra/truecrypt 1:7.1a-1
 extra/ttf-dejavu 2.34-1
 community/ttf-inconsolata 20090215-4
 local/ttf-inconsolata-g 20090213-3
