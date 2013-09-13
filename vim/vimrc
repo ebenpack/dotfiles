@@ -1,0 +1,66 @@
+set statusline=%M%h%y\ %t\ %F\ %p%%\ %l/%L\ %=[%{&ff},%{&ft}]\ [a=\%03.3b]\ [h=\%02.2B]\ [%l,%v]
+set title titlelen=150 titlestring=%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
+
+set tabstop=4       " Number of spaces that a <Tab> in the file counts for.
+ 
+set shiftwidth=4    " Number of spaces to use for each step of (auto)indent.
+ 
+set expandtab       " Use the appropriate number of spaces to insert a <Tab>.
+                    " Spaces are used in indents with the '>' and '<' commands
+                    " and when 'autoindent' is on. To insert a real tab when
+                    " 'expandtab' is on, use CTRL-V <Tab>.
+ 
+set smarttab        " When on, a <Tab> in front of a line inserts blanks
+                    " according to 'shiftwidth'. 'tabstop' is used in other
+                    " places. A <BS> will delete a 'shiftwidth' worth of space
+                    " at the start of the line.
+
+set number          " Show line numbers.
+
+set showmatch       " When a bracket is inserted, briefly jump to the matching
+                    " one. The jump is only done if the match can be seen on the
+                    " screen. The time to show the match can be set with
+                    " 'matchtime'.
+
+set history=3000    " keep 3000 lines of command line history
+
+set magic           " Enable the "magic"
+
+set scrolloff=3     " keep at least 3 lines above/below
+
+set noautowrite     " don't automagically write on :next
+
+set hlsearch        " When there is a previous search pattern, highlight all
+                    " its matches.
+ 
+set incsearch       " While typing a search command, show immediately where the
+                    " so far typed pattern matches.
+ 
+set ignorecase      " Ignore case in search patterns.
+ 
+set smartcase       " Override the 'ignorecase' option if the search pattern
+                    " contains upper case characters.
+
+set autoindent      " Copy indent from current line when starting a new line
+set smartindent     " (typing <CR> in Insert mode or when using the "o" or "O"
+                    " command).
+
+set autoread        " watch for file changes
+
+set cursorline      " show the cursor line
+
+set wildmenu        " menu has tab completion
+
+set showfulltag     " show full completion tags
+
+set showcmd         " Show us the command we're typing
+set showfulltag     " show full completion tags
+set showmode        " show the mode all the time
+
+set ruler           " Show the line and column number of the cursor position,
+                    " separated by a comma.
+
+set mouse=a         " Enable the use of the mouse.
+
+filetype plugin indent on
+syntax on
