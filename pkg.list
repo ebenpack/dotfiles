@@ -1,4 +1,5 @@
 extra/a52dec 0.7.4-7
+extra/aalib 1.4rc5-9
 core/acl 2.2.52-1
 community/afpfs-ng 0.8.1-5
 extra/alsa-lib 1.0.27.2-1
@@ -55,6 +56,7 @@ core/e2fsprogs 1.42.8-1 (base)
 extra/elfutils 0.155-1
 extra/enca 1.14-1
 core/expat 2.1.0-2
+extra/faac 1.28-4
 extra/faad2 2.7-3
 core/fakeroot 1.19-1 (base-devel)
 extra/feh 2.9.3-1
@@ -125,6 +127,7 @@ core/iputils 20121221-3 (base)
 community/ipython2 1.1.0-1
 core/isl 0.12.1-1
 core/iw 3.10-2
+extra/jack 0.121.3-7
 extra/jasper 1.900.1-8
 community/jbig2dec 0.11-6
 core/jfsutils 1.1.15-4 (base)
@@ -152,6 +155,7 @@ core/libcap 2.22-5
 extra/libcap-ng 0.7.3-1
 extra/libcddb 1.3.2-3
 extra/libcdio 0.90-2
+extra/libcdio-paranoia 10.2+0.90+1-1
 extra/libcl 1.1-3
 extra/libcroco 0.6.8-1
 extra/libcups 1.6.3-1
@@ -169,6 +173,7 @@ core/libevent 2.0.21-2
 extra/libexif 0.6.21-1
 core/libffi 3.0.13-3
 extra/libfontenc 1.1.2-1
+extra/libftdi 0.20-1
 core/libgcrypt 1.5.3-1
 extra/libglade 2.6.4-3
 core/libgpg-error 1.12-1
@@ -177,6 +182,7 @@ extra/libgusb 0.1.6-1
 extra/libice 1.0.8-1
 extra/libid3tag 0.15.1b-7
 extra/libidn 1.28-1
+extra/libirman 0.4.5-3
 extra/libjpeg-turbo 1.3.0-2
 extra/libkate 0.4.1-4
 community/libkeybinder2 0.3.0-1
@@ -187,10 +193,13 @@ core/libltdl 2.4.2-10
 extra/libmad 0.15.1b-6
 extra/libmariadbclient 5.5.32-2
 extra/libmatroska 1.4.0-1
+community/libmediainfo 0.7.63-1
 community/libmicrohttpd 0.9.27-1
 extra/libmikmod 3.2.0-1
+extra/libmms 0.6.2-1
 extra/libmng 2.0.2-2
 extra/libmodplug 0.8.8.4-2
+extra/libmp4v2 2.0.0-2
 core/libmpc 1.0.1-1
 extra/libmpcdec 1.2.6-3
 extra/libmpeg2 0.5.1-4
@@ -223,6 +232,7 @@ extra/libtiger 0.3.4-3
 core/libtirpc 0.2.3-1
 core/libtool 2.4.2-10 (base-devel)
 extra/libupnp 1.6.18-1
+extra/libusb-compat 0.1.5-1
 core/libusbx 1.0.16-2
 extra/libutempter 1.1.6-1
 extra/libva 1.2.1-1
@@ -261,10 +271,12 @@ extra/libxvmc 1.0.8-1
 extra/libxxf86dga 1.1.4-1
 extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.4-2
+community/libzen 0.4.29-1
 core/licenses 20130203-1 (base)
 core/linux 3.10.10-1 (base)
 core/linux-api-headers 3.10.6-1
 core/linux-firmware 20130725-1
+extra/lirc-utils 1:0.9.0-58
 extra/llvm-libs 3.3-1
 core/logrotate 3.8.6-1 (base)
 extra/lua 5.2.2-1
@@ -278,6 +290,7 @@ core/man-db 2.6.5-1 (base)
 core/man-pages 3.53-1 (base)
 extra/mcpp 2.7.2-4
 core/mdadm 3.3-1 (base)
+community/mediainfo 0.7.63-1
 extra/mesa 9.2.0-2
 extra/mesa-demos 8.1.0-1
 extra/mesa-libgl 9.2.0-2
@@ -287,6 +300,8 @@ core/mkinitcpio 0.15.0-1
 core/mkinitcpio-busybox 1.21.1-2
 extra/mozilla-common 1.4-3
 core/mpfr 3.1.2-1
+extra/mpg123 1.15.4-1
+extra/mplayer 36285-4
 extra/mtdev 1.1.3-1
 community/mupdf 1.3-5
 core/nano 2.2.6-2 (base)
@@ -296,6 +311,7 @@ core/netctl 1.3-1 (base)
 extra/nettle 2.7.1-1
 extra/nspr 4.10-2
 extra/nss 3.15.1-1
+extra/nss-mdns 0.10-5
 extra/opencore-amr 0.1.3-1
 extra/openjpeg 1.5.1-1
 core/openresolv 3.5.6-1
@@ -319,6 +335,7 @@ core/pinentry 0.8.3-1
 extra/pixman 0.30.2-1
 core/pkg-config 0.28-1 (base-devel)
 extra/polkit 0.111-1
+extra/poppler 0.24.1-1
 core/popt 1.16-6
 core/procps-ng 3.3.8-2 (base)
 core/psmisc 22.20-1 (base)
@@ -351,9 +368,33 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-2
 extra/rtmpdump 20121230-2
 extra/ruby 2.0.0_p247-1
+local/ruby-bunny 0.9.3-1
+local/ruby-chef 11.6.0-1
+local/ruby-erubis 2.7.0-2
+community/ruby-highline 1.6.19-1
+local/ruby-ipaddress 0.8.0-1
+local/ruby-mime-types 1.22-1
+local/ruby-mixlib-authentication 1.3.0-1
+local/ruby-mixlib-cli 1.3.0-1
+local/ruby-mixlib-config 1.1.2-1
+local/ruby-mixlib-log 1.6.0-1
+local/ruby-mixlib-shellout 1.0.0-1
+local/ruby-moneta 0.7.19-1
+local/ruby-net-ssh 2.6.8-2
+local/ruby-net-ssh-2.2 2.2.2-3
+local/ruby-net-ssh-gateway 1.2.0-3
+local/ruby-net-ssh-multi-1.1.2 1.1.2-1
+local/ruby-ohai 6.18.0-1
+local/ruby-polyglot 0.3.3-1
+local/ruby-rest-client 1.6.7-1
+local/ruby-systemu 2.5.2-1
+local/ruby-treetop 1.4.15-1
+local/ruby-uuidtools 2.1.2-2
+local/ruby-yajl-ruby 1.1.0-1
 core/run-parts 4.4-1
 extra/schroedinger 1.0.11-1
 extra/scrnsaverproto 1.2.2-1
+community/scrot 0.8-6
 extra/sdl 1.2.15-3
 extra/sdl_image 1.2.12-3
 extra/sdl_mixer 1.2.12-3
@@ -394,7 +435,9 @@ local/ttf-mac-fonts 1-7
 local/ttf-microsoft-consolas 5.32-1
 local/ttf-ms-fonts 2.0-10
 core/tzdata 2013d-1
+community/udevil 0.4.1-1
 extra/unixodbc 2.3.1-1
+extra/unrar 1:4.2.4-1
 extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.23.2-1 (base base-devel)

@@ -14,6 +14,9 @@ function __tc {
 }
 
 export TERM=xterm-256color
+export EDITOR=vim
+export VISUAL=vim
+export PAGER=less
 
 alias update='$HOME/.local/bin/update.sh'
 alias truecrypt="__tc"
