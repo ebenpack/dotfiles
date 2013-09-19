@@ -20,9 +20,9 @@ extra/bash-completion 2.1-2
 extra/bc 1.06-8
 core/binutils 2.23.2-3 (base-devel)
 core/bison 3.0-1 (base-devel)
-extra/bluez-libs 5.7-1
+extra/bluez-libs 5.8-1
 local/brightd 0.4.1-2
-local/byobu 5.50-1
+local/byobu 5.58-1
 core/bzip2 1.0.6-4 (base)
 core/ca-certificates 20130610-1
 extra/cairo 1.12.16-1
@@ -40,13 +40,13 @@ core/cryptsetup 1.6.2-1 (base)
 core/curl 7.32.0-2
 extra/damageproto 1.2.1-2
 core/db 5.3.21-1
-core/dbus 1.6.12-1
+core/dbus 1.6.14-1
 extra/dbus-glib 0.100.2-1
 extra/dconf 0.16.1-1
 extra/desktop-file-utils 0.21-1
 core/device-mapper 2.02.100-1 (base)
 core/dhcpcd 6.0.5-1 (base)
-core/dialog 1.2_20130523-2
+core/dialog 1.2_20130902-1
 core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-1
 extra/dmxproto 2.3.1-2
@@ -88,7 +88,7 @@ extra/giflib 5.0.4-2
 extra/git 1.8.4-1
 extra/glew 1.10.0-2
 core/glib2 2.36.4-1
-core/glibc 2.18-3 (base)
+core/glibc 2.18-4 (base)
 extra/glu 9.0.0-2
 core/gmp 5.1.2-1
 core/gnupg 2.0.21-1
@@ -135,6 +135,7 @@ extra/js 17.0.0-1
 extra/json-c 0.11-1
 core/kbd 2.0.0-1
 extra/kbproto 1.0.6-1
+community/keepassx 0.4.3-5
 core/keyutils 1.5.5-5
 core/kmod 15-1
 core/krb5 1.11.3-1
@@ -211,7 +212,7 @@ extra/libogg 1.3.1-1
 core/libpcap 1.4.0-1
 extra/libpciaccess 0.13.2-1
 core/libpipeline 1.2.4-1
-extra/libpng 1.6.3-1
+extra/libpng 1.6.5-1
 extra/libproxy 0.4.11-2
 extra/libpulse 4.0-2
 extra/librsvg 1:2.37.0-1
@@ -233,7 +234,7 @@ core/libtirpc 0.2.3-1
 core/libtool 2.4.2-10 (base-devel)
 extra/libupnp 1.6.18-1
 extra/libusb-compat 0.1.5-1
-core/libusbx 1.0.16-2
+core/libusbx 1.0.17-1
 extra/libutempter 1.1.6-1
 extra/libva 1.2.1-1
 extra/libvdpau 0.7-1
@@ -317,7 +318,7 @@ extra/openjpeg 1.5.1-1
 core/openresolv 3.5.6-1
 core/openssh 6.2p2-1
 core/openssl 1.0.1.e-3
-extra/orc 0.4.17-1
+extra/orc 0.4.18-1
 extra/p11-kit 0.18.4-1
 local/package-query 1.2-2
 core/pacman 4.1.2-1 (base base-devel)
@@ -380,7 +381,7 @@ local/ruby-mixlib-config 1.1.2-1
 local/ruby-mixlib-log 1.6.0-1
 local/ruby-mixlib-shellout 1.0.0-1
 local/ruby-moneta 0.7.19-1
-local/ruby-net-ssh 2.6.8-2
+local/ruby-net-ssh 2.7.0-1
 local/ruby-net-ssh-2.2 2.2.2-3
 local/ruby-net-ssh-gateway 1.2.0-3
 local/ruby-net-ssh-multi-1.1.2 1.1.2-1
@@ -427,7 +428,7 @@ extra/tevent 0.9.18-1
 core/texinfo 5.1-1 (base base-devel)
 community/tinyxml 2.6.2-3
 community/tmux 1.8-1
-extra/transmission-gtk 2.81-1
+extra/transmission-gtk 2.82-1
 extra/ttf-dejavu 2.34-1
 community/ttf-inconsolata 20090215-4
 local/ttf-inconsolata-g 20090213-3
@@ -486,11 +487,11 @@ extra/xorg-fonts-alias 1.0.3-1
 extra/xorg-fonts-encodings 1.0.4-3 (xorg-fonts xorg)
 extra/xorg-fonts-misc 1.0.1-2
 extra/xorg-iceauth 1.0.6-1 (xorg-apps xorg)
-extra/xorg-luit 1.1.1-1 (xorg xorg-apps)
+extra/xorg-luit 1.1.1-2 (xorg xorg-apps)
 extra/xorg-mkfontdir 1.0.7-1 (xorg xorg-apps)
 extra/xorg-mkfontscale 1.1.1-1 (xorg-apps xorg)
-extra/xorg-server 1.14.2-2 (xorg)
-extra/xorg-server-common 1.14.2-2
+extra/xorg-server 1.14.3-1 (xorg)
+extra/xorg-server-common 1.14.3-1
 extra/xorg-server-utils 7.6-3
 extra/xorg-sessreg 1.0.8-1 (xorg-apps xorg)
 extra/xorg-setxkbmap 1.3.0-1 (xorg-apps xorg)
@@ -502,8 +503,8 @@ extra/xorg-xcmsdb 1.0.4-1 (xorg-apps xorg)
 extra/xorg-xdpyinfo 1.3.1-1 (xorg-apps xorg)
 extra/xorg-xgamma 1.0.5-1 (xorg-apps xorg)
 extra/xorg-xhost 1.0.6-1 (xorg-apps xorg)
-extra/xorg-xinit 1.3.2-3
-extra/xorg-xinput 1.6.0-1 (xorg-apps xorg)
+extra/xorg-xinit 1.3.3-1
+extra/xorg-xinput 1.6.1-1 (xorg-apps xorg)
 extra/xorg-xkbcomp 1.2.4-1 (xorg-apps xorg)
 extra/xorg-xmessage 1.0.4-1
 extra/xorg-xmodmap 1.0.8-1 (xorg-apps xorg)
