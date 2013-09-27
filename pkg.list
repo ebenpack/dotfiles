@@ -64,7 +64,7 @@ extra/ffmpeg-compat 1:0.10.8-4
 core/file 5.14-1 (base base-devel)
 core/filesystem 2013.05-2 (base)
 core/findutils 4.4.2-5 (base base-devel)
-extra/firefox 23.0.1-1
+extra/firefox 24.0-1
 extra/fixesproto 5.0-2
 extra/flac 1.3.0-1
 extra/flashplugin 11.2.202.310-1
@@ -94,7 +94,7 @@ core/gmp 5.1.2-1
 core/gnupg 2.0.21-1
 extra/gnutls 3.2.4-1
 extra/gobject-introspection 1.36.0-1
-local/google-chrome 29.0.1547.65-1
+local/google-chrome 29.0.1547.76-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-3
 extra/graphite 1:1.2.3-1
@@ -274,10 +274,10 @@ extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.4-2
 community/libzen 0.4.29-1
 core/licenses 20130203-1 (base)
-core/linux 3.10.10-1 (base)
+core/linux 3.11.1-1 (base)
 core/linux-api-headers 3.10.6-1
-core/linux-firmware 20130725-1
-extra/lirc-utils 1:0.9.0-58
+core/linux-firmware 20130903-1
+extra/lirc-utils 1:0.9.0-60
 extra/llvm-libs 3.3-1
 core/logrotate 3.8.6-1 (base)
 extra/lua 5.2.2-1
@@ -316,7 +316,7 @@ extra/nss-mdns 0.10-5
 extra/opencore-amr 0.1.3-1
 extra/openjpeg 1.5.1-1
 core/openresolv 3.5.6-1
-core/openssh 6.2p2-1
+core/openssh 6.3p1-1
 core/openssl 1.0.1.e-3
 extra/orc 0.4.18-1
 extra/p11-kit 0.18.4-1
@@ -338,7 +338,7 @@ core/pkg-config 0.28-1 (base-devel)
 extra/polkit 0.111-1
 extra/poppler 0.24.1-1
 core/popt 1.16-6
-core/procps-ng 3.3.8-2 (base)
+core/procps-ng 3.3.8-3 (base)
 core/psmisc 22.20-1 (base)
 core/pth 2.0.7-4
 local/pycairo-xcb-git 20120807-1
@@ -416,8 +416,8 @@ local/sublime-text 2.0.2-1
 extra/subversion 1.8.1-2
 core/sudo 1.8.7-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
-core/systemd 204-3
-core/systemd-sysvcompat 204-3 (base)
+core/systemd 207-3
+core/systemd-sysvcompat 207-3 (base)
 core/sysvinit-tools 2.88-11
 extra/taglib 1.8-1
 extra/talloc 2.0.8-1
@@ -451,7 +451,7 @@ local/vim-molokai 1.1-3
 local/vim-pathogen 2.2-2 (vim-plugins)
 extra/vim-runtime 7.4.16-2
 community/virtualbox 4.2.18-1
-community/virtualbox-host-modules 4.2.18-1
+community/virtualbox-host-modules 4.2.18-3
 extra/vlc 2.0.8.a-1
 extra/vte 0.28.2-3
 extra/vte-common 0.34.7-1
@@ -516,7 +516,7 @@ extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
 extra/xorg-xsetroot 1.1.1-1 (xorg-apps xorg)
 extra/xproto 7.0.24-1
 extra/xterm 297-1
-extra/xvidcore 1.3.2-1
+extra/xvidcore 1.3.2-2
 core/xz 5.0.5-1
 extra/yajl 2.0.4-1
 local/yaourt 1.3-1

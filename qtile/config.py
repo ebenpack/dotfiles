@@ -2,6 +2,10 @@ from libqtile.config import Key, Screen, Group, Click, Drag
 from libqtile.command import lazy
 from libqtile import layout, bar, widget, hook
 
+from xrandr import Xrandr
+
+import subprocess, re
+
 mod = "mod4"
 
 widget_defaults = dict(
@@ -37,7 +41,7 @@ keys = [
     Key([mod, "shift"], "j", 
         lazy.layout.grow()),
     Key([mod, "shift"], "k", 
-	lazy.layout.shrink()),
+    lazy.layout.shrink()),
 
     # Move windows up or down in current stack
     Key([mod, "control"], "k",
@@ -102,6 +106,7 @@ mouse = [
    Click([mod], "Button2", lazy.window.bring_to_front())
 ]
 
+
 groups = [
     Group("1"),
     Group("2"),
@@ -132,16 +137,20 @@ layouts = [
     layout.TreeTab()
 ]
 
-screens = [
-    Screen(
-        top = bar.Bar(
+def initialize_screens():
+    xrandr = Xrandr()
+    screen_main = "LVDS1"
+    screen_secondary = "VGA1"
+    one_screen = [
+            Screen(
+                top = bar.Bar(
                     [
                         widget.GroupBox(
                             urgent_alert_method='text',
                             fontsize=10,
                             borderwidth=1),
                         widget.CurrentLayout(),
-                        widget.WindowName(foreground = "a0a0a0",),
+                        widget.WindowName(foreground = "a0a0a0"),
                         widget.Prompt(),
                         widget.Notify(),
                         widget.Systray(),
@@ -151,17 +160,68 @@ screens = [
                             energy_full_file='energy_full',
                             power_now_file='energy_now',
                             update_delay = 5,
-                            foreground = "7070ff",), 
+                            foreground = "7070ff"), 
                         widget.Volume(foreground = "70ff70"),
                         widget.Clock(foreground = "a0a0a0",
                             fmt = '%Y-%m-%d %a %I:%M %p'),
-                    ],
-                    22,
+                    ], 22,
                 ),
-    ),
-]
+            ),
+        ]
+    two_screens = [
+            Screen(
+                top = bar.Bar(
+                    [
+                        widget.GroupBox(
+                            urgent_alert_method='text',
+                            fontsize=10,
+                            borderwidth=1),
+                        widget.CurrentLayout(),
+                        widget.WindowName(foreground = "a0a0a0"),
+                        widget.Prompt(),
+                        widget.Notify(),
+                        widget.Systray(),
+                        widget.Wlan(interface="wlp4s0"),
+                        widget.Battery(
+                            energy_now_file='energy_now',
+                            energy_full_file='energy_full',
+                            power_now_file='energy_now',
+                            update_delay = 5,
+                            foreground = "7070ff"), 
+                        widget.Volume(foreground = "70ff70"),
+                        widget.Clock(foreground = "a0a0a0",
+                            fmt = '%Y-%m-%d %a %I:%M %p'),
+                    ], 22,
+                ),
+            ),
+            Screen(
+                top = bar.Bar(
+                    [
+                        widget.GroupBox(
+                            urgent_alert_method='text',
+                            fontsize=10,
+                            borderwidth=1),
+                        widget.CurrentLayout(),
+                        widget.WindowName(foreground = "a0a0a0"),
+                        widget.Prompt(),
+                        widget.Clock(foreground = "a0a0a0",
+                            fmt = '%Y-%m-%d %a %I:%M %p'),
+                    ], 22,
+                ),
+            ),
+        ]
+    if len(xrandr.connected_screens) == 2:
+        subprocess.call(["xrandr", "--output", screen_main, "--auto", "--output", 
+            screen_secondary, "--auto", "--left-of", screen_main])
+        screens = two_screens
+    else:
+        subprocess.call(["xrandr", "--output", screen_main, "--auto", "--output", 
+            screen_secondary, "--off"])
+        screens = one_screen
+    return screens
 
-import subprocess, re
+screens = initialize_screens()
+
 
 def is_running(process):
     s = subprocess.Popen(["ps", "axuw"], stdout=subprocess.PIPE)
@@ -187,5 +247,4 @@ mouse = ()
 def startup():
     execute_once("conky")
     execute_once("dropboxd")
-    #execute_once("clipit")
     execute_once("redshift", "-l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
