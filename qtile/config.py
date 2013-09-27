@@ -1,8 +1,8 @@
-from libqtile.config import Key, Screen, Group, Click, Drag
+from libqtile.config import Key, Group, Click, Drag
 from libqtile.command import lazy
-from libqtile import layout, bar, widget, hook
+from libqtile import layout, hook
 
-from xrandr import Xrandr
+import utilities
 
 import subprocess, re
 
@@ -86,8 +86,6 @@ keys = [
         lazy.window.toggle_maximize()),
     Key([mod], "n",
         lazy.window.toggle_minimize()),
-
-
     
     # Move between groups
     
@@ -95,7 +93,6 @@ keys = [
         lazy.screen.nextgroup()),
     Key([mod], "Left",
         lazy.screen.prevgroup()),
-
 ]
 
 mouse = [
@@ -105,7 +102,6 @@ mouse = [
        start=lazy.window.get_size()),
    Click([mod], "Button2", lazy.window.bring_to_front())
 ]
-
 
 groups = [
     Group("1"),
@@ -137,66 +133,7 @@ layouts = [
     layout.TreeTab()
 ]
 
-def initialize_screens():
-    xrandr = Xrandr()
-    S1 = "LVDS1"
-    S2 = "VGA1"
-
-    primary_screen = Screen(
-                top = bar.Bar(
-                    [
-                        widget.GroupBox(
-                            urgent_alert_method='text',
-                            fontsize=10,
-                            borderwidth=1),
-                        widget.CurrentLayout(),
-                        widget.WindowName(foreground = "a0a0a0"),
-                        widget.Prompt(),
-                        widget.Notify(),
-                        widget.Systray(),
-                        widget.Wlan(interface="wlp4s0"),
-                        widget.Battery(
-                            energy_now_file='energy_now',
-                            energy_full_file='energy_full',
-                            power_now_file='energy_now',
-                            update_delay = 5,
-                            foreground = "7070ff"), 
-                        widget.Volume(foreground = "70ff70"),
-                        widget.Clock(foreground = "a0a0a0",
-                            fmt = '%Y-%m-%d %a %I:%M %p'),
-                    ], 22,
-                ),
-            )
-    secondary_screen = Screen(
-                top = bar.Bar(
-                    [
-                        widget.GroupBox(
-                            urgent_alert_method='text',
-                            fontsize=10,
-                            borderwidth=1),
-                        widget.CurrentLayout(),
-                        widget.WindowName(foreground = "a0a0a0"),
-                        widget.Prompt(),
-                        widget.Clock(foreground = "a0a0a0",
-                            fmt = '%Y-%m-%d %a %I:%M %p'),
-                    ], 22,
-                ),
-            ),
-    
-    one_screen = [primary_screen]
-    two_screens = [primary_screen, secondary_screen]
-
-    if len(xrandr.connected_screens) == 2:
-        subprocess.call(["xrandr", "--output", S1, "--auto", "--output", 
-            S2, "--auto", "--left-of", S1])
-        screens = two_screens
-    else:
-        subprocess.call(["xrandr", "--output", S1, "--auto", "--output", 
-            S2, "--off"])
-        screens = one_screen
-    return screens
-
-screens = initialize_screens()
+screens = utilities.initialize_screens()
 
 def is_running(process):
     s = subprocess.Popen(["ps", "axuw"], stdout=subprocess.PIPE)
