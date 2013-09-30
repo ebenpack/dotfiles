@@ -1,3 +1,5 @@
+# symlinked at ~/.config/qtile/config.py
+
 from libqtile.config import Key, Group, Click, Drag
 from libqtile.command import lazy
 from libqtile import layout, hook
@@ -9,6 +11,7 @@ import subprocess, re
 mod = "mod4"
 
 widget_defaults = dict(
+    font = 'Consolas',
     border_focus="#de4377",
     border_normal="#ad8e99"
 )
@@ -27,6 +30,13 @@ keys = [
         lazy.layout.down()),
     Key([mod], "h",
         lazy.layout.up()),
+
+
+    # Move windows up or down in current stack
+    Key([mod], "k",
+        lazy.layout.next()),
+    Key([mod], "j",
+        lazy.layout.previous()),
 
     # Resize windows in current stack pane
     Key([mod, "shift"], "h", 

@@ -1,3 +1,5 @@
+-- symlinked at ~/.config/awesome/rc.lua
+
 -- Standard awesome library
 require("awful")
 require("awful.autofocus")

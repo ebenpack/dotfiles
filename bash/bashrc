@@ -1,3 +1,6 @@
+
+# symlinked at ~/.bashrc
+
 function __tc {
     if [ "$1" == 'mount' ];
     then

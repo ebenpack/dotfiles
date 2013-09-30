@@ -1,5 +1,7 @@
 # /etc/bash.bashrc
 #
+# symlinked at /etc/bash.bashrc
+#
 # https://wiki.archlinux.org/index.php/Color_Bash_Prompt
 #
 # This file is sourced by all *interactive* bash shells on startup,

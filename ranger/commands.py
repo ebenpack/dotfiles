@@ -1,3 +1,4 @@
+# symlinked at ~/.config/ranger/commands.conf
 # -*- coding: utf-8 -*-
 # Copyright (C) 2009-2013  Roman Zimbelmann <hut@lavabit.com>
 # This configuration file is licensed under the same terms as ranger.

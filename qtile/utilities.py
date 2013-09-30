@@ -1,3 +1,5 @@
+# symlinked at ~/.config/qtile/utilities.py
+
 from libqtile.config import Screen
 from libqtile import bar, widget
 
@@ -44,11 +46,11 @@ def initialize_screens():
                     [
                         widget.GroupBox(
                             urgent_alert_method='text',
-                            fontsize=10,
+                            fontsize=14,
                             borderwidth=1),
                         widget.CurrentLayout(),
                         widget.WindowName(foreground = "a0a0a0"),
-                        widget.Prompt(),
+                        widget.Prompt(foreground = "CF0C0C"),
                         widget.Notify(),
                         widget.Systray(),
                         widget.Wlan(interface="wlp4s0"),
@@ -69,7 +71,7 @@ def initialize_screens():
                     [
                         widget.GroupBox(
                             urgent_alert_method='text',
-                            fontsize=10,
+                            fontsize=14,
                             borderwidth=1),
                         widget.CurrentLayout(),
                         widget.WindowName(foreground = "a0a0a0"),

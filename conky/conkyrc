@@ -2,6 +2,8 @@
 # A comprehensive conky script, configured for use on
 # Ubuntu / Debian Gnome, without the need for any external scripts.
 #
+# symlinked at ~/.conkyrc
+#
 # Based on conky-jc and the default .conkyrc.
 # INCLUDES:
 # - tail of /var/log/messages
