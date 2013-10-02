@@ -352,7 +352,10 @@ local/pycharm-community 3.0-3
 extra/pygobject2-devel 2.28.6-9
 extra/pygtk 2.24.0-3
 extra/python 3.3.2-2
+local/python-pudb 2013.3.4-1
+community/python-pygments 1.6-2
 extra/python-setuptools 1.1.6-1
+extra/python-urwid 1.1.1-1
 extra/python-virtualenv 1.10.1-1
 extra/python2 2.7.5-2
 extra/python2-beaker 1.6.4-1
@@ -362,7 +365,10 @@ extra/python2-mako 0.9.0-1
 extra/python2-markupsafe 0.18-2
 extra/python2-notify 0.1.1-12
 extra/python2-pip 1.4.1-2
+local/python2-pudb 2013.3.4-1
+community/python2-pygments 1.6-2
 extra/python2-setuptools 1.1.6-1
+extra/python2-urwid 1.1.1-1
 extra/python2-virtualenv 1.10.1-1
 extra/qt4 4.8.5-2
 local/qtile-git 1509.5b8e8d4-1
