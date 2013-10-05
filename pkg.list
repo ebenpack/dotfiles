@@ -40,14 +40,14 @@ core/cronie 1.4.9-5 (base)
 core/cryptsetup 1.6.2-1 (base)
 core/curl 7.32.0-2
 extra/damageproto 1.2.1-2
-core/db 5.3.21-1
+core/db 5.3.21-2
 core/dbus 1.6.14-1
 extra/dbus-glib 0.100.2-1
 extra/dconf 0.16.1-1
 extra/desktop-file-utils 0.21-1
 core/device-mapper 2.02.100-1 (base)
 core/dhcpcd 6.0.5-1 (base)
-core/dialog 1.2_20130923-1
+core/dialog 1.2_20130928-1
 core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-1
 extra/dmxproto 2.3.1-2
@@ -81,7 +81,7 @@ core/gawk 4.1.0-1 (base base-devel)
 core/gcc 4.8.1-3 (base-devel)
 core/gcc-libs 4.8.1-3 (base)
 extra/gconf 3.2.6-2
-core/gdbm 1.10-1
+core/gdbm 1.10-2
 extra/gdk-pixbuf2 2.28.2-1
 extra/geoclue 0.12.99-1
 core/gettext 0.18.3.1-1 (base base-devel)
@@ -177,7 +177,7 @@ extra/libebml 1.3.0-1
 core/libedit 20130601_3.1-1
 core/libevent 2.0.21-2
 extra/libexif 0.6.21-1
-core/libffi 3.0.13-3
+core/libffi 3.0.13-4
 extra/libfontenc 1.1.2-1
 extra/libftdi 0.20-1
 core/libgcrypt 1.5.3-1
@@ -330,7 +330,7 @@ local/package-query 1.2-2
 core/pacman 4.1.2-1 (base base-devel)
 core/pacman-mirrorlist 20130830-1
 core/pam 1.1.6-4
-core/pambase 20130113-1
+core/pambase 20130928-1
 extra/pango 1.34.1-1
 core/patch 2.7.1-2 (base-devel)
 core/pciutils 3.2.0-3 (base)
@@ -348,7 +348,7 @@ core/procps-ng 3.3.8-3 (base)
 core/psmisc 22.20-1 (base)
 core/pth 2.0.7-4
 local/pycairo-xcb-git 20120807-1
-local/pycharm-community 3.0-3
+local/pycharm-community 3.0-4
 extra/pygobject2-devel 2.28.6-9
 extra/pygtk 2.24.0-3
 extra/python 3.3.2-2
@@ -433,13 +433,13 @@ core/systemd 207-5
 core/systemd-sysvcompat 207-5 (base)
 core/sysvinit-tools 2.88-11
 extra/taglib 1.8-1
-extra/talloc 2.0.8-1
+extra/talloc 2.0.8-2
 core/tar 1.26-4 (base)
 extra/tcl 8.6.1-1
 extra/tdb 1.2.12-1
 community/terminator 0.97-1
 extra/tevent 0.9.18-1
-core/texinfo 5.1-1 (base base-devel)
+core/texinfo 5.2-1 (base base-devel)
 community/tinyxml 2.6.2-3
 extra/tk 8.6.1-1
 community/tmux 1.8-1
@@ -453,7 +453,7 @@ local/ttf-ms-fonts 2.0-10
 core/tzdata 2013f-1
 community/udevil 0.4.1-1
 extra/unixodbc 2.3.1-1
-extra/unrar 1:4.2.4-1
+extra/unrar 1:5.0.12-1
 extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.23.2-1 (base base-devel)
@@ -465,8 +465,8 @@ extra/videoproto 2.3.2-1
 local/vim-molokai 1.1-3
 local/vim-pathogen 2.2-2 (vim-plugins)
 extra/vim-runtime 7.4.16-2
-community/virtualbox 4.2.18-1
-community/virtualbox-host-modules 4.2.18-3
+community/virtualbox 4.2.18-2
+community/virtualbox-host-modules 4.2.18-4
 extra/vlc 2.1.0-2
 extra/vte 0.28.2-3
 extra/vte-common 0.34.8-1

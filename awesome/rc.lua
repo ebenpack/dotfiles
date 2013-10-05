@@ -10,7 +10,7 @@ require("beautiful")
 require("naughty")
 
 -- Load Debian menu entries
-require("debian.menu")
+-- require("debian.menu")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -394,11 +394,11 @@ function run_once(prg,arg_string,pname,screen)
     end
 end
 
-run_once("xfce4-power-manager")
-run_once("nm-applet")
-run_once("volumeicon")
+-- run_once("xfce4-power-manager")
+-- run_once("nm-applet")
+-- run_once("volumeicon")
 run_once("conky")
-run_once("clipit")
+-- run_once("clipit")
 run_once("redshift -l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
 
 
