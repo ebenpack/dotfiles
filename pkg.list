@@ -37,7 +37,7 @@ extra/conky 1.9.0-1
 core/coreutils 8.21-2 (base)
 core/cracklib 2.9.0-1
 core/cronie 1.4.9-5 (base)
-core/cryptsetup 1.6.2-1 (base)
+core/cryptsetup 1.6.2-2 (base)
 core/curl 7.32.0-2
 extra/damageproto 1.2.1-2
 core/db 5.3.21-2
@@ -47,12 +47,12 @@ extra/dconf 0.16.1-1
 extra/desktop-file-utils 0.21-1
 core/device-mapper 2.02.100-1 (base)
 core/dhcpcd 6.0.5-1 (base)
-core/dialog 1.2_20130928-1
+core/dialog 1.2_20131001-1
 core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-1
 extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
-local/dropbox 2.2.13-1
+local/dropbox 2.4.0-1
 core/e2fsprogs 1.42.8-1 (base)
 extra/elfutils 0.156-1
 extra/enca 1.14-1
@@ -80,7 +80,7 @@ extra/fuse 2.9.3-1
 core/gawk 4.1.0-1 (base base-devel)
 core/gcc 4.8.1-3 (base-devel)
 core/gcc-libs 4.8.1-3 (base)
-extra/gconf 3.2.6-2
+extra/gconf 3.2.6-3
 core/gdbm 1.10-2
 extra/gdk-pixbuf2 2.28.2-1
 extra/geoclue 0.12.99-1
@@ -92,11 +92,11 @@ extra/glew 1.10.0-2
 core/glib2 2.36.4-1
 core/glibc 2.18-5 (base)
 extra/glu 9.0.0-2
-core/gmp 5.1.2-1
-core/gnupg 2.0.21-1
+core/gmp 5.1.3-1
+core/gnupg 2.0.22-1
 extra/gnutls 3.2.4-1
 extra/gobject-introspection 1.36.0-1
-local/google-chrome 29.0.1547.76-1
+local/google-chrome 30.0.1599.66-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-3
 extra/graphite 1:1.2.3-1
@@ -110,9 +110,8 @@ extra/gtk3 3.8.4-1
 extra/gvim 7.4.16-2
 core/gzip 1.6-1 (base base-devel)
 extra/harfbuzz 0.9.19-1
-core/heirloom-mailx 12.5-3 (base)
 extra/hicolor-icon-theme 0.12-2
-community/highlight 3.15-1
+community/highlight 3.16-1
 extra/htop 1.0.2-2
 extra/hunspell 1.3.2-2
 core/hwids 20130607-1
@@ -128,7 +127,7 @@ core/iptables 1.4.19.1-1
 core/iputils 20121221-3 (base)
 community/ipython2 1.1.0-1
 core/isl 0.12.1-1
-core/iw 3.10-2
+core/iw 3.11-1
 extra/jack 0.121.3-7
 extra/jasper 1.900.1-8
 community/jbig2dec 0.11-6
@@ -279,7 +278,7 @@ extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.4-2
 community/libzen 0.4.29-1
 core/licenses 20130203-1 (base)
-core/linux 3.11.2-1 (base)
+core/linux 3.11.3-1 (base)
 core/linux-api-headers 3.10.6-1
 core/linux-firmware 20130903-1
 extra/lirc-utils 1:0.9.0-60
@@ -406,6 +405,7 @@ community/ruby-treetop 1.4.15-2
 local/ruby-uuidtools 2.1.2-2
 local/ruby-yajl-ruby 1.1.0-1
 core/run-parts 4.4-1
+core/s-nail 14.4.3-1 (base)
 extra/schroedinger 1.0.11-1
 extra/scrnsaverproto 1.2.2-1
 community/scrot 0.8-6
@@ -418,19 +418,20 @@ core/shadow 4.1.5.1-6 (base)
 extra/shared-color-profiles 0.1.5-1
 extra/shared-mime-info 1.1-1
 extra/slang 2.2.4-2
-extra/slim 1.3.5-3
+extra/slim 1.3.6-1
 extra/smbclient 4.0.9-1
 extra/smpeg 0.4.4-7
 extra/speex 1.2rc1-3
 extra/sqlite 3.8.0.2-1
 extra/sshfs 2.4-1
 extra/startup-notification 0.12-3
+community/steam 1.0.0.42-1
 local/sublime-text 2.0.2-1
 extra/subversion 1.8.3-1
-core/sudo 1.8.7-1 (base-devel)
+core/sudo 1.8.8-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
-core/systemd 207-5
-core/systemd-sysvcompat 207-5 (base)
+core/systemd 208-1
+core/systemd-sysvcompat 208-1 (base)
 core/sysvinit-tools 2.88-11
 extra/taglib 1.8-1
 extra/talloc 2.0.8-2
@@ -467,7 +468,7 @@ local/vim-pathogen 2.2-2 (vim-plugins)
 extra/vim-runtime 7.4.16-2
 community/virtualbox 4.2.18-2
 community/virtualbox-host-modules 4.2.18-4
-extra/vlc 2.1.0-2
+extra/vlc 2.1.0-3
 extra/vte 0.28.2-3
 extra/vte-common 0.34.8-1
 extra/wayland 1.2.1-1
@@ -535,5 +536,6 @@ extra/xvidcore 1.3.2-2
 core/xz 5.0.5-1
 extra/yajl 2.0.4-1
 local/yaourt 1.3-1
+extra/zenity 3.8.0-1
 core/zlib 1.2.8-1
 extra/zvbi 0.2.33-6
