@@ -459,7 +459,7 @@ extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.23.2-1 (base base-devel)
 extra/v4l-utils 0.9.5-2
-local/vagrant 1.3.1-1
+local/vagrant 1.3.4-1
 extra/vde2 2.3.2-4
 core/vi 1:050325-3 (base)
 extra/videoproto 2.3.2-1
