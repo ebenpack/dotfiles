@@ -41,7 +41,7 @@ core/cryptsetup 1.6.2-2 (base)
 core/curl 7.33.0-3
 extra/damageproto 1.2.1-2
 core/db 5.3.28-1
-core/dbus 1.6.16-1
+core/dbus 1.6.18-1
 extra/dbus-glib 0.100.2-1
 extra/dconf 0.18.0-1
 extra/desktop-file-utils 0.22-1
@@ -251,7 +251,7 @@ extra/libva 1.2.1-1
 extra/libvdpau 0.7-1
 extra/libvorbis 1.3.3-1
 extra/libvpx 1.2.0-2
-extra/libwbclient 4.1.1-1
+extra/libwbclient 4.1.2-1
 extra/libx11 1.6.2-1
 extra/libxau 1.0.8-2
 extra/libxaw 1.0.12-1
@@ -439,7 +439,7 @@ extra/shared-color-profiles 0.1.5-1
 extra/shared-mime-info 1.2-1
 extra/slang 2.2.4-3
 extra/slim 1.3.6-2
-extra/smbclient 4.1.1-1
+extra/smbclient 4.1.2-1
 extra/smpeg 0.4.4-7
 extra/speex 1.2rc1-4
 extra/sqlite 3.8.1-2
