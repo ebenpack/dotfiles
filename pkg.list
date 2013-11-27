@@ -44,6 +44,7 @@ core/db 5.3.28-1
 core/dbus 1.6.18-1
 extra/dbus-glib 0.100.2-1
 extra/dconf 0.18.0-1
+extra/ddd 3.3.12-3
 extra/desktop-file-utils 0.22-1
 core/device-mapper 2.02.104-1 (base)
 core/dhcpcd 6.1.0-1 (base)
@@ -83,6 +84,7 @@ extra/gc 7.2.d-2
 core/gcc 4.8.2-4 (base-devel)
 core/gcc-libs 4.8.2-4 (base)
 extra/gconf 3.2.6-3
+extra/gdb 7.6.1-1
 core/gdbm 1.10-3
 extra/gdk-pixbuf2 2.30.1-1
 extra/geoclue 0.12.99-1
@@ -96,7 +98,8 @@ core/glibc 2.18-10 (base)
 extra/glu 9.0.0-2
 core/gmp 5.1.3-2
 core/gnupg 2.0.22-1
-extra/gnutls 3.2.6-1
+extra/gnutls 3.2.7-1
+community/go 2:1.1.2-3
 extra/gobject-introspection 1.38.0-1
 local/google-chrome 31.0.1650.57-1
 core/gpgme 1.4.3-1
@@ -151,6 +154,7 @@ extra/lcms2 2.5-2
 extra/ldb 1.1.16-1
 core/ldns 1.6.16-1
 core/less 458-1 (base)
+extra/lesstif 0.95.2-6
 extra/libao 1.1.0-3
 core/libarchive 3.1.2-4
 extra/libass 0.10.2-1
@@ -219,7 +223,7 @@ extra/libogg 1.3.1-2
 core/libpcap 1.4.0-1
 extra/libpciaccess 0.13.2-2
 core/libpipeline 1.2.4-1
-extra/libpng 1.6.6-1
+extra/libpng 1.6.7-1
 extra/libproxy 0.4.11-2
 extra/libpulse 4.0-6
 extra/librsvg 1:2.40.1-1
@@ -267,10 +271,11 @@ extra/libxfont 1.4.6-1
 extra/libxft 2.3.1-1
 extra/libxi 1.7.2-1
 extra/libxinerama 1.1.3-2
-extra/libxkbcommon 0.3.1-1
+extra/libxkbcommon 0.3.2-1
 extra/libxkbfile 1.0.8-1
 extra/libxml2 2.9.1-5
 extra/libxmu 1.1.2-1
+extra/libxp 1.0.2-1
 extra/libxpm 3.5.11-1
 extra/libxrandr 1.4.2-2
 extra/libxrender 0.9.8-1
@@ -352,11 +357,13 @@ extra/polkit 0.112-1
 extra/poppler 0.24.3-1
 core/popt 1.16-7
 community/prelink 20130503-1
+extra/printproto 1.0.5-2
 core/procps-ng 3.3.8-3 (base)
 core/psmisc 22.20-1 (base)
 core/pth 2.0.7-4
 local/pycairo-xcb-git 20120807-1
 local/pycharm-community 3.0.1-1
+community/pydb 1.26-2
 extra/pygobject2-devel 2.28.6-9
 extra/pygtk 2.24.0-3
 extra/python 3.3.2-2
@@ -550,7 +557,7 @@ extra/xorg-xrdb 1.1.0-1 (xorg-apps xorg)
 extra/xorg-xrefresh 1.0.5-1 (xorg-apps xorg)
 extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
 extra/xorg-xsetroot 1.1.1-1 (xorg-apps xorg)
-extra/xproto 7.0.24-1
+extra/xproto 7.0.25-1
 extra/xterm 297-1
 extra/xvidcore 1.3.2-3
 core/xz 5.0.5-2
