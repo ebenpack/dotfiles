@@ -53,7 +53,7 @@ core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-1
 extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
-local/dropbox 2.4.6-1
+local/dropbox 2.4.7-1
 core/e2fsprogs 1.42.8-2 (base)
 extra/elfutils 0.157-1
 extra/enca 1.15-1
@@ -123,7 +123,7 @@ extra/hunspell 1.3.2-3
 core/hwids 20130607-1
 core/iana-etc 2.30-4
 extra/ifplugd 0.28-14
-extra/imagemagick 6.8.7.6-1
+extra/imagemagick 6.8.7.7-1
 extra/imlib2 1.4.5-6
 core/inetutils 1.9.1.341-1 (base)
 extra/inputproto 2.3-1
@@ -203,7 +203,7 @@ core/libldap 2.4.37-1
 extra/liblqr 0.4.2-1
 core/libltdl 2.4.2-12
 extra/libmad 0.15.1b-7
-extra/libmariadbclient 5.5.33.a-2
+extra/libmariadbclient 5.5.34-1
 extra/libmatroska 1.4.1-1
 community/libmediainfo 0.7.65-1
 community/libmicrohttpd 0.9.27-2
@@ -216,7 +216,7 @@ core/libmpc 1.0.1-2
 extra/libmpcdec 1.2.6-3
 extra/libmpeg2 0.5.1-4
 community/libnewt 0.52.16-2
-community/libnfs 1.7.0-2
+community/libnfs 1.8.0-1
 core/libnl 3.2.22-1
 extra/libnotify 0.7.6-1
 extra/libogg 1.3.1-2
@@ -317,7 +317,7 @@ core/mkinitcpio-busybox 1.21.1-2
 extra/mozilla-common 1.4-3
 core/mpfr 3.1.2.p4-1
 extra/mpg123 1.16.0-1
-extra/mplayer 36498-3
+extra/mplayer 36498-4
 extra/mtdev 1.1.4-1
 community/mupdf 1.3-7
 core/nano 2.2.6-2 (base)
@@ -401,15 +401,20 @@ extra/renderproto 0.11.1-2
 extra/rtmpdump 20121230-3
 extra/ruby 2.0.0_p247-3
 local/ruby-bunny 0.10.8-1
-local/ruby-chef 11.8.0-2
+local/ruby-chef 11.8.0-6
+local/ruby-chef-zero 1.7.2-1
 local/ruby-chunky_png 1.2.8-1
 local/ruby-compass 0.12.2-1
+local/ruby-diff-lcs 1.2.4-1
 local/ruby-erubis 2.7.0-2
 local/ruby-fssm 0.2.10-1
+local/ruby-hashie 2.0.5-1
 community/ruby-highline 1.6.20-1
 local/ruby-ipaddress 0.8.0-1
+local/ruby-json 1.8.1-1
 local/ruby-maruku 0.7.0-1
 community/ruby-mime-types 2.0-1
+local/ruby-mime-types-1.16 1.16-3
 local/ruby-mixlib-authentication 1.3.0-1
 local/ruby-mixlib-cli 1.3.0-1
 local/ruby-mixlib-config 2.0.0-1
@@ -418,6 +423,7 @@ local/ruby-mixlib-log 1.6.0-1
 local/ruby-mixlib-shellout 1.0.0-1
 local/ruby-mixlib-shellout-1.2 1.2.0-1
 local/ruby-moneta 0.7.20-1
+local/ruby-moneta-0.6.0 0.6.0-1
 local/ruby-net-ssh 2.7.0-1
 local/ruby-net-ssh-2.2 2.2.2-3
 local/ruby-net-ssh-gateway 1.2.0-3
