@@ -82,6 +82,7 @@ extra/fuse 2.9.3-2
 core/gawk 4.1.0-2 (base base-devel)
 extra/gc 7.2.d-2
 core/gcc 4.8.2-4 (base-devel)
+core/gcc-go 4.8.2-4
 core/gcc-libs 4.8.2-4 (base)
 extra/gconf 3.2.6-3
 extra/gdb 7.6.1-1
