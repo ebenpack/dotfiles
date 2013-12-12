@@ -105,7 +105,7 @@ core/gnupg 2.0.22-1
 extra/gnutls 3.2.7-1
 community/go 2:1.2-1
 extra/gobject-introspection 1.38.0-1
-local/google-chrome 31.0.1650.57-1
+local/google-chrome 31.0.1650.63-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-4
 extra/graphite 1:1.2.4-1
@@ -396,7 +396,7 @@ extra/python2-setuptools 1.4.2-1
 extra/python2-urwid 1.1.1-1
 extra/python2-virtualenv 1.10.1-1
 extra/qt4 4.8.5-7
-local/qtile-git 1509.5b8e8d4-1
+local/qtile-git 1533.7b3b21d-1
 extra/randrproto 1.4.0-1
 community/ranger 1.6.1-1
 core/readline 6.2.004-2
@@ -407,16 +407,16 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-2
 extra/rtmpdump 20121230-3
 extra/ruby 2.0.0_p353-1
-local/ruby-builder 3.0.0-2
+local/ruby-builder 3.2.2-1
 local/ruby-bunny 0.10.8-1
 local/ruby-chef 11.8.0-7
 local/ruby-chef-zero 1.7.2-1
 local/ruby-chunky_png 1.2.8-1
 local/ruby-coderay-1.0.5 1.0.5-1
 local/ruby-compass 0.12.2-1
-local/ruby-diff-lcs 1.2.4-1
+local/ruby-diff-lcs 1.2.5-1
 local/ruby-erubis 2.7.0-2
-local/ruby-excon 0.29.0-1
+local/ruby-excon 0.30.0-1
 local/ruby-fog-1.15.0 1.15.0-1
 local/ruby-formatador 0.2.4-1
 local/ruby-fssm 0.2.10-1
@@ -428,7 +428,7 @@ local/ruby-json 1.8.1-1
 local/ruby-maruku 0.7.0-1
 community/ruby-mime-types 2.0-1
 local/ruby-mime-types-1.16 1.16-3
-local/ruby-mini_portile 0.5.1-1
+local/ruby-mini_portile 0.5.2-1
 local/ruby-mixlib-authentication 1.3.0-1
 local/ruby-mixlib-cli 1.3.0-1
 local/ruby-mixlib-config 2.0.0-1
@@ -509,7 +509,7 @@ extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.24-1 (base base-devel)
 extra/v4l-utils 1.0.0-2
-local/vagrant 1.3.5-1
+local/vagrant 1.4.0-1
 extra/vde2 2.3.2-5
 core/vi 1:050325-3 (base)
 community/vicious 2.1.1-1
