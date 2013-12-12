@@ -11,7 +11,7 @@ import subprocess, re
 mod = "mod4"
 
 widget_defaults = dict(
-    font = 'Consolas',
+    font = 'Source Code Pro',
     border_focus="#de4377",
     border_normal="#ad8e99"
 )
@@ -146,7 +146,9 @@ layouts = [
     layout.RatioTile(**widget_defaults),
     layout.MonadTall(**widget_defaults),
     layout.Max(),
-    layout.TreeTab()
+    layout.TreeTab(),
+    layout.Zoomy(),
+    layout.Stack(),
 ]
 
 screens = utilities.initialize_screens()
