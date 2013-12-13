@@ -77,6 +77,7 @@ extra/flac 1.3.0-1
 extra/flashplugin 11.2.202.332-1
 core/flex 2.5.37-1 (base-devel)
 extra/fontconfig 2.11.0-1
+extra/fontforge 20120731_b-6
 extra/fontsproto 2.1.2-1
 extra/freeglut 2.8.1-1
 local/freetype2-infinality 2.4.12-2
@@ -240,6 +241,7 @@ community/libshairport 1.2.1.20121215-3
 extra/libshout 1:2.3.1-2
 extra/libsm 1.2.2-2
 extra/libsndfile 1.0.25-3
+extra/libspiro 20071029-3
 extra/libssh 0.5.5-1
 core/libssh2 1.4.3-2
 extra/libstdc++5 3.3.6-4
@@ -280,6 +282,7 @@ extra/libxi 1.7.2-1
 extra/libxinerama 1.1.3-2
 extra/libxkbcommon 0.3.2-1
 extra/libxkbfile 1.0.8-1
+extra/libxkbui 1.0.2-5
 extra/libxml2 2.9.1-5
 extra/libxmu 1.1.2-1
 extra/libxp 1.0.2-1
@@ -345,6 +348,7 @@ core/openssh 6.4p1-1
 core/openssl 1.0.1.e-5
 extra/opus 1.1-1
 extra/orc 0.4.18-1
+local/otf-source-code-pro-powerline-git 1.017-3
 extra/p11-kit 0.20.1-1
 extra/p7zip 9.20.1-8
 local/package-query 1.2-2
@@ -365,6 +369,7 @@ core/pkg-config 0.28-1 (base-devel)
 extra/polkit 0.112-1
 extra/poppler 0.24.4-1
 core/popt 1.16-7
+local/powerline-fontpatcher-git 866.db80fc9-1
 community/prelink 20130503-1
 extra/printproto 1.0.5-2
 core/procps-ng 3.3.9-1 (base)
@@ -376,6 +381,7 @@ community/pydb 1.26-2
 extra/pygobject2-devel 2.28.6-9
 extra/pygtk 2.24.0-3
 extra/python 3.3.3-1
+local/python-powerline-git 866.db80fc9-1
 local/python-pudb 2013.4-1
 community/python-pygments 1.6-2
 extra/python-setuptools 1.4.2-1
@@ -517,13 +523,13 @@ core/vi 1:050325-3 (base)
 community/vicious 2.1.1-1
 extra/videoproto 2.3.2-1
 local/vim-molokai 1.1-3
-local/vim-pathogen 2.2-2 (vim-plugins)
 extra/vim-runtime 7.4.86-1
 community/virtualbox 4.3.4-1
 community/virtualbox-host-modules 4.3.4-3
 extra/vlc 2.1.2-1
 extra/vte 0.28.2-3
 extra/vte-common 0.34.9-1
+local/vundle-git 0.9.1.56.gf31aa52-1
 extra/wayland 1.3.0-1
 extra/wget 1.14-3
 core/which 2.20-6 (base base-devel)
