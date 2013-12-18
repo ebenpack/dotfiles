@@ -19,9 +19,9 @@ community/awesome 3.5.2-1
 core/bash 4.2.045-5 (base)
 extra/bash-completion 2.1-2
 extra/bc 1.06-8
-core/binutils 2.23.2-3 (base-devel)
+core/binutils 2.24-1 (base-devel)
 core/bison 3.0.2-1 (base-devel)
-extra/bluez-libs 5.12-1
+extra/bluez-libs 5.12-2
 local/brackets sprint_34-1
 local/brackets-lib 1-2
 local/brightd 0.4.1-2
@@ -38,7 +38,7 @@ local/codecs 20110131-1
 extra/colord 1.0.4-1
 extra/compositeproto 0.4.2-2
 extra/conky 1.9.0-2
-core/coreutils 8.21-2 (base)
+core/coreutils 8.22-1 (base)
 core/cracklib 2.9.0-2
 core/cronie 1.4.11-1 (base)
 core/cryptsetup 1.6.2-2 (base)
@@ -87,13 +87,13 @@ extra/fribidi 0.19.5-1
 extra/fuse 2.9.3-2
 core/gawk 4.1.0-2 (base base-devel)
 extra/gc 7.2.d-2
-core/gcc 4.8.2-5 (base-devel)
-core/gcc-go 4.8.2-5
-core/gcc-libs 4.8.2-5 (base)
+core/gcc 4.8.2-6 (base-devel)
+core/gcc-go 4.8.2-6
+core/gcc-libs 4.8.2-6 (base)
 extra/gconf 3.2.6-3
-extra/gdb 7.6.1-1
+extra/gdb 7.6.2-1
 core/gdbm 1.10-3
-extra/gdk-pixbuf2 2.30.1-1
+extra/gdk-pixbuf2 2.30.2-1
 extra/geoclue 0.12.99-1
 core/gettext 0.18.3.1-2 (base base-devel)
 extra/giblib 1.2.4-6
@@ -101,7 +101,7 @@ extra/giflib 5.0.5-1
 extra/git 1.8.5.1-1
 extra/glew 1.10.0-2
 core/glib2 2.38.2-1
-core/glibc 2.18-10 (base)
+core/glibc 2.18-11 (base)
 extra/glu 9.0.0-2
 core/gmp 5.1.3-2
 core/gnupg 2.0.22-1
@@ -132,11 +132,11 @@ extra/hunspell 1.3.2-3
 core/hwids 20130607-1
 core/iana-etc 2.30-4
 extra/ifplugd 0.28-14
-extra/imagemagick 6.8.7.9-1
+extra/imagemagick 6.8.7.10-1
 extra/imlib2 1.4.5-6
-core/inetutils 1.9.1.341-1 (base)
+core/inetutils 1.9.1.341-2 (base)
 extra/inputproto 2.3-1
-extra/intel-dri 9.2.4-1
+extra/intel-dri 10.0.1-1
 core/iproute2 3.11.0-1 (base)
 core/iptables 1.4.20-1
 core/iputils 20121221-3 (base)
@@ -304,8 +304,8 @@ extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.4-3
 community/libzen 0.4.29-2
 core/licenses 20130203-1 (base)
-core/linux 3.12.4-1 (base)
-core/linux-api-headers 3.10.6-1
+core/linux 3.12.5-1 (base)
+core/linux-api-headers 3.12.4-1
 core/linux-firmware 20131013.7d0c7a8-1
 extra/lirc-utils 1:0.9.0-66
 extra/llvm 3.3-1
@@ -317,21 +317,21 @@ community/lua-lgi 0.7.2-1
 core/lvm2 2.02.104-1 (base)
 core/lzo2 2.06-3
 core/m4 1.4.17-1 (base-devel)
-core/make 4.0-1 (base-devel)
+core/make 4.0-2 (base-devel)
 core/man-db 2.6.5-1 (base)
-core/man-pages 3.54-1 (base)
+core/man-pages 3.55-1 (base)
 extra/mcpp 2.7.2-4
 core/mdadm 3.3-2 (base)
 community/mediainfo 0.7.65-1
-extra/mesa 9.2.4-1
+extra/mesa 10.0.1-1
 extra/mesa-demos 8.1.0-1
-extra/mesa-libgl 9.2.4-1
+extra/mesa-libgl 10.0.1-1
 extra/mime-types 9-1
 extra/mirage 0.9.5.2-1
 core/mkinitcpio 0.15.0-1
 core/mkinitcpio-busybox 1.21.1-2
 extra/mozilla-common 1.4-3
-core/mpfr 3.1.2.p4-1
+core/mpfr 3.1.2.p5-1
 extra/mpg123 1.16.0-1
 extra/mplayer 36498-4
 extra/mtdev 1.1.4-1
@@ -390,7 +390,7 @@ extra/python 3.3.3-1
 local/python-powerline-git 866.db80fc9-1
 local/python-pudb 2013.4-1
 community/python-pygments 1.6-2
-extra/python-setuptools 1.4.2-1
+extra/python-setuptools 2.0-1
 community/python-stevedore 0.13-1
 extra/python-urwid 1.1.1-1
 extra/python-virtualenv 1.10.1-1
@@ -406,7 +406,7 @@ extra/python2-notify 0.1.1-12
 extra/python2-pip 1.4.1-2
 local/python2-pudb 2013.4-1
 community/python2-pygments 1.6-2
-extra/python2-setuptools 1.4.2-1
+extra/python2-setuptools 2.0-1
 extra/python2-urwid 1.1.1-1
 extra/python2-virtualenv 1.10.1-1
 extra/qt4 4.8.5-7
@@ -423,7 +423,6 @@ extra/rtmpdump 20121230-3
 extra/ruby 2.0.0_p353-1
 local/ruby-builder 3.2.2-1
 local/ruby-bunny 0.10.8-1
-local/ruby-chef 11.8.0-7
 local/ruby-chef-zero 1.7.2-1
 local/ruby-chunky_png 1.2.8-1
 local/ruby-coderay-1.0.5 1.0.5-1
@@ -438,7 +437,7 @@ local/ruby-hashie 2.0.5-1
 community/ruby-highline 1.6.20-1
 local/ruby-hmac 0.4.0-4
 local/ruby-ipaddress 0.8.0-1
-local/ruby-json 1.8.1-1
+local/ruby-json 1.8.1-2
 local/ruby-maruku 0.7.0-1
 community/ruby-mime-types 2.0-1
 local/ruby-mime-types-1.16 1.16-3
@@ -448,17 +447,17 @@ local/ruby-mixlib-cli 1.3.0-1
 local/ruby-mixlib-config 2.0.0-1
 local/ruby-mixlib-config-1.1.2 1.1.2-1
 local/ruby-mixlib-log 1.6.0-1
-local/ruby-mixlib-shellout 1.0.0-1
+local/ruby-mixlib-shellout 1.2.0-1
 local/ruby-mixlib-shellout-1.2 1.2.0-1
 local/ruby-moneta 0.7.20-1
 local/ruby-moneta-0.6.0 0.6.0-1
-local/ruby-multi_json 1.7.2-1
+local/ruby-multi_json 1.8.2-1
 local/ruby-net-scp 1.1.2-2
 local/ruby-net-ssh 2.7.0-1
 local/ruby-net-ssh-2.2 2.2.2-3
 local/ruby-net-ssh-gateway 1.2.0-3
 local/ruby-net-ssh-multi-1.1.2 1.1.2-1
-local/ruby-nokogiri 1.6.0-2
+local/ruby-nokogiri 1.6.1-1
 local/ruby-ohai 6.20.0-1
 community/ruby-polyglot 0.3.3-2
 local/ruby-puma-1.6.3 1.6.3-1
@@ -468,7 +467,7 @@ local/ruby-sass 3.2.12-1
 local/ruby-syntax 1.0.0-2
 local/ruby-systemu 2.5.2-1
 community/ruby-treetop 1.4.15-3
-local/ruby-uuidtools 2.1.2-2
+local/ruby-uuidtools 2.1.4-1
 local/ruby-yajl-ruby 1.1.0-1
 local/ruby-yard 0.8.7.2-1
 core/run-parts 4.4-1
@@ -576,8 +575,8 @@ extra/xorg-iceauth 1.0.6-1 (xorg-apps xorg)
 extra/xorg-luit 1.1.1-2 (xorg xorg-apps)
 extra/xorg-mkfontdir 1.0.7-1 (xorg xorg-apps)
 extra/xorg-mkfontscale 1.1.1-1 (xorg-apps xorg)
-extra/xorg-server 1.14.4-1 (xorg)
-extra/xorg-server-common 1.14.4-1
+extra/xorg-server 1.14.5-1 (xorg)
+extra/xorg-server-common 1.14.5-1
 extra/xorg-server-utils 7.6-3
 extra/xorg-sessreg 1.0.8-1 (xorg-apps xorg)
 extra/xorg-setxkbmap 1.3.0-1 (xorg-apps xorg)
