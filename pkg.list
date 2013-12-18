@@ -448,7 +448,6 @@ local/ruby-mixlib-config 2.0.0-1
 local/ruby-mixlib-config-1.1.2 1.1.2-1
 local/ruby-mixlib-log 1.6.0-1
 local/ruby-mixlib-shellout 1.2.0-1
-local/ruby-mixlib-shellout-1.2 1.2.0-1
 local/ruby-moneta 0.7.20-1
 local/ruby-moneta-0.6.0 0.6.0-1
 local/ruby-multi_json 1.8.2-1
