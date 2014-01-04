@@ -63,7 +63,7 @@ extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
 extra/docbook-xml 4.5-5
 extra/docbook-xsl 1.78.1-1
-local/dropbox 2.4.8-1
+local/dropbox 2.4.10-1
 core/e2fsprogs 1.42.8-2 (base)
 extra/elfutils 0.157-1
 extra/enca 1.15-1
@@ -467,7 +467,7 @@ local/ruby-net-ssh-2.2 2.2.2-3
 local/ruby-net-ssh-gateway 1.2.0-3
 local/ruby-net-ssh-multi-1.1.2 1.1.2-1
 local/ruby-nokogiri 1.6.1-1
-local/ruby-ohai 6.20.0-1
+local/ruby-ohai 6.20.0-2
 community/ruby-polyglot 0.3.3-2
 local/ruby-puma-1.6.3 1.6.3-1
 community/ruby-rack 1.5.2-2
@@ -475,6 +475,7 @@ local/ruby-rest-client 1.6.7-1
 local/ruby-sass 3.2.12-1
 local/ruby-syntax 1.0.0-2
 local/ruby-systemu 2.6.0-1
+local/ruby-systemu-2.5.2 2.5.2-1
 community/ruby-treetop 1.4.15-3
 local/ruby-uuidtools 2.1.4-1
 local/ruby-yajl-ruby 1.2.0-1
