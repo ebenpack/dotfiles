@@ -5,9 +5,11 @@ extra/adobe-source-code-pro-fonts 1.017-1
 community/afpfs-ng 0.8.1-7
 extra/alsa-lib 1.0.27.2-1
 extra/alsa-utils 1.0.27.2-1
+local/ansible 1.4.1-1
 extra/apr 1.5.0-1
 extra/apr-util 1.5.3-1
 core/archlinux-keyring 20131027-1
+community/asciidoc 8.6.9-1
 extra/at-spi2-atk 2.10.2-1
 extra/at-spi2-core 2.10.2-1
 extra/atk 2.10.0-1
@@ -34,6 +36,7 @@ extra/cifs-utils 6.2-1
 extra/clang 3.3-1
 community/clipit 1.4.2-4
 core/cloog 0.18.1-2
+extra/cmake 2.8.12.1-3
 local/codecs 20110131-1
 extra/colord 1.0.4-1
 extra/compositeproto 0.4.2-2
@@ -58,6 +61,8 @@ core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-1
 extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
+extra/docbook-xml 4.5-5
+extra/docbook-xsl 1.78.1-1
 local/dropbox 2.4.8-1
 core/e2fsprogs 1.42.8-2 (base)
 extra/elfutils 0.157-1
@@ -308,6 +313,7 @@ core/linux 3.12.5-1 (base)
 core/linux-api-headers 3.12.4-1
 core/linux-firmware 20131013.7d0c7a8-1
 extra/lirc-utils 1:0.9.0-66
+local/livereload 1.0.1-2
 extra/llvm 3.3-1
 extra/llvm-libs 3.3-1
 core/logrotate 3.8.7-1 (base)
@@ -398,17 +404,24 @@ community/python-virtualenv-clone 0.2.4-3
 community/python-virtualenvwrapper 4.1.1-1
 extra/python2 2.7.6-1
 extra/python2-beaker 1.6.4-1
+extra/python2-crypto 2.6.1-1
+local/python2-docopt 0.6.1-1
+community/python2-ecdsa 0.10-1
 extra/python2-gobject2 2.28.6-9
+community/python2-jinja 2.7.1-2
 community/python2-keybinder2 0.3.0-1
 extra/python2-mako 0.9.0-1
 extra/python2-markupsafe 0.18-2
 extra/python2-notify 0.1.1-12
+community/python2-paramiko 1.12.0-1
 extra/python2-pip 1.4.1-2
 local/python2-pudb 2013.4-1
 community/python2-pygments 1.6-2
 extra/python2-setuptools 2.0-1
+community/python2-tornado 3.1.1-1
 extra/python2-urwid 1.1.1-1
 extra/python2-virtualenv 1.10.1-1
+community/python2-yaml 3.10-3
 extra/qt4 4.8.5-7
 local/qtile-git 1533.7b3b21d-1
 extra/randrproto 1.4.0-1
@@ -423,7 +436,6 @@ extra/rtmpdump 20121230-3
 extra/ruby 2.0.0_p353-1
 local/ruby-builder 3.2.2-1
 local/ruby-bunny 0.10.8-1
-local/ruby-chef-zero 1.7.2-1
 local/ruby-chunky_png 1.2.8-1
 local/ruby-coderay-1.0.5 1.0.5-1
 local/ruby-compass 0.12.2-1
@@ -433,11 +445,9 @@ local/ruby-excon 0.30.0-1
 local/ruby-fog-1.15.0 1.15.0-1
 local/ruby-formatador 0.2.4-1
 local/ruby-fssm 0.2.10-1
-local/ruby-hashie 2.0.5-1
 community/ruby-highline 1.6.20-1
 local/ruby-hmac 0.4.0-4
 local/ruby-ipaddress 0.8.0-1
-local/ruby-json 1.8.1-2
 local/ruby-maruku 0.7.0-1
 community/ruby-mime-types 2.0-1
 local/ruby-mime-types-1.16 1.16-3
@@ -448,7 +458,6 @@ local/ruby-mixlib-config 2.0.0-1
 local/ruby-mixlib-config-1.1.2 1.1.2-1
 local/ruby-mixlib-log 1.6.0-1
 local/ruby-mixlib-shellout 1.2.0-1
-local/ruby-moneta 0.7.20-1
 local/ruby-moneta-0.6.0 0.6.0-1
 local/ruby-multi_json 1.8.2-1
 local/ruby-net-scp 1.1.2-2

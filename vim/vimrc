@@ -25,7 +25,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Git wrapper
 Bundle 'tpope/vim-fugitive'
-" Autocompletion
+" Python autocompletion
 Bundle 'davidhalter/jedi-vim'
 " Tab completion
 Bundle 'ervandew/supertab'
@@ -36,6 +36,33 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'klen/python-mode'
 " Provides motion hints
 Bundle "Lokaltog/vim-easymotion"
+" Surround selection with {parentheses|quotes|brackets|etc.}
+Bundle "tpope/vim-surround"
+" SnipMate - TextMate style snippets
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+" Easytags - Automated tag generation
+Bundle "xolox/vim-easytags"
+" Javascript syntax highlighting
+Bundle 'jelera/vim-javascript-syntax'
+" Javascript indenting
+Bundle 'pangloss/vim-javascript'
+Bundle 'nathanaelkane/vim-indent-guides'
+" Javascript linting
+Bundle 'scrooloose/syntastic'
+" Autocompletion
+Bundle 'Valloric/YouCompleteMe'
+
+
+" These are the tweaks I apply to YCM's config, you don't need them but they
+" might help.
+" " YCM gives you popups and splits by default that some people might not
+" like, so these should tidy it up a bit for you.
+" let g:ycm_add_preview_to_completeopt=0
+" let g:ycm_confirm_extra_conf=0
+" set completeopt-=preview
 
 filetype plugin indent on
 filetype plugin on
@@ -60,8 +87,14 @@ let g:pymode_lint_checker = "pyflakes,pep8"
 " Auto check on save
 let g:pymode_lint_write = 1
 
+" Turn off rope completion. Let Jedi do it
+let g:pymode_rope_completion = 0
+
 " Don't autofold code
 let g:pymode_folding = 0
+
+" Jedi rename keybinding conflicts with pymode 'run python code'
+let g:jedi#rename_command = '<leader>re'
 
 " automatically change window's cwd to file's dir
 set autochdir
