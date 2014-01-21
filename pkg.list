@@ -163,7 +163,7 @@ extra/js 17.0.0-1
 extra/json-c 0.11-1
 core/kbd 2.0.1-1
 extra/kbproto 1.0.6-1
-community/keepassx 0.4.3-5
+community/keepassx 0.4.3-6
 core/keyutils 1.5.8-1
 core/kmod 16-1
 core/krb5 1.11.4-1
