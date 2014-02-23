@@ -1,18 +1,14 @@
-" symlinked at ~/.vimrc
-
 set nocompatible
-filetype off
-
+filetype off " required
+" Vundle
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#rc() " let Vundle manage Vundle
 
-" let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
 
-" The bundles you install will be listed ere
 " Debug
-Bundle 'fisadev/vim-debug.vim'
+" Bundle 'fisadev/vim-debug.vim'
 " Better file browser
 Bundle 'scrooloose/nerdtree'
 " Commenting
@@ -26,25 +22,22 @@ Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Git wrapper
 Bundle 'tpope/vim-fugitive'
 " Python autocompletion
-Bundle 'davidhalter/jedi-vim'
+" Bundle 'davidhalter/jedi-vim'
 " Tab completion
-Bundle 'ervandew/supertab'
+" Bundle 'ervandew/supertab'
 " Autoclose
 Bundle 'Raimondi/delimitMate'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
 Bundle 'klen/python-mode'
 " Provides motion hints
-Bundle "Lokaltog/vim-easymotion"
+Bundle 'Lokaltog/vim-easymotion'
 " Surround selection with {parentheses|quotes|brackets|etc.}
-Bundle "tpope/vim-surround"
-" SnipMate - TextMate style snippets
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
+Bundle 'tpope/vim-surround'
+" UltiSni[s - TextMate style snippets
+Bundle 'SirVer/ultisnips'
 " Easytags - Automated tag generation
-Bundle "xolox/vim-easytags"
+"Bundle 'xolox/vim-easytags'
 " Javascript syntax highlighting
 Bundle 'jelera/vim-javascript-syntax'
 " Javascript indenting
@@ -54,33 +47,8 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'scrooloose/syntastic'
 " Autocompletion
 Bundle 'Valloric/YouCompleteMe'
-
-
-" These are the tweaks I apply to YCM's config, you don't need them but they
-" might help.
-" " YCM gives you popups and splits by default that some people might not
-" like, so these should tidy it up a bit for you.
-" let g:ycm_add_preview_to_completeopt=0
-" let g:ycm_confirm_extra_conf=0
-" set completeopt-=preview
-
-filetype plugin indent on
+filetype plugin indent on " required
 filetype plugin on
-" Python-mode
-" <C-c> Activate rope
-" Keys:
-" K             Show python docs
-"   Rope autocomplete
-" rr    Rope rename
-" ro    Rope organize importo
-" g     Rope goto definition
-" d     Rope show documentation
-" f     Rope find occurrences
-" b     Set, unset breakpoint (g:pymode_breakpoint enabled)
-" [[            Jump on previous class or function (normal, visual, operator modes)
-" ]]            Jump on next class or function (normal, visual, operator modes)
-" [M            Jump on previous class or method (normal, visual, operator modes)
-" ]M            Jump on next class or method (normal, visual, operator modes)
 
 "Linting
 let g:pymode_lint_checker = "pyflakes,pep8"
@@ -90,11 +58,12 @@ let g:pymode_lint_write = 1
 " Turn off rope completion. Let Jedi do it
 let g:pymode_rope_completion = 0
 
+
 " Don't autofold code
 let g:pymode_folding = 0
 
 " Jedi rename keybinding conflicts with pymode 'run python code'
-let g:jedi#rename_command = '<leader>re'
+"let g:jedi#rename_command = '<leader>re'
 
 " automatically change window's cwd to file's dir
 set autochdir
@@ -114,23 +83,52 @@ set laststatus=2
 " NERDTree setup
 map <F3>  :NERDTreeToggle<CR>
 
+"" Ultisnips and Snippets
+function! g:UltiSnips_Complete()
+    call UltiSnips_ExpandSnippet()
+    if g:ulti_expand_res == 0
+        if pumvisible()
+            return "\<C-n>"
+        else
+            call UltiSnips_JumpForwards()
+            if g:ulti_jump_forwards_res == 0
+               return "\<TAB>"
+            endif
+        endif
+    endif
+    return ""
+endfunction
+
+au InsertEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
+"let g:ycm_auto_trigger = 1
+"set completeopt=menu,preview
+"let g:ycm_autoclose_preview_window_after_completion = 1
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-l>'
+
+let g:ycm_seed_identifiers_with_syntax = 1
+let g:UltiSnipsSnippetDirectories =  ['UltiSnips', 'my_snippets']
+
 " Supertab / jedi-vimi
-""" python/supertab
-let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
-set completeopt=menuone,longest,preview
-let g:jedi#popup_on_dot = 0
+" python/supertab
+" let g:SuperTabDefaultCompletionType = 'context'
+" let g:SuperTabDefaultCompletionType = '<c-x><c-o>'
+" let g:SuperTabMappingForward = '<S-Space>'
+" set completeopt=menuone,longest,preview
+" let g:jedi#popup_on_dot = 0
 
 " Tagbar keymap
 nmap <F4> :TagbarToggle<CR>
 
-"##############################################################################                                                                         
-" Easier split navigation                                                                                                                               
-"##############################################################################                                                                         
+"##############################################################################
+" Easier split navigation
+"##############################################################################
 
 " Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
-nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
-nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
 set title                " change the terminal's title
@@ -166,11 +164,11 @@ set showmatch       " When a bracket is inserted, briefly jump to the matching
                     " screen. The time to show the match can be set with
                     " 'matchtime'.
 
-set history=1000    " keep 3000 lines of command line history
+set history=3000    " keep 3000 lines of command line history
 
 set undolevels=1000
 
-set magic           " Enable the "magic"
+set magic           " Enable the 'magic'
 
 set scrolloff=3     " keep at least 3 lines above/below
 
@@ -197,8 +195,6 @@ set autoread        " watch for file changes
 set cursorline      " show the cursor line
 
 set wildmenu        " menu has tab completion
-
-set showfulltag     " show full completion tags
 
 set showcmd         " Show us the command we're typing
 set showfulltag     " show full completion tags

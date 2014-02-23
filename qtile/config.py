@@ -39,18 +39,18 @@ keys = [
         lazy.layout.previous()),
 
     # Resize windows in current stack pane
-    Key([mod, "shift"], "h", 
+    Key([mod, "shift"], "h",
         lazy.layout.decrease_ratio()),
-    Key([mod, "shift"], "l", 
+    Key([mod, "shift"], "l",
         lazy.layout.increase_ratio()),
 
     # MonadTall resize
     ####
     # It would be nice if these key bindings could be same as the two above. Is this possible?
     ####
-    Key([mod, "shift"], "j", 
+    Key([mod, "shift"], "j",
         lazy.layout.grow()),
-    Key([mod, "shift"], "k", 
+    Key([mod, "shift"], "k",
     lazy.layout.shrink()),
 
     # Move windows up or down in current stack
@@ -82,9 +82,9 @@ keys = [
     #     lazy.to_screen(1)),
     # Key([mod], "l",
     #     lazy.to_screen(0)),
-    
+
     # Launch specific applications
-    Key([mod], "Return", 
+    Key([mod], "Return",
         lazy.spawn("terminator")),
     Key([mod], "w",
         lazy.spawn("firefox")),
@@ -102,9 +102,9 @@ keys = [
         lazy.window.toggle_maximize()),
     Key([mod], "n",
         lazy.window.toggle_minimize()),
-    
+
     # Move between groups
-    
+
     Key([mod], "Right",
         lazy.screen.nextgroup()),
     Key([mod], "Left",
@@ -148,7 +148,6 @@ layouts = [
     layout.Max(),
     layout.TreeTab(),
     layout.Zoomy(),
-    layout.Stack(),
 ]
 
 screens = utilities.initialize_screens()
