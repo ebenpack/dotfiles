@@ -40,7 +40,7 @@ local/coolreader 3.0.56-5
 core/coreutils 8.22-2 (base)
 core/cracklib 2.9.0-2
 core/cronie 1.4.11-1 (base)
-core/cryptsetup 1.6.3-2 (base)
+core/cryptsetup 1.6.4-1 (base)
 extra/ctags 5.8-3
 core/curl 7.35.0-1
 extra/damageproto 1.2.1-2
@@ -50,7 +50,7 @@ extra/dbus-glib 0.102-1
 extra/dconf 0.18.0-1
 extra/ddd 3.3.12-3
 extra/desktop-file-utils 0.22-1
-core/device-mapper 2.02.105-1 (base)
+core/device-mapper 2.02.105-2 (base)
 core/dhcpcd 6.2.1-1 (base)
 core/dialog 1:1.2_20140219-1
 core/diffutils 3.3-1 (base)
@@ -67,8 +67,8 @@ core/expat 2.1.0-3
 extra/faac 1.28-5
 extra/faad2 2.7-4
 core/fakeroot 1.20-1 (base-devel)
-extra/feh 2.9.3-1
-extra/ffmpeg 1:2.1.3-1
+extra/feh 2.10-1
+extra/ffmpeg 1:2.1.4-1
 extra/ffmpeg-compat 1:0.10.11-1
 core/file 5.17-1 (base base-devel)
 core/filesystem 2013.05-2 (base)
@@ -102,7 +102,7 @@ extra/git 1.9.0-1
 extra/glamor-egl 0.6.0-1
 extra/glew 1.10.0-2
 core/glib2 2.38.2-1
-core/glibc 2.19-2 (base)
+core/glibc 2.19-3 (base)
 extra/glu 9.0.0-2
 core/gmp 5.1.3-2
 core/gnupg 2.0.22-2
@@ -110,11 +110,11 @@ extra/gnutls 3.2.11-1
 community/go 2:1.2-2
 extra/gobject-introspection 1.38.0-1
 local/google-chrome 33.0.1750.117-1
-local/google-talkplugin 5.1.4.0-1
+local/google-talkplugin 5.1.5.0-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-4
 extra/graphite 1:1.2.4-1
-core/grep 2.16-1 (base base-devel)
+core/grep 2.18-1 (base base-devel)
 core/groff 1.22.2-5 (base-devel)
 core/grub 1:2.02.beta2-1
 extra/gsm 1.0.13-7
@@ -144,9 +144,9 @@ extra/intel-dri 10.0.3-1
 core/iproute2 3.12.0-1 (base)
 core/iptables 1.4.21-1
 core/iputils 20121221-3 (base)
-community/ipython2 1.1.0-1
+community/ipython2 1.2.1-1
 core/isl 0.12.2-1
-core/iw 3.13-1
+core/iw 3.14-1
 extra/jack 0.124.1-1
 extra/jasper 1.900.1-10
 community/jbig2dec 0.11-7
@@ -219,7 +219,7 @@ core/libldap 2.4.39-1
 extra/liblqr 0.4.2-1
 core/libltdl 2.4.2-12
 extra/libmad 0.15.1b-7
-extra/libmariadbclient 5.5.35-1
+extra/libmariadbclient 5.5.36-1
 extra/libmatroska 1.4.1-1
 community/libmediainfo 0.7.67-1
 community/libmicrohttpd 0.9.33-1
@@ -231,7 +231,7 @@ extra/libmp4v2 2.0.0-3
 core/libmpc 1.0.2-2
 extra/libmpcdec 1.2.6-3
 extra/libmpeg2 0.5.1-4
-community/libnewt 0.52.16-2
+community/libnewt 0.52.17-1
 community/libnfs 1.9.2-1
 core/libnl 3.2.23-1
 extra/libnotify 0.7.6-1
@@ -260,7 +260,7 @@ extra/libthai 0.1.19-1
 extra/libtheora 1.1.1-3
 extra/libtiff 4.0.3-4
 extra/libtiger 0.3.4-3
-core/libtirpc 0.2.3-2
+core/libtirpc 0.2.4-1
 core/libtool 2.4.2-12 (base-devel)
 extra/libtxc_dxtn 1.0.1-5
 extra/libunistring 0.9.3-6
@@ -272,7 +272,7 @@ extra/libva 1.2.1-1
 extra/libvdpau 0.7-1
 extra/libvorbis 1.3.4-1
 extra/libvpx 1.3.0-1
-extra/libwbclient 4.1.4-1
+extra/libwbclient 4.1.5-1
 extra/libwebp 0.4.0-1
 extra/libx11 1.6.2-1
 extra/libxau 1.0.8-2
@@ -310,9 +310,9 @@ extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.5-1
 community/libzen 0.4.29-2
 core/licenses 20130203-1 (base)
-core/linux 3.13.4-1 (base)
+core/linux 3.13.5-1 (base)
 core/linux-api-headers 3.13.2-1
-core/linux-firmware 20140123.418320b-1
+core/linux-firmware 20140217.343e460-1
 extra/lirc-utils 1:0.9.0-70
 extra/llvm 3.4-1
 extra/llvm-libs 3.4-1
@@ -320,14 +320,14 @@ core/logrotate 3.8.7-1 (base)
 community/lsb-release 1.4-14
 extra/lua 5.2.3-1
 community/lua-lgi 0.7.2-1
-core/lvm2 2.02.105-1 (base)
+core/lvm2 2.02.105-2 (base)
 core/lzo2 2.06-3
 extra/m17n-db 1.6.4-1
 extra/m17n-lib 1.6.4-2
 core/m4 1.4.17-1 (base-devel)
 core/make 4.0-2 (base-devel)
 core/man-db 2.6.6-1 (base)
-core/man-pages 3.60-1 (base)
+core/man-pages 3.61-1 (base)
 community/mcomix 1.00-5
 extra/mcpp 2.7.2-4
 core/mdadm 3.3-2 (base)
@@ -396,12 +396,12 @@ local/python-pudb 2013.5.1-1
 community/python-pygments 1.6-2
 extra/python-setuptools 2.2-1
 community/python-stevedore 0.14.1-1
-extra/python-urwid 1.1.1-1
+extra/python-urwid 1.2.0-1
 extra/python-virtualenv 1.11.2-1
 community/python-virtualenv-clone 0.2.4-3
 community/python-virtualenvwrapper 4.2-1
 extra/python-xdg 0.25-1
-extra/python2 2.7.6-2
+extra/python2 2.7.6-3
 community/python2-backports.ssl_match_hostname 3.4.0.2-1
 extra/python2-beaker 1.6.4-1
 extra/python2-crypto 2.6.1-1
@@ -414,14 +414,14 @@ local/python2-livereload 2.0.0-1
 extra/python2-mako 0.9.1-1
 extra/python2-markupsafe 0.18-2
 extra/python2-notify 0.1.1-12
-community/python2-paramiko 1.12.1-1
+community/python2-paramiko 1.12.2-1
 community/python2-pillow 2.3.0-3
-extra/python2-pip 1.5.2-1
+extra/python2-pip 1.5.4-1
 local/python2-pudb 2013.5.1-1
 community/python2-pygments 1.6-2
 extra/python2-setuptools 2.2-1
 community/python2-tornado 3.2.0-1
-extra/python2-urwid 1.1.1-1
+extra/python2-urwid 1.2.0-1
 extra/python2-virtualenv 1.11.2-1
 community/python2-yaml 3.10-3
 extra/qt4 4.8.5-7
@@ -435,7 +435,7 @@ extra/qtchooser 39-1
 local/qtile-git 1533.7b3b21d-1
 extra/randrproto 1.4.0-1
 community/ranger 1.6.1-1
-core/readline 6.2.004-2
+core/readline 6.3-1
 extra/recode 3.6-8
 extra/recordproto 1.14.2-1
 community/redshift 1.8-1
@@ -451,7 +451,7 @@ local/ruby-mixlib-shellout 1.3.0-2
 local/ruby-sass 3.2.14-1
 local/ruby-yard 0.8.7.3-1
 core/run-parts 4.4-1
-core/s-nail 14.5.2-4 (base)
+core/s-nail 14.6.1-1 (base)
 extra/schroedinger 1.0.11-2
 extra/scrnsaverproto 1.2.2-1
 community/scrot 0.8-6
@@ -464,7 +464,7 @@ extra/shared-color-profiles 0.1.5-1
 extra/shared-mime-info 1.2-2
 extra/slang 2.2.4-3
 extra/slim 1.3.6-3
-extra/smbclient 4.1.4-1
+extra/smbclient 4.1.5-1
 extra/smpeg 0.4.4-7
 extra/snappy 1.1.1-1
 extra/speech-dispatcher 0.8-2
@@ -488,7 +488,7 @@ core/texinfo 5.2-2 (base base-devel)
 community/tig 1.2.1-1
 community/tinyxml 2.6.2-3
 extra/tk 8.6.1-1
-community/tmux 1.9-1
+community/tmux 1.9_a-1
 extra/transmission-gtk 2.82-1
 extra/ttf-dejavu 2.34-1
 community/ttf-inconsolata 20090215-4
@@ -512,8 +512,8 @@ local/vim-easytags 3.4.3-1 (vim-plugins)
 local/vim-misc-xolox 1.8.5-1
 local/vim-molokai 1.1-3
 extra/vim-runtime 7.4.135-2
-community/virtualbox 4.3.6-3
-community/virtualbox-host-modules 4.3.6-5
+community/virtualbox 4.3.8-1
+community/virtualbox-host-modules 4.3.8-1
 extra/vlc 2.1.4-1
 extra/vte 0.28.2-3
 extra/vte-common 0.34.9-1
@@ -523,10 +523,10 @@ extra/wget 1.15-1
 core/which 2.20-6 (base base-devel)
 core/wireless_tools 30.pre9-1
 core/wpa_actiond 1.4-2
-core/wpa_supplicant 2.0-4
+core/wpa_supplicant 2.1-3
 extra/x264 20131030-2
 extra/xbitmaps 1.1.1-2
-community/xbmc 12.3-8
+community/xbmc 12.3-10
 extra/xcb-proto 1.10-1
 extra/xcb-util 0.3.9-1
 community/xcb-util-cursor 0.1.1-1
