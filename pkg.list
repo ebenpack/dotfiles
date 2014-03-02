@@ -205,7 +205,6 @@ core/libgcrypt 1.6.1-1
 local/libgcrypt15 1.5.3-1
 extra/libglade 2.6.4-5
 core/libgpg-error 1.12-1
-core/libgssglue 0.4-2
 extra/libgusb 0.1.6-1
 extra/libice 1.0.8-2
 extra/libid3tag 0.15.1b-8
