@@ -85,12 +85,12 @@ map <F3>  :NERDTreeToggle<CR>
 
 "" Ultisnips and Snippets
 function! g:UltiSnips_Complete()
-    call UltiSnips_ExpandSnippet()
+    call UltiSnips#ExpandSnippet()
     if g:ulti_expand_res == 0
         if pumvisible()
             return "\<C-n>"
         else
-            call UltiSnips_JumpForwards()
+            call UltiSnips#JumpForwards()
             if g:ulti_jump_forwards_res == 0
                return "\<TAB>"
             endif
@@ -117,6 +117,29 @@ let g:UltiSnipsSnippetDirectories =  ['UltiSnips', 'my_snippets']
 " let g:SuperTabMappingForward = '<S-Space>'
 " set completeopt=menuone,longest,preview
 " let g:jedi#popup_on_dot = 0
+
+" a better htmldjango detection
+augroup filetypedetect
+  " removes current htmldjango detection located at $VIMRUNTIME/filetype.vim
+  au! BufNewFile,BufRead *.html
+  au  BufNewFile,BufRead *.html   call FThtml()
+ 
+  func! FThtml()
+    let n = 1
+    while n < 10 && n < line("$")
+      if getline(n) =~ '\<DTD\s\+XHTML\s'
+        setf xhtml
+        return
+      endif
+      if getline(n) =~ '{%\|{{\|{#'
+        setf htmldjango
+        return
+      endif
+      let n = n + 1
+    endwhile
+    setf html
+  endfunc
+augroup END
 
 " Tagbar keymap
 nmap <F4> :TagbarToggle<CR>
