@@ -5,7 +5,7 @@ extra/adobe-source-code-pro-fonts 1.017-1
 community/afpfs-ng 0.8.1-8
 extra/alsa-lib 1.0.27.2-1
 extra/alsa-utils 1.0.27.2-1
-community/ansible 1.4.5-1
+community/ansible 1.5-1
 core/archlinux-keyring 20140220-1
 extra/at-spi2-atk 2.10.2-1
 extra/at-spi2-core 2.10.2-1
@@ -58,7 +58,7 @@ core/dirmngr 1.1.1-2
 extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
 extra/dotconf 1.3-4
-local/dropbox 2.6.13-1
+local/dropbox 2.6.18-1
 core/e2fsprogs 1.42.9-1 (base)
 extra/elfutils 0.158-1
 extra/emacs 24.3-6
@@ -93,7 +93,7 @@ extra/gconf 3.2.6-3
 extra/gd 2.1.0-2
 extra/gdb 7.7-1
 core/gdbm 1.11-1
-extra/gdk-pixbuf2 2.30.5-1
+extra/gdk-pixbuf2 2.30.6-1
 extra/geoclue 0.12.99-1
 core/gettext 0.18.3.2-1 (base base-devel)
 extra/giblib 1.2.4-6
@@ -106,10 +106,10 @@ core/glibc 2.19-3 (base)
 extra/glu 9.0.0-2
 core/gmp 5.1.3-2
 core/gnupg 2.0.22-2
-extra/gnutls 3.2.11-1
-community/go 2:1.2-2
+extra/gnutls 3.2.12-1
+community/go 2:1.2.1-1
 extra/gobject-introspection 1.38.0-1
-local/google-chrome 33.0.1750.117-1
+local/google-chrome 33.0.1750.146-1
 local/google-talkplugin 5.1.5.0-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-4
@@ -241,10 +241,11 @@ extra/libpciaccess 0.13.2-2
 core/libpipeline 1.2.6-1
 extra/libpng 1.6.9-1
 extra/libproxy 0.4.11-2
-extra/libpulse 4.0-6
+extra/libpulse 5.0-1
 extra/librsvg 1:2.40.1-3
 extra/libsamplerate 0.1.8-3
 core/libsasl 2.1.26-7
+extra/libseccomp 2.1.1-1
 community/libshairport 1.2.1.20121215-3
 extra/libshout 1:2.3.1-2
 extra/libsm 1.2.2-2
@@ -350,9 +351,11 @@ core/ncurses 5.9-6
 core/net-tools 1.60.20130531git-1
 core/netctl 1.4-2 (base)
 extra/nettle 2.7.1-1
+community/nodejs 0.10.26-1
 extra/nspr 4.10.3-1
 extra/nss 3.15.4-1
 extra/nss-mdns 0.10-5
+extra/ntp 4.2.6.p5-18
 extra/opencore-amr 0.1.3-1
 extra/openjpeg 1.5.1-2
 core/openresolv 3.5.6-1
@@ -396,7 +399,7 @@ community/python-pygments 1.6-2
 extra/python-setuptools 2.2-1
 community/python-stevedore 0.14.1-1
 extra/python-urwid 1.2.0-1
-extra/python-virtualenv 1.11.2-1
+extra/python-virtualenv 1.11.4-1
 community/python-virtualenv-clone 0.2.4-3
 community/python-virtualenvwrapper 4.2-1
 extra/python-xdg 0.25-1
@@ -406,7 +409,6 @@ extra/python2-beaker 1.6.4-1
 extra/python2-crypto 2.6.1-1
 community/python2-ecdsa 0.10-1
 extra/python2-gobject2 2.28.6-9
-community/python2-httplib2 0.8-2
 community/python2-jinja 2.7.2-1
 community/python2-keybinder2 0.3.0-1
 local/python2-livereload 2.0.0-1
@@ -421,7 +423,7 @@ community/python2-pygments 1.6-2
 extra/python2-setuptools 2.2-1
 community/python2-tornado 3.2.0-1
 extra/python2-urwid 1.2.0-1
-extra/python2-virtualenv 1.11.2-1
+extra/python2-virtualenv 1.11.4-1
 community/python2-yaml 3.10-3
 extra/qt4 4.8.5-7
 extra/qt5-base 5.2.1-1 (qt qt5)
@@ -464,7 +466,7 @@ extra/shared-mime-info 1.2-2
 extra/slang 2.2.4-3
 extra/slim 1.3.6-3
 extra/smbclient 4.1.5-1
-extra/smpeg 0.4.4-7
+extra/smpeg 0.4.5-1
 extra/snappy 1.1.1-1
 extra/speech-dispatcher 0.8-2
 extra/speex 1.2rc1-4
@@ -474,14 +476,15 @@ extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
 core/sudo 1.8.9.p5-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
-core/systemd 208-11
-core/systemd-sysvcompat 208-11 (base)
+core/systemd 210-2
+core/systemd-sysvcompat 210-2 (base)
 extra/taglib 1.9.1-1
 extra/talloc 2.0.8-2
 core/tar 1.27.1-1 (base)
 extra/tcl 8.6.1-1
 extra/tdb 1.2.12-1
 community/terminator 0.97-1
+local/termrec 0.16-2
 extra/tevent 0.9.19-1
 core/texinfo 5.2-2 (base base-devel)
 community/tig 1.2.1-1
@@ -495,6 +498,7 @@ local/ttf-inconsolata-g 20090213-3
 local/ttf-mac-fonts 1-7
 local/ttf-microsoft-consolas 5.32-1
 local/ttf-ms-fonts 2.0-10
+local/ttyrec 1.0.8-2
 core/tzdata 2013i-1
 community/udevil 0.4.3-1
 extra/unrar 1:5.0.14-1
@@ -525,7 +529,7 @@ core/wpa_actiond 1.4-2
 core/wpa_supplicant 2.1-3
 extra/x264 20131030-2
 extra/xbitmaps 1.1.1-2
-community/xbmc 12.3-10
+community/xbmc 12.3-11
 extra/xcb-proto 1.10-1
 extra/xcb-util 0.3.9-1
 community/xcb-util-cursor 0.1.1-1
@@ -580,7 +584,7 @@ extra/xorg-xrefresh 1.0.5-1 (xorg-apps xorg)
 extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
 extra/xorg-xsetroot 1.1.1-1 (xorg-apps xorg)
 extra/xproto 7.0.25-1
-extra/xterm 301-1
+extra/xterm 302-1
 extra/xvidcore 1.3.2-3
 core/xz 5.0.5-2
 extra/yajl 2.0.4-2
