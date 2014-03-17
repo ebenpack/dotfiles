@@ -5,7 +5,7 @@ extra/adobe-source-code-pro-fonts 1.017-1
 community/afpfs-ng 0.8.1-8
 extra/alsa-lib 1.0.27.2-1
 extra/alsa-utils 1.0.27.2-1
-community/ansible 1.5-1
+community/ansible 1.5.3-1
 core/archlinux-keyring 20140220-1
 extra/at-spi2-atk 2.10.2-1
 extra/at-spi2-core 2.10.2-1
@@ -37,7 +37,7 @@ extra/colord 1.0.6-1
 extra/compositeproto 0.4.2-2
 extra/conky 1.9.0-4
 local/coolreader 3.0.56-5
-core/coreutils 8.22-2 (base)
+core/coreutils 8.22-3 (base)
 core/cracklib 2.9.0-2
 core/cronie 1.4.11-1 (base)
 core/cryptsetup 1.6.4-1 (base)
@@ -51,7 +51,7 @@ extra/dconf 0.18.0-1
 extra/ddd 3.3.12-3
 extra/desktop-file-utils 0.22-1
 core/device-mapper 2.02.105-2 (base)
-core/dhcpcd 6.3.1-1 (base)
+core/dhcpcd 6.3.1-2 (base)
 core/dialog 1:1.2_20140219-1
 core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-2
@@ -59,7 +59,7 @@ extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
 extra/dotconf 1.3-4
 local/dropbox 2.6.18-1
-core/e2fsprogs 1.42.9-1 (base)
+core/e2fsprogs 1.42.9-2 (base)
 extra/elfutils 0.158-1
 extra/emacs 24.3-6
 extra/enca 1.15-1
@@ -76,7 +76,7 @@ core/findutils 4.4.2-5 (base base-devel)
 extra/firefox 27.0.1-1
 extra/fixesproto 5.0-2
 extra/flac 1.3.0-1
-extra/flashplugin 11.2.202.341-1
+extra/flashplugin 11.2.202.346-1
 core/flex 2.5.38-1 (base-devel)
 extra/fontconfig 2.11.0-1
 extra/fontforge 20140101-1
@@ -109,7 +109,7 @@ core/gnupg 2.0.22-2
 extra/gnutls 3.2.12.1-1
 community/go 2:1.2.1-1
 extra/gobject-introspection 1.38.0-1
-local/google-chrome 33.0.1750.149-1
+local/google-chrome 33.0.1750.152-1
 local/google-talkplugin 5.1.5.0-1
 core/gpgme 1.4.3-1
 core/gpm 1.20.7-4
@@ -140,7 +140,7 @@ extra/imagemagick 6.8.8.7-1
 extra/imlib2 1.4.6-1
 core/inetutils 1.9.2-1 (base)
 extra/inputproto 2.3-1
-extra/intel-dri 10.1.0-2
+extra/intel-dri 10.1.0-4
 core/iproute2 3.12.0-1 (base)
 core/iptables 1.4.21-1
 core/iputils 20121221-3 (base)
@@ -156,7 +156,7 @@ extra/json-c 0.11-1
 core/kbd 2.0.1-1
 extra/kbproto 1.0.6-1
 community/keepassx 0.4.3-6
-core/keyutils 1.5.8-1
+core/keyutils 1.5.9-1
 core/kmod 16-1
 core/krb5 1.12.1-1
 extra/lame 3.99.5-2
@@ -254,6 +254,7 @@ extra/libspiro 20071029-3
 extra/libssh 0.5.5-3
 core/libssh2 1.4.3-2
 extra/libstdc++5 3.3.6-4
+core/libsystemd 211-1
 extra/libtar 1.2.20-1
 extra/libtasn1 3.4-1
 extra/libthai 0.1.19-1
@@ -268,6 +269,7 @@ extra/libupnp 1.6.19-1
 core/libusb 1.0.18-1
 extra/libusb-compat 0.1.5-1
 extra/libutempter 1.1.6-2
+core/libutil-linux 2.24.1-3 (base base-devel)
 extra/libva 1.2.1-2
 extra/libvdpau 0.7-1
 extra/libvorbis 1.3.4-1
@@ -327,17 +329,17 @@ extra/m17n-lib 1.6.4-2
 core/m4 1.4.17-1 (base-devel)
 core/make 4.0-2 (base-devel)
 core/man-db 2.6.6-1 (base)
-core/man-pages 3.61-1 (base)
+core/man-pages 3.62-1 (base)
 community/mcomix 1.00-6
 extra/mcpp 2.7.2-4
 core/mdadm 3.3-2 (base)
 community/mediainfo 0.7.67-1
-extra/mesa 10.1.0-2
+extra/mesa 10.1.0-4
 extra/mesa-demos 8.1.0-1
-extra/mesa-libgl 10.1.0-2
+extra/mesa-libgl 10.1.0-4
 extra/mime-types 9-1
 extra/mirage 0.9.5.2-1
-core/mkinitcpio 16-2
+core/mkinitcpio 17-1
 core/mkinitcpio-busybox 1.21.1-2
 local/mozart2-git v2.0.0.alpha.0.3813.g1434bb6-1
 extra/mozilla-common 1.4-3
@@ -351,7 +353,6 @@ core/ncurses 5.9-6
 core/net-tools 1.60.20130531git-1
 core/netctl 1.4-2 (base)
 extra/nettle 2.7.1-1
-community/nodejs 0.10.26-1
 extra/nspr 4.10.3-1
 extra/nss 3.15.4-1
 extra/nss-mdns 0.10-5
@@ -392,11 +393,11 @@ local/pycairo-xcb-git 20120807-1
 community/pydb 1.26-2
 extra/pygobject2-devel 2.28.6-9
 extra/pygtk 2.24.0-3
-extra/python 3.3.4-1
+extra/python 3.3.5-1
 local/python-powerline-git 946.5c700b8-1
 local/python-pudb 2013.5.1-1
 community/python-pygments 1.6-2
-extra/python-setuptools 3.1-1
+extra/python-setuptools 3.3-1
 community/python-stevedore 0.14.1-1
 extra/python-urwid 1.2.0-1
 extra/python-virtualenv 1.11.4-1
@@ -407,20 +408,20 @@ extra/python2 2.7.6-3
 community/python2-backports.ssl_match_hostname 3.4.0.2-1
 extra/python2-beaker 1.6.4-1
 extra/python2-crypto 2.6.1-1
-community/python2-ecdsa 0.10-1
+community/python2-ecdsa 0.11-1
 extra/python2-gobject2 2.28.6-9
 community/python2-jinja 2.7.2-1
 community/python2-keybinder2 0.3.0-1
 local/python2-livereload 2.0.0-1
 extra/python2-mako 0.9.1-1
-extra/python2-markupsafe 0.18-2
+extra/python2-markupsafe 0.19-1
 extra/python2-notify 0.1.1-12
-community/python2-paramiko 1.12.2-1
+community/python2-paramiko 1.13.0-1
 community/python2-pillow 2.3.0-3
 extra/python2-pip 1.5.4-1
 local/python2-pudb 2013.5.1-1
 community/python2-pygments 1.6-2
-extra/python2-setuptools 3.1-1
+extra/python2-setuptools 3.3-1
 community/python2-tornado 3.2.0-1
 extra/python2-urwid 1.2.0-1
 extra/python2-virtualenv 1.11.4-1
@@ -436,7 +437,7 @@ extra/qtchooser 39-1
 local/qtile-git 1533.7b3b21d-1
 extra/randrproto 1.4.0-1
 community/ranger 1.6.1-1
-core/readline 6.3-1
+core/readline 6.3-3
 extra/recode 3.6-8
 extra/recordproto 1.14.2-1
 community/redshift 1.8-1
@@ -444,36 +445,12 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-2
 extra/rtmpdump 20131205-1
 extra/ruby 2.1.1-1
-local/ruby-archive-tar-minitar 0.5.2-1
-local/ruby-bundler 1.5.3-1
-local/ruby-celluloid 0.15.2-1
-local/ruby-childprocess 0.5.1-1
 local/ruby-chunky_png 1.2.9-1
 local/ruby-compass 0.12.2-2
-local/ruby-diff-lcs 1.2.5-2
-local/ruby-erubis 2.7.0-3
-local/ruby-ffi 1.9.3-1
 local/ruby-fssm 0.2.10-1
-local/ruby-i18n 0.6.9-1
-local/ruby-json-1.7 1.7.7-1
-local/ruby-listen-2.4 2.4.1-1
-local/ruby-log4r 1.1.10-3
 local/ruby-maruku 0.7.1-1
 local/ruby-mixlib-shellout 1.3.0-2
-local/ruby-net-scp 1.1.2-2
-local/ruby-net-ssh 2.8.0-1
-local/ruby-net-ssh-2.7 2.7.0-1
-local/ruby-rb-fsevent 0.9.4-1
-local/ruby-rb-inotify 0.9.3-1
-local/ruby-rb-kqueue 0.2.2-1
-local/ruby-rspec 2.14.1-1
-local/ruby-rspec-core 2.14.7-1
-local/ruby-rspec-expectations 2.14.5-1
-local/ruby-rspec-mocks 2.14.5-1
-local/ruby-sass 3.3.1-1
-local/ruby-timers 2.0.0-1
-local/ruby-timers-1.1 1.1.0-1
-local/ruby-wdm 0.1.0-1
+local/ruby-sass 3.3.2-1
 local/ruby-yard 0.8.7.3-1
 core/run-parts 4.4-1
 core/s-nail 14.6.2-1 (base)
@@ -500,15 +477,15 @@ extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
 core/sudo 1.8.9.p5-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
-core/systemd 210-3
-core/systemd-sysvcompat 210-3 (base)
+core/systemd 211-1
+core/systemd-sysvcompat 211-1 (base)
 extra/taglib 1.9.1-1
 extra/talloc 2.0.8-2
 core/tar 1.27.1-1 (base)
 extra/tcl 8.6.1-1
 extra/tdb 1.2.12-1
 community/terminator 0.97-1
-local/termrec 0.16-2
+local/termrec 0.17-1
 extra/tevent 0.9.19-1
 core/texinfo 5.2-2 (base base-devel)
 community/tig 1.2.1-1
@@ -520,7 +497,7 @@ extra/ttf-dejavu 2.34-1
 community/ttf-inconsolata 20090215-4
 local/ttf-inconsolata-g 20090213-3
 local/ttf-mac-fonts 1-7
-local/ttf-microsoft-consolas 5.32-1
+local/ttf-microsoft-consolas 5.33-1
 local/ttf-ms-fonts 2.0-10
 local/ttyrec 1.0.8-2
 core/tzdata 2014a-1
@@ -528,9 +505,9 @@ community/udevil 0.4.3-1
 extra/unrar 1:5.0.14-1
 extra/unzip 6.0-6
 core/usbutils 007-1 (base)
-core/util-linux 2.24.1-1 (base base-devel)
+core/util-linux 2.24.1-3 (base base-devel)
 extra/v4l-utils 1.0.1-1
-local/vagrant 1.5.0-1
+local/vagrant 1.5.1-3
 extra/vde2 2.3.2-5
 core/vi 1:050325-3 (base)
 community/vicious 2.1.3-1
@@ -565,7 +542,7 @@ local/xcursor-neutral++ 1.0.2-1
 extra/xdg-utils 1.1.0.git20140207-1
 extra/xextproto 7.3.0-1
 extra/xf86-input-evdev 2.8.2-2 (xorg-drivers xorg)
-extra/xf86-input-synaptics 1.7.3-1 (xorg-drivers xorg)
+extra/xf86-input-synaptics 1.7.4-1 (xorg-drivers xorg)
 extra/xf86-video-intel 2.99.910-1 (xorg-drivers xorg)
 extra/xf86-video-vesa 2.3.2-4 (xorg-drivers xorg)
 extra/xf86dgaproto 2.1-2
