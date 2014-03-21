@@ -51,7 +51,7 @@ extra/dconf 0.18.0-1
 extra/ddd 3.3.12-3
 extra/desktop-file-utils 0.22-1
 core/device-mapper 2.02.105-2 (base)
-core/dhcpcd 6.3.1-2 (base)
+core/dhcpcd 6.3.2-1 (base)
 core/dialog 1:1.2_20140219-1
 core/diffutils 3.3-1 (base)
 core/dirmngr 1.1.1-2
@@ -73,7 +73,7 @@ extra/ffmpeg-compat 1:0.10.11-1
 core/file 5.17-2 (base base-devel)
 core/filesystem 2013.05-2 (base)
 core/findutils 4.4.2-5 (base base-devel)
-extra/firefox 27.0.1-1
+extra/firefox 28.0-1
 extra/fixesproto 5.0-2
 extra/flac 1.3.0-1
 extra/flashplugin 11.2.202.346-1
@@ -321,7 +321,7 @@ extra/llvm-libs 3.4-1
 core/logrotate 3.8.7-1 (base)
 community/lsb-release 1.4-14
 extra/lua 5.2.3-1
-community/lua-lgi 0.7.2-1
+extra/lua-lgi 0.7.2-1
 core/lvm2 2.02.105-2 (base)
 core/lzo2 2.06-3
 extra/m17n-db 1.6.4-1
@@ -445,13 +445,9 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-2
 extra/rtmpdump 20131205-1
 extra/ruby 2.1.1-1
-local/ruby-chunky_png 1.2.9-1
-local/ruby-compass 0.12.2-2
-local/ruby-fssm 0.2.10-1
-local/ruby-maruku 0.7.1-1
+local/ruby-bundler 1.5.3-1
+local/ruby-compass 0.12.3-1
 local/ruby-mixlib-shellout 1.3.0-2
-local/ruby-sass 3.3.2-1
-local/ruby-yard 0.8.7.3-1
 core/run-parts 4.4-1
 core/s-nail 14.6.2-1 (base)
 extra/schroedinger 1.0.11-2
@@ -475,7 +471,7 @@ extra/sqlite 3.8.4.1-1
 community/sshfs 2.5-1
 extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
-core/sudo 1.8.9.p5-1 (base-devel)
+core/sudo 1.8.10.p2-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
 core/systemd 211-1
 core/systemd-sysvcompat 211-1 (base)
@@ -507,7 +503,7 @@ extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.24.1-3 (base base-devel)
 extra/v4l-utils 1.0.1-1
-local/vagrant 1.5.1-3
+community/vagrant 1.5.1-3
 extra/vde2 2.3.2-5
 core/vi 1:050325-3 (base)
 community/vicious 2.1.3-1
