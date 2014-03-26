@@ -16,7 +16,7 @@ core/automake 1.14.1-1 (base-devel)
 extra/avahi 0.6.31-11
 community/awesome 3.5.2-1
 core/bash 4.3-2 (base)
-extra/bash-completion 2.1-3
+extra/bash-completion 2.1-4
 extra/bc 1.06.95-1
 core/binutils 2.24-2 (base-devel)
 core/bison 3.0.2-1 (base-devel)
@@ -31,7 +31,7 @@ extra/cifs-utils 6.2-1
 extra/clang 3.4-1
 community/clipit 1.4.2-4
 core/cloog 0.18.1-2
-extra/cmake 2.8.12.2-1
+extra/cmake 2.8.12.2-2
 local/codecs 20110131-1
 extra/colord 1.0.6-1
 extra/compositeproto 0.4.2-2
@@ -58,7 +58,7 @@ core/dirmngr 1.1.1-2
 extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
 extra/dotconf 1.3-4
-local/dropbox 2.6.20-1
+local/dropbox 2.6.25-1
 core/e2fsprogs 1.42.9-2 (base)
 extra/elfutils 0.158-1
 extra/emacs 24.3-6
@@ -98,7 +98,7 @@ extra/geoclue 0.12.99-1
 core/gettext 0.18.3.2-1 (base base-devel)
 extra/giblib 1.2.4-6
 extra/giflib 5.0.5-1
-extra/git 1.9.0-1
+extra/git 1.9.1-1
 extra/glamor-egl 0.6.0-1
 extra/glew 1.10.0-2
 core/glib2 2.38.2-1
@@ -136,7 +136,7 @@ core/hwids 20130915.1-1
 core/iana-etc 2.30-4
 extra/icu 52.1-1
 extra/ifplugd 0.28-14
-extra/imagemagick 6.8.8.8-1
+extra/imagemagick 6.8.8.9-1
 extra/imlib2 1.4.6-1
 core/inetutils 1.9.2-1 (base)
 extra/inputproto 2.3-1
@@ -195,7 +195,7 @@ extra/libdvdcss 1.2.13-3
 extra/libdvdnav 4.2.1-1
 extra/libdvdread 4.2.1-1
 extra/libebml 1.3.0-2
-core/libedit 20130601_3.1-1
+core/libedit 20140213_3.1-1
 core/libevent 2.0.21-3
 extra/libexif 0.6.21-2
 core/libffi 3.0.13-4
@@ -329,7 +329,7 @@ extra/m17n-lib 1.6.4-2
 core/m4 1.4.17-1 (base-devel)
 core/make 4.0-2 (base-devel)
 core/man-db 2.6.6-1 (base)
-core/man-pages 3.62-1 (base)
+core/man-pages 3.63-1 (base)
 community/mcomix 1.00-6
 extra/mcpp 2.7.2-4
 core/mdadm 3.3-2 (base)
@@ -503,7 +503,7 @@ extra/unzip 6.0-6
 core/usbutils 007-1 (base)
 core/util-linux 2.24.1-3 (base base-devel)
 extra/v4l-utils 1.0.1-1
-community/vagrant 1.5.1-3
+community/vagrant 1.5.1-5
 extra/vde2 2.3.2-5
 core/vi 1:050325-3 (base)
 community/vicious 2.1.3-1
@@ -512,7 +512,7 @@ local/vim-easytags 3.4.3-1 (vim-plugins)
 local/vim-misc-xolox 1.8.5-1
 local/vim-molokai 1.1-3
 extra/vim-runtime 7.4.135-2
-community/virtualbox 4.3.8-1
+community/virtualbox 4.3.8-2
 community/virtualbox-host-modules 4.3.8-1
 extra/vlc 2.1.4-1
 extra/vte 0.28.2-3
