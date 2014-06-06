@@ -461,7 +461,7 @@ extra/qt5-sensors 5.3.0-3 (qt qt5)
 extra/qt5-webkit 5.3.0-3 (qt qt5)
 extra/qt5-xmlpatterns 5.3.0-3 (qt qt5)
 extra/qtchooser 41-1
-local/qtile-git 1533.7b3b21d-1
+local/qtile-git 1629.91bb226-1
 extra/randrproto 1.4.0-1
 community/ranger 1.6.1-2
 core/readline 6.3.006-1
