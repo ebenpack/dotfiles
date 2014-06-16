@@ -29,7 +29,7 @@ extra/cairo 1.12.16-2
 extra/cairomm 1.10.0-3
 extra/cdparanoia 10.2-5
 community/cgdb 0.6.7-2
-extra/cifs-utils 6.2-1
+extra/cifs-utils 6.3-1
 extra/clang 3.4.1-2
 community/clipit 1.4.2-5
 core/cloog 0.18.1-2
@@ -62,7 +62,7 @@ extra/dmxproto 2.3.1-2
 core/dnssec-anchors 20130320-1
 extra/dotconf 1.3-4
 local/dropbox 2.8.3-1
-core/e2fsprogs 1.42.9-2 (base)
+core/e2fsprogs 1.42.10-1 (base)
 extra/elfutils 0.158-3
 local/emscripten-git 1.16.0-0
 extra/enca 1.15-1
@@ -111,9 +111,9 @@ core/glibc 2.19-5 (base)
 extra/glibmm 2.40.0-1
 extra/glu 9.0.0-2
 core/gmp 6.0.0-1
-extra/gnome-icon-theme 3.12.0-1 (gnome)
-extra/gnome-icon-theme-symbolic 3.12.0-1 (gnome)
-core/gnupg 2.0.22-2
+extra/gnome-icon-theme 3.12.0-2 (gnome)
+extra/gnome-icon-theme-symbolic 3.12.0-2 (gnome)
+core/gnupg 2.0.23-1
 extra/gnutls 3.3.4-1
 community/go 2:1.2.2-1
 extra/gobject-introspection 1.40.0-1
@@ -137,20 +137,20 @@ extra/gtkmm3 3.12.0-1
 extra/gtksourceview3 3.12.2-1
 community/gtksourceviewmm 3.2.0-4
 extra/guile 2.0.11-1
-extra/gvim 7.4.307-3
+extra/gvim 7.4.307-4
 core/gzip 1.6-1 (base base-devel)
 extra/harfbuzz 0.9.28-1
 extra/harfbuzz-icu 0.9.28-1
 extra/hicolor-icon-theme 0.13-1
 community/highlight 3.18-1
 extra/htop 1.0.3-1
-extra/hunspell 1.3.2-3
+extra/hunspell 1.3.3-1
 core/hwids 20130915.1-1
 core/iana-etc 2.30-4
 extra/icon-naming-utils 0.8.90-2
 extra/icu 53.1-1
 extra/ifplugd 0.28-14
-extra/imagemagick 6.8.9.1-2
+extra/imagemagick 6.8.9.1-3
 extra/imlib2 1.4.6-1
 core/inetutils 1.9.2-1 (base)
 extra/inputproto 2.3.1-1
@@ -158,7 +158,7 @@ extra/intel-dri 10.1.4-1
 core/iproute2 3.14.0-1 (base)
 core/iptables 1.4.21-1
 core/iputils 20121221-3 (base)
-community/ipython2 2.0.0-1
+community/ipython2 2.1.0-1
 core/isl 0.12.2-1
 core/iw 3.14-1
 extra/jack 0.124.1-1
@@ -211,7 +211,7 @@ extra/libdvdnav 4.2.1-1
 extra/libdvdread 4.9.9-1
 extra/libebml 1.3.0-2
 core/libedit 20140213_3.1-1
-extra/libevdev 1.2.1-1
+extra/libevdev 1.2.2-1
 core/libevent 2.0.21-3
 extra/libexif 0.6.21-2
 core/libffi 3.0.13-4
@@ -255,7 +255,7 @@ core/libpcap 1.5.3-1
 extra/libpciaccess 0.13.2-2
 core/libpipeline 1.3.0-1
 extra/libpng 1.6.10-1
-extra/libproxy 0.4.11-2
+extra/libproxy 0.4.11-3
 extra/libpulse 5.0-1
 extra/librsvg 1:2.40.2-1
 extra/libsamplerate 0.1.8-3
@@ -270,7 +270,7 @@ extra/libspiro 20071029-3
 extra/libssh 0.6.3-1
 core/libssh2 1.4.3-2
 extra/libstdc++5 3.3.6-5
-core/libsystemd 212-3
+core/libsystemd 213-5
 extra/libtar 1.2.20-1
 extra/libtasn1 3.6-1
 extra/libthai 0.1.19-1
@@ -292,21 +292,22 @@ extra/libvdpau 0.7-1
 extra/libvisual 0.4.0-4
 extra/libvorbis 1.3.4-1
 extra/libvpx 1.3.0-1
-extra/libwbclient 4.1.7-1
+extra/libwbclient 4.1.8-1
 extra/libwebp 0.4.0-1
 extra/libx11 1.6.2-2
+extra/libx264 1:142.20140311-4
 extra/libxau 1.0.8-2
 extra/libxaw 1.0.12-1
 extra/libxcb 1.10-2
 extra/libxcomposite 0.4.4-1
-extra/libxcursor 1.1.14-1
+extra/libxcursor 1.1.14-2
 extra/libxdamage 1.1.4-1
 community/libxdg-basedir 1.2.0-2
 extra/libxdmcp 1.1.1-1
 extra/libxext 1.3.2-1
 extra/libxfixes 5.0.1-1
 extra/libxfont 1.4.7-3
-extra/libxft 2.3.1-2
+extra/libxft 2.3.2-1
 extra/libxi 1.7.2-1
 extra/libxinerama 1.1.3-2
 extra/libxkbcommon 0.4.2-1
@@ -384,7 +385,7 @@ extra/opencore-amr 0.1.3-1
 extra/openjpeg 1.5.2-1
 core/openresolv 3.5.6-1
 core/openssh 6.6p1-2
-core/openssl 1.0.1.g-1
+core/openssl 1.0.1.h-1
 community/optipng 0.7.5-1
 extra/opus 1.1-1
 extra/orc 0.4.19-1
@@ -401,9 +402,9 @@ core/patch 2.7.1-2 (base-devel)
 core/pciutils 3.2.1-1 (base)
 core/pcmciautils 018-7 (base)
 core/pcre 8.35-1
-core/perl 5.18.2-2 (base)
+core/perl 5.20.0-2 (base)
 extra/perl-error 0.17022-1
-extra/perl-xml-parser 2.41-4
+extra/perl-xml-parser 2.41-5
 extra/perl-xml-simple 2.20-1
 core/pinentry 0.8.3-1
 extra/pixman 0.32.4-1
@@ -424,14 +425,14 @@ extra/python 3.4.1-1
 local/python-powerline-git 946.5c700b8-1
 local/python-pudb 2014.1-1
 community/python-pygments 1.6-3
-extra/python-setuptools 3.6-1
+extra/python-setuptools 4.0.1-1
 community/python-stevedore 0.15-1
 extra/python-urwid 1.2.1-1
 extra/python-virtualenv 1.11.6-1
 community/python-virtualenv-clone 0.2.5-1
 community/python-virtualenvwrapper 4.3-1
 extra/python-xdg 0.25-2
-extra/python2 2.7.6-3
+extra/python2 2.7.7-1
 community/python2-backports.ssl_match_hostname 3.4.0.2-1
 extra/python2-beaker 1.6.4-2
 extra/python2-crypto 2.6.1-2
@@ -448,8 +449,8 @@ community/python2-pillow 2.4.0-1
 extra/python2-pip 1.5.6-1
 local/python2-pudb 2014.1-1
 community/python2-pygments 1.6-3
-extra/python2-setuptools 3.6-1
-community/python2-tornado 3.2.1-1
+extra/python2-setuptools 4.0.1-1
+community/python2-tornado 3.2.2-1
 extra/python2-urwid 1.2.1-1
 extra/python2-virtualenv 1.11.6-1
 community/python2-yaml 3.11-1
@@ -489,21 +490,21 @@ extra/shared-mime-info 1.3-1
 community/shedskin 0.9.4-1
 extra/slang 2.2.4-3
 extra/slim 1.3.6-4
-extra/smbclient 4.1.7-1
+extra/smbclient 4.1.8-1
 extra/smpeg 0.4.5-1
 extra/snappy 1.1.1-1
 community/snes9x 1.53-8
 community/snes9x-gtk 1.53-8
 extra/speech-dispatcher 0.8-3
 extra/speex 1.2rc1-4
-extra/sqlite 3.8.4.3-2
+extra/sqlite 3.8.5-1
 community/sshfs 2.5-1
 extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
 core/sudo 1.8.10.p3-1 (base-devel)
 core/sysfsutils 2.1.0-8 (base)
-core/systemd 212-3
-core/systemd-sysvcompat 212-3 (base)
+core/systemd 213-5
+core/systemd-sysvcompat 213-5 (base)
 extra/taglib 1.9.1-1
 extra/talloc 2.1.0-2
 core/tar 1.27.1-1 (base)
@@ -541,9 +542,9 @@ extra/videoproto 2.3.2-1
 local/vim-easytags 3.4.3-1 (vim-plugins)
 local/vim-misc-xolox 1.8.5-1
 local/vim-molokai 1.1-3
-extra/vim-runtime 7.4.307-3
+extra/vim-runtime 7.4.307-4
 community/virtualbox 4.3.12-1
-community/virtualbox-host-modules 4.3.12-1
+community/virtualbox-host-modules 4.3.12-2
 extra/vlc 2.1.4-2
 extra/vte 0.28.2-4
 extra/vte-common 0.36.2-1
@@ -555,7 +556,7 @@ core/which 2.20-6 (base base-devel)
 core/wireless_tools 30.pre9-1
 core/wpa_actiond 1.4-2
 core/wpa_supplicant 2.1-3
-extra/x264 1:142.20140311-1
+extra/x264 1:142.20140311-4
 extra/x265 1.0-1
 extra/xbitmaps 1.1.1-2
 community/xbmc 13.0-6
