@@ -618,7 +618,7 @@ extra/xterm 308-1
 extra/xvidcore 1.3.3-1
 core/xz 5.0.5-2
 extra/yajl 2.1.0-1
-local/yaourt 1.4-1
+local/yaourt 1.5-1
 local/zeal-git 0.0.0.200.4188ea1-1
 community/zeromq 4.0.4-3
 core/zlib 1.2.8-3
