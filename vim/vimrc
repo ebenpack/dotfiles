@@ -1,55 +1,60 @@
-set nocompatible
-filetype off " required
-" Vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc() " let Vundle manage Vundle
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" required!
-Bundle 'gmarik/vundle'
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
 
 " Debug
 " Bundle 'fisadev/vim-debug.vim'
 " Better file browser
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 " Commenting
-Bundle 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdcommenter'
 " Class/module browser
-Bundle 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 " Zen coding
-Bundle 'mattn/emmet-vim'
+Plugin 'mattn/emmet-vim'
 " Statusline
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Git wrapper
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 " Python autocompletion
 " Bundle 'davidhalter/jedi-vim'
 " Tab completion
 " Bundle 'ervandew/supertab'
 " Autoclose
-Bundle 'Raimondi/delimitMate'
+Plugin 'Raimondi/delimitMate'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
-Bundle 'klen/python-mode'
+Plugin 'klen/python-mode'
 " Provides motion hints
-Bundle 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/vim-easymotion'
 " Surround selection with {parentheses|quotes|brackets|etc.}
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
 " UltiSnips - TextMate style snippets
-Bundle 'SirVer/ultisnips'
-Bundle 'honza/vim-snippets'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 " Easytags - Automated tag generation
-"Bundle 'xolox/vim-easytags'
+"Plugin 'xolox/vim-easytags'
 " Javascript syntax highlighting
-Bundle 'jelera/vim-javascript-syntax'
+Plugin 'jelera/vim-javascript-syntax'
 " Javascript indenting
-Bundle 'pangloss/vim-javascript'
-Bundle 'nathanaelkane/vim-indent-guides'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
 " Javascript linting
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " Autocompletion
-Bundle 'Valloric/YouCompleteMe'
-filetype plugin indent on " required
-filetype plugin on
+Plugin 'Valloric/YouCompleteMe'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 "Linting
 let g:pymode_lint_checker = "pyflakes,pep8"
@@ -242,4 +247,3 @@ endif
 
 set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
-
