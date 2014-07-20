@@ -372,12 +372,9 @@ community/nemiver 0.9.5-2
 core/net-tools 1.60.20130531git-1
 core/netctl 1.8-1 (base)
 extra/nettle 2.7.1-1
-community/nodejs 0.10.29-1
+community/nodejs 0.10.29-3
 local/nodejs-bower 1.3.8-1
 local/nodejs-browserify 4.1.11-1
-local/nodejs-grunt-cli 0.1.13-3
-local/nodejs-gulp 3.8.6-1
-local/nodejs-yeoman 1.2.0-1
 extra/nspr 4.10.6-1
 extra/nss 3.16.1-1
 extra/nss-mdns 0.10-5
