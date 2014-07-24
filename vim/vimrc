@@ -11,25 +11,19 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 
-" Debug
-" Bundle 'fisadev/vim-debug.vim'
 " Better file browser
 Plugin 'scrooloose/nerdtree'
 " Commenting
 Plugin 'scrooloose/nerdcommenter'
 " Class/module browser
 Plugin 'majutsushi/tagbar'
-" Zen coding
+" Emmet/Zen coding
 Plugin 'mattn/emmet-vim'
 " Statusline
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'bling/vim-airline'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
-" Python autocompletion
-" Bundle 'davidhalter/jedi-vim'
-" Tab completion
-" Bundle 'ervandew/supertab'
-" Autoclose
+" Autoclose (quotes, parens, brackets, etc.)
 Plugin 'Raimondi/delimitMate'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
@@ -41,8 +35,6 @@ Plugin 'tpope/vim-surround'
 " UltiSnips - TextMate style snippets
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
-" Easytags - Automated tag generation
-"Plugin 'xolox/vim-easytags'
 " Javascript syntax highlighting
 Plugin 'jelera/vim-javascript-syntax'
 " Javascript indenting
@@ -61,57 +53,36 @@ let g:pymode_lint_checker = "pyflakes,pep8"
 " Auto check on save
 let g:pymode_lint_write = 1
 
-" Turn off rope completion. Let Jedi do it
+" Turn off rope completion. Let YCM/Ultisnips do it
 let g:pymode_rope_completion = 0
-
 
 " Don't autofold code
 let g:pymode_folding = 0
 
-" Jedi rename keybinding conflicts with pymode 'run python code'
-"let g:jedi#rename_command = '<leader>re'
-
 " automatically change window's cwd to file's dir
 set autochdir
-
-" Use spaces, not tabs
-set tabstop=4
 
 " more subtle popup colors
 if has ('gui_running')
     highlight Pmenu guibg=#cccccc gui=bold
 endif
 
-" Powerline setup
-set guifont=Source\ Code\ Pro\ for\ Powerline
+" Airline setup
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 set laststatus=2
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline))"
 
 " NERDTree setup
 map <F3>  :NERDTreeToggle<CR>
 
-"" Ultisnips and Snippets
-function! g:UltiSnips_Complete()
-    call UltiSnips#ExpandSnippet()
-    if g:ulti_expand_res == 0
-        if pumvisible()
-            return "\<C-n>"
-        else
-            call UltiSnips#JumpForwards()
-            if g:ulti_jump_forwards_res == 0
-               return "\<TAB>"
-            endif
-        endif
-    endif
-    return ""
-endfunction
+" YCM setup (let ultisnips handle tab completion)
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
 
-au InsertEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:UltiSnips_Complete()<cr>"
-"let g:ycm_auto_trigger = 1
-"set completeopt=menu,preview
-"let g:ycm_autoclose_preview_window_after_completion = 1
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<c-l>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 let g:ycm_seed_identifiers_with_syntax = 1
 
@@ -120,7 +91,7 @@ augroup filetypedetect
   " removes current htmldjango detection located at $VIMRUNTIME/filetype.vim
   au! BufNewFile,BufRead *.html
   au  BufNewFile,BufRead *.html   call FThtml()
- 
+
   func! FThtml()
     let n = 1
     while n < 10 && n < line("$")
@@ -158,9 +129,9 @@ set noerrorbells         " don't beep
 let mapleader=","
 
 set tabstop=4       " Number of spaces that a <Tab> in the file counts for.
- 
+
 set shiftwidth=4    " Number of spaces to use for each step of (auto)indent.
- 
+
 set expandtab       " Use the appropriate number of spaces to insert a <Tab>.
                     " Spaces are used in indents with the '>' and '<' commands
                     " and when 'autoindent' is on. To insert a real tab when
@@ -196,12 +167,12 @@ set noautowrite     " don't automagically write on :next
 
 set hlsearch        " When there is a previous search pattern, highlight all
                     " its matches.
- 
+
 set incsearch       " While typing a search command, show immediately where the
                     " so far typed pattern matches.
- 
+
 set ignorecase      " Ignore case in search patterns.
- 
+
 set smartcase       " Override the 'ignorecase' option if the search pattern
                     " contains upper case characters.
 

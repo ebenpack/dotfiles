@@ -104,7 +104,7 @@ core/gettext 0.19.1-1 (base base-devel)
 extra/ghex 3.10.1-1
 extra/giblib 1.2.4-6
 extra/giflib 5.1.0-1
-extra/git 2.0.1-1
+extra/git 2.0.2-1
 extra/glamor-egl 0.6.0-1
 extra/glew 1.10.0-2
 core/glib2 2.40.0-1
@@ -140,8 +140,8 @@ community/gtksourceviewmm 3.2.0-4
 extra/guile 2.0.11-1
 extra/gvim 7.4.335-4
 core/gzip 1.6-1 (base base-devel)
-extra/harfbuzz 0.9.30-1
-extra/harfbuzz-icu 0.9.30-1
+extra/harfbuzz 0.9.32-1
+extra/harfbuzz-icu 0.9.32-1
 extra/hicolor-icon-theme 0.13-1
 community/highlight 3.18-1
 extra/htop 1.0.3-2
@@ -155,7 +155,7 @@ extra/imagemagick 6.8.9.5-1
 extra/imlib2 1.4.6-3
 core/inetutils 1.9.2-1 (base)
 extra/inputproto 2.3.1-1
-extra/intel-dri 10.2.3-2
+extra/intel-dri 10.2.4-1
 core/iproute2 3.14.0-1 (base)
 core/iptables 1.4.21-1
 core/iputils 20121221-3 (base)
@@ -309,7 +309,7 @@ extra/libxext 1.3.2-1
 extra/libxfixes 5.0.1-1
 extra/libxfont 1.4.7-3
 extra/libxft 2.3.2-1
-extra/libxi 1.7.3-1
+extra/libxi 1.7.4-1
 extra/libxinerama 1.1.3-2
 extra/libxkbcommon 0.4.2-1
 extra/libxkbcommon-x11 0.4.2-1
@@ -333,7 +333,7 @@ extra/libxxf86vm 1.1.3-1
 community/libyaml 0.1.6-1
 community/libzen 0.4.29-2
 core/licenses 20140629-1 (base)
-core/linux 3.15.5-1 (base)
+core/linux 3.15.5-2 (base)
 core/linux-api-headers 3.14.1-1
 core/linux-firmware 20140603.a4f3bc0-1
 extra/lirc-utils 1:0.9.0-74
@@ -353,9 +353,9 @@ community/mcomix 1.00-6
 extra/mcpp 2.7.2-5
 core/mdadm 3.3.1-2 (base)
 community/mediainfo 0.7.69-1
-extra/mesa 10.2.3-2
+extra/mesa 10.2.4-1
 extra/mesa-demos 8.2.0-1
-extra/mesa-libgl 10.2.3-2
+extra/mesa-libgl 10.2.4-1
 extra/mime-types 9-1
 extra/mirage 0.9.5.2-1
 core/mkinitcpio 17-1
@@ -375,6 +375,7 @@ extra/nettle 2.7.1-1
 community/nodejs 0.10.29-3
 local/nodejs-bower 1.3.8-1
 local/nodejs-browserify 4.1.11-1
+local/nodejs-gulp 3.8.6-1
 extra/nspr 4.10.6-1
 extra/nss 3.16.1-1
 extra/nss-mdns 0.10-5
@@ -410,7 +411,6 @@ core/pkg-config 0.28-2 (base-devel)
 extra/polkit 0.112-2
 extra/poppler 0.26.2-1
 core/popt 1.16-7
-local/powerline-fontpatcher-git 866.db80fc9-1
 extra/printproto 1.0.5-3
 core/procps-ng 3.3.9-3 (base)
 core/psmisc 22.21-2 (base)
@@ -420,7 +420,6 @@ community/pydb 1.26-3
 extra/pygobject2-devel 2.28.6-10
 extra/pygtk 2.24.0-4
 extra/python 3.4.1-1
-local/python-powerline-git 946.5c700b8-1
 local/python-pudb 2014.1-1
 community/python-pygments 1.6-4
 extra/python-setuptools 1:5.4.1-1
@@ -443,7 +442,7 @@ extra/python2-mako 1.0.0-1
 extra/python2-markupsafe 0.23-1
 extra/python2-notify 0.1.1-13
 community/python2-paramiko 1.14.0-1
-community/python2-pillow 2.5.0-1
+community/python2-pillow 2.5.1-1
 extra/python2-pip 1.5.6-1
 local/python2-pudb 2014.1-1
 community/python2-pygments 1.6-4
@@ -471,11 +470,11 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-3
 extra/rtmpdump 20131205-1
 extra/ruby 2.1.2-1
-local/ruby-bundler 1.6.3-1
+local/ruby-bundler 1.6.4-1
 local/ruby-compass 0.12.6-1
 local/ruby-mixlib-shellout 1.4.0-1
 core/run-parts 4.4-1
-core/s-nail 14.7.1-1 (base)
+core/s-nail 14.7.4-1 (base)
 extra/schroedinger 1.0.11-2
 extra/scrnsaverproto 1.2.2-2
 community/scrot 0.8-7
