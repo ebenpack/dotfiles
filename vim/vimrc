@@ -48,24 +48,15 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-"Linting
+" Python mode setup
+" Linting
 let g:pymode_lint_checker = "pyflakes,pep8"
 " Auto check on save
 let g:pymode_lint_write = 1
-
 " Turn off rope completion. Let YCM/Ultisnips do it
 let g:pymode_rope_completion = 0
-
 " Don't autofold code
 let g:pymode_folding = 0
-
-" automatically change window's cwd to file's dir
-set autochdir
-
-" more subtle popup colors
-if has ('gui_running')
-    highlight Pmenu guibg=#cccccc gui=bold
-endif
 
 " Airline setup
 let g:airline#extensions#tabline#enabled = 1
@@ -79,12 +70,19 @@ map <F3>  :NERDTreeToggle<CR>
 " YCM setup (let ultisnips handle tab completion)
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
+let g:ycm_seed_identifiers_with_syntax = 1
 
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
-let g:ycm_seed_identifiers_with_syntax = 1
+" Syntastic setup
+
+let g:syntastic_javascript_closurecompiler_path= '/usr/share/java/closure-compiler/closure-compiler.jar'
+let g:syntastic_javascript_checkers = ['closurecompiler']
+
+" Tagbar keymap
+nmap <F4> :TagbarToggle<CR>
 
 " a better htmldjango detection
 augroup filetypedetect
@@ -109,9 +107,6 @@ augroup filetypedetect
   endfunc
 augroup END
 
-" Tagbar keymap
-nmap <F4> :TagbarToggle<CR>
-
 "##############################################################################
 " Easier split navigation
 "##############################################################################
@@ -125,6 +120,14 @@ nmap <silent> <c-l> :wincmd l<CR>
 set title                " change the terminal's title
 set visualbell           " don't beep
 set noerrorbells         " don't beep
+
+" automatically change window's cwd to file's dir
+set autochdir
+
+" more subtle popup colors
+if has ('gui_running')
+    highlight Pmenu guibg=#cccccc gui=bold
+endif
 
 let mapleader=","
 
