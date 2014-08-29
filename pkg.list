@@ -65,7 +65,7 @@ extra/dmxproto 2.3.1-3
 core/dnssec-anchors 20140629-1
 extra/dotconf 1.3-4
 local/dpkg 1.16.15-1
-local/dropbox 2.10.27-1
+local/dropbox 2.10.29-1
 core/e2fsprogs 1.42.11-1 (base)
 extra/elfutils 0.159-1
 extra/enca 1.15-1
@@ -120,7 +120,7 @@ core/gnupg 2.0.26-1
 extra/gnutls 3.3.7-1
 community/go 2:1.3.1-1
 extra/gobject-introspection 1.40.0-1
-local/google-chrome 36.0.1985.143-1
+local/google-chrome 37.0.2062.94-1
 local/google-chrome-beta 37.0.2062.94-1
 local/google-talkplugin 5.4.2.0-1
 core/gpgme 1.5.1-1
@@ -224,7 +224,7 @@ core/libffi 3.1-2
 extra/libfontenc 1.1.2-1
 extra/libftdi-compat 0.20-1
 core/libgcrypt 1.6.2-1
-local/libgcrypt15 1.5.3-1
+local/libgcrypt15 1.5.4-2
 extra/libglade 2.6.4-5
 core/libgpg-error 1.13-1
 extra/libgtop 2.30.0-1
@@ -271,7 +271,7 @@ extra/libshout 1:2.3.1-2
 extra/libsigc++ 2.3.1-2
 extra/libsm 1.2.2-2
 extra/libsndfile 1.0.25-3
-community/libsodium 0.6.1-1
+community/libsodium 0.7.0-1
 extra/libspiro 1:0.2-1
 extra/libssh 0.6.3-1
 core/libssh2 1.4.3-2
@@ -483,7 +483,7 @@ extra/renderproto 0.11.1-3
 extra/rtmpdump 20131205-1
 extra/ruby 2.1.2-1
 local/ruby-bundler 1.7.0-1
-local/ruby-compass 0.12.7-1
+local/ruby-compass 1.0.1-1
 local/ruby-mixlib-shellout 1.4.0-1
 core/run-parts 4.4-1
 core/s-nail 14.7.6-1 (base)
@@ -630,6 +630,6 @@ core/xz 5.0.5-2
 extra/yajl 2.1.0-1
 local/yaourt 1.5-1
 local/zeal-git 0.0.0.200.4188ea1-1
-community/zeromq 4.0.4-3
+community/zeromq 4.0.4-4
 core/zlib 1.2.8-3
 extra/zvbi 0.2.33-6
