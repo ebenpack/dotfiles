@@ -410,6 +410,7 @@ core/pcre 8.35-1
 core/perl 5.20.0-5 (base)
 extra/perl-error 0.17022-1
 community/perl-io-string 1.08-9
+community/perl-rename 1.9-1
 extra/perl-timedate 2.30-2
 extra/perl-xml-namespacesupport 1.11-3
 extra/perl-xml-parser 2.41-5
