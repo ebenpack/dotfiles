@@ -451,7 +451,7 @@ extra/python-xdg 0.25-2
 extra/python2 2.7.8-2
 community/python2-backports.ssl_match_hostname 3.4.0.2-1
 extra/python2-beaker 1.6.4-2
-local/python2-cairocffi-xcffib-git 160.132098d-2
+local/python2-cairocffi 0.6-1
 community/python2-certifi 14.05.14-1
 extra/python2-cffi 0.8.6-1
 extra/python2-crypto 2.6.1-2
@@ -486,7 +486,7 @@ extra/qt5-sensors 5.3.2-1 (qt qt5)
 extra/qt5-webkit 5.3.2-1 (qt qt5)
 extra/qt5-xmlpatterns 5.3.2-1 (qt qt5)
 extra/qtchooser 41-1
-local/qtile-git 1905.9f180fd-1
+local/qtile-git 1921.ee494ce-1
 extra/randrproto 1.4.0-2
 community/ranger 1.6.1-2
 core/readline 6.3.006-1
