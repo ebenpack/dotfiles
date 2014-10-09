@@ -243,7 +243,7 @@ core/libldap 2.4.39-1
 extra/liblqr 0.4.2-1
 core/libltdl 2.4.2-14
 extra/libmad 0.15.1b-7
-extra/libmariadbclient 10.0.14-1
+extra/libmariadbclient 10.0.14-2
 extra/libmatroska 1.4.1-1
 community/libmediainfo 0.7.70-1
 community/libmicrohttpd 0.9.37-1
@@ -451,9 +451,7 @@ extra/python-xdg 0.25-2
 extra/python2 2.7.8-2
 community/python2-backports.ssl_match_hostname 3.4.0.2-1
 extra/python2-beaker 1.6.4-2
-local/python2-cairocffi 0.6-1
 community/python2-certifi 14.05.14-1
-extra/python2-cffi 0.8.6-1
 extra/python2-crypto 2.6.1-2
 community/python2-ecdsa 0.11-2
 extra/python2-gobject2 2.28.6-11
@@ -466,17 +464,12 @@ extra/python2-notify 0.1.1-13
 community/python2-paramiko 1.15.1-1
 community/python2-pillow 2.6.0-1
 extra/python2-pip 1.5.6-2
-extra/python2-ply 3.4-4
 local/python2-pudb 2014.1-1
-extra/python2-pycparser 2.10-4
 community/python2-pygments 1.6-4
 extra/python2-setuptools 1:6.0.2-1
-community/python2-six 1.8.0-1
 community/python2-tornado 4.0.2-1
-local/python2-trollius 1.0.2-1
 extra/python2-urwid 1.2.1-1
 extra/python2-virtualenv 1.11.6-2
-local/python2-xcffib 0.1.7-0
 community/python2-yaml 3.11-1
 extra/qt4 4.8.6-1
 extra/qt5-base 5.3.2-1 (qt qt5)
@@ -486,7 +479,7 @@ extra/qt5-sensors 5.3.2-1 (qt qt5)
 extra/qt5-webkit 5.3.2-1 (qt qt5)
 extra/qt5-xmlpatterns 5.3.2-1 (qt qt5)
 extra/qtchooser 41-1
-local/qtile-git 1921.ee494ce-1
+local/qtile 0.8.0-1
 extra/randrproto 1.4.0-2
 community/ranger 1.6.1-2
 core/readline 6.3.006-1
