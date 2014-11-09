@@ -125,8 +125,8 @@ core/gnupg 2.0.26-1
 extra/gnutls 3.3.9-1
 community/go 2:1.3.3-2
 extra/gobject-introspection 1.42.0-1
-local/google-chrome 38.0.2125.101-1
-local/google-chrome-beta 38.0.2125.101-1
+local/google-chrome 38.0.2125.111-2
+local/google-chrome-beta 39.0.2171.52-1
 local/google-talkplugin 5.4.2.0-1
 core/gpgme 1.5.1-1
 core/gpm 1.20.7-4
@@ -388,7 +388,7 @@ extra/nettle 2.7.1-1
 community/nodejs 0.10.33-4
 local/nodejs-bower 1.3.12-1
 local/nodejs-browserify 4.1.11-1
-local/nodejs-gulp 3.8.8-1
+local/nodejs-gulp 3.8.10-1
 extra/nspr 4.10.7-1
 extra/nss 3.17.2-1
 extra/nss-mdns 0.10-6
@@ -495,9 +495,9 @@ extra/renderproto 0.11.1-3
 extra/rest 0.7.92-1
 extra/rtmpdump 20140918-2
 extra/ruby 2.1.4-1
-local/ruby-bundler 1.7.3-1
+local/ruby-bundler 1.7.4-1
 local/ruby-compass 1.0.1-1
-local/ruby-mixlib-shellout 1.4.0-1
+local/ruby-mixlib-shellout 1.6.0-1
 core/run-parts 4.4-1
 core/s-nail 14.7.8-1 (base)
 extra/schroedinger 1.0.11-2
