@@ -367,10 +367,10 @@ community/mcomix 1.00-6
 extra/mcpp 2.7.2-5
 core/mdadm 3.3.1-2 (base)
 community/mediainfo 0.7.71-1
-extra/mesa 10.3.4-1
+extra/mesa 10.3.5-1
 extra/mesa-demos 8.2.0-3
-extra/mesa-dri 10.3.4-1
-extra/mesa-libgl 10.3.4-1
+extra/mesa-dri 10.3.5-1
+extra/mesa-libgl 10.3.5-1
 extra/mime-types 9-1
 extra/mirage 0.9.5.2-3
 core/mkinitcpio 18-2
