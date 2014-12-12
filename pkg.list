@@ -25,11 +25,10 @@ core/bison 3.0.2-1 (base-devel)
 local/brightd 0.4.1-2
 local/byobu 5.87-1
 core/bzip2 1.0.6-5 (base)
-core/ca-certificates 20140325-2
-core/ca-certificates-cacert 20140824-1
-extra/ca-certificates-java 20140324-4
-extra/ca-certificates-mozilla 3.17.2-1
-core/ca-certificates-utils 20140325-2
+core/ca-certificates 20140923-7.2
+core/ca-certificates-cacert 20140824-2
+core/ca-certificates-mozilla 3.17.3-2
+core/ca-certificates-utils 20140923-7.2
 extra/cairo 1.14.0-2
 extra/cairomm 1.10.0-3
 extra/cdparanoia 10.2-5
@@ -69,7 +68,7 @@ extra/dmxproto 2.3.1-3
 core/dnssec-anchors 20140629-1
 extra/dotconf 1.3-4
 local/dpkg 1.16.15-1
-local/dropbox 2.10.52-1
+local/dropbox 3.0.3-1
 extra/dvd+rw-tools 7.1-5
 core/e2fsprogs 1.42.12-1 (base)
 extra/elfutils 0.160-1
@@ -86,7 +85,7 @@ core/findutils 4.4.2-6 (base base-devel)
 extra/firefox 34.0.5-1
 extra/fixesproto 5.0-3
 extra/flac 1.3.1-1
-extra/flashplugin 11.2.202.424-1
+extra/flashplugin 11.2.202.425-1
 core/flex 2.5.39-1 (base-devel)
 extra/fontconfig 2.11.1-1
 extra/fontforge 20141126-1
@@ -123,13 +122,13 @@ core/gmp 6.0.0-1
 extra/gnome-icon-theme 3.12.0-2 (gnome)
 extra/gnome-icon-theme-symbolic 3.12.0-2 (gnome)
 core/gnupg 2.1.0-6
-extra/gnutls 3.3.10-1
-community/go 2:1.3.3-2
+core/gnutls 3.3.11-1
+community/go 2:1.4-1
 extra/gobject-introspection 1.42.0-1
-local/google-chrome 39.0.2171.71-1
-local/google-chrome-beta 40.0.2214.28-1
+local/google-chrome 39.0.2171.95-1
+local/google-chrome-beta 40.0.2214.38-1
 local/google-talkplugin 5.38.6.0-1
-core/gpgme 1.5.1-1
+core/gpgme 1.5.2-1
 core/gpm 1.20.7-4
 extra/graphite 1:1.2.4-1
 core/grep 2.21-1 (base base-devel)
@@ -175,8 +174,8 @@ extra/jasper 1.900.1-10
 extra/java-runtime-common 2-2
 community/jbig2dec 0.11-7
 core/jfsutils 1.1.15-4 (base)
-extra/jre7-openjdk 7.u71_2.5.3-1
-extra/jre7-openjdk-headless 7.u71_2.5.3-1
+extra/jre7-openjdk 7.u71_2.5.3-3
+extra/jre7-openjdk-headless 7.u71_2.5.3-3
 extra/js17 17.0.0-1
 extra/json-c 0.12-2
 extra/json-glib 1.0.2-1
@@ -286,7 +285,7 @@ core/libssh2 1.4.3-2
 extra/libstdc++5 3.3.6-5
 core/libsystemd 217-8
 extra/libtar 1.2.20-2
-extra/libtasn1 4.2-1
+core/libtasn1 4.2-1
 extra/libthai 0.1.19-1
 extra/libtheora 1.1.1-3
 extra/libtiff 4.0.3-5
@@ -346,10 +345,10 @@ extra/libxxf86vm 1.1.3-1
 extra/libyaml 0.1.6-1
 community/libzen 0.4.29-2
 core/licenses 20140629-1 (base)
-core/linux 3.17.4-1 (base)
+core/linux 3.17.6-1 (base)
 core/linux-api-headers 3.16.2-1
-core/linux-firmware 20141009.0e5f637-1
-extra/lirc-utils 1:0.9.1.a-8
+core/linux-firmware 20141201.38e5405-1
+extra/lirc-utils 1:0.9.1.a-9
 extra/llvm 3.5.0-2
 extra/llvm-libs 3.5.0-2
 core/logrotate 3.8.8-2 (base)
@@ -386,14 +385,14 @@ core/ncurses 5.9-6
 community/nemiver 0.9.5-3
 core/net-tools 1.60.20130531git-1
 core/netctl 1.9-1 (base)
-extra/nettle 2.7.1-1
+core/nettle 2.7.1-1
 community/nodejs 0.10.33-8
 local/nodejs-bower 1.3.12-1
 local/nodejs-browserify 4.1.11-1
 local/nodejs-gulp 3.8.10-1
 core/npth 1.1-1
-extra/nspr 4.10.7-1
-extra/nss 3.17.2-1
+core/nspr 4.10.7-1
+core/nss 3.17.3-2
 extra/nss-mdns 0.10-6
 extra/ntp 4.2.7.p465-2
 extra/opencore-amr 0.1.3-2
@@ -404,9 +403,9 @@ core/openssh 6.7p1-1
 core/openssl 1.0.1.j-1
 community/optipng 0.7.5-1
 extra/opus 1.1-1
-extra/orc 0.4.22-1
+extra/orc 0.4.22-2
 local/otf-source-code-pro-powerline-git 1.017-3
-extra/p11-kit 0.22.1-1
+core/p11-kit 0.22.1-3
 extra/p7zip 9.20.1-9
 local/package-query 1.4-3
 core/pacman 4.1.2-7 (base base-devel)
@@ -522,7 +521,7 @@ community/snes9x 1.53-8
 community/snes9x-gtk 1.53-8
 extra/speech-dispatcher 0.8.1-1
 extra/speex 1.2rc1-4
-extra/sqlite 3.8.7.3-1
+core/sqlite 3.8.7.4-1
 community/sshfs 2.5-1
 extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
@@ -560,7 +559,7 @@ extra/unzip 6.0-7
 core/usbutils 008-1 (base)
 core/util-linux 2.25.2-1 (base base-devel)
 extra/v4l-utils 1.6.0-1
-community/vagrant 1.6.5-1
+community/vagrant 1.7.0-1
 extra/valgrind 3.10.1-1
 extra/vde2 2.3.2-6
 core/vi 1:050325-4 (base)
@@ -569,7 +568,7 @@ extra/videoproto 2.3.2-1
 local/vim-molokai 1.1-3
 extra/vim-runtime 7.4.537-1
 community/virtualbox 4.3.20-1
-community/virtualbox-host-modules 4.3.20-2
+community/virtualbox-host-modules 4.3.20-3
 extra/vlc 2.1.5-5
 extra/vte 0.28.2-5
 extra/vte-common 0.38.2-1
