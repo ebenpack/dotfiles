@@ -160,7 +160,7 @@ core/iana-etc 2.30-4
 extra/icon-naming-utils 0.8.90-3
 extra/icu 54.1-1
 extra/ifplugd 0.28-14
-extra/imagemagick 6.9.0.2-1
+extra/imagemagick 6.9.0.3-1
 extra/imlib2 1.4.6-3
 core/inetutils 1.9.2-2 (base)
 extra/inputproto 2.3.1-1
@@ -500,7 +500,7 @@ extra/renderproto 0.11.1-3
 extra/rest 0.7.92-1
 extra/rtmpdump 20140918-2
 extra/ruby 2.2.0-1
-local/ruby-bundler 1.7.9-1
+local/ruby-bundler 1.7.11-1
 local/ruby-compass 1.0.1-2
 local/ruby-mixlib-shellout 2.0.0-1
 core/run-parts 4.4-1
@@ -645,7 +645,7 @@ extra/xvidcore 1.3.3-1
 core/xz 5.0.7-1
 extra/yajl 2.1.0-1
 local/yaourt 1.5-1
-local/zeal-git 0.0.0.200.4188ea1-1
+local/zeal-git 0.0.0.392.1197739-1
 community/zeromq 4.0.5-1
 extra/zita-alsa-pcmi 0.2.0-2
 extra/zita-resampler 1.3.0-3
