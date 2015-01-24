@@ -177,3 +177,8 @@ def startup():
     execute_once("conky")
     execute_once("dropboxd")
     execute_once("redshift", "-l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
+    subprocess.Popen([
+        "feh",
+        "--bg-tile",
+        "/home/ebenpack/Documents/background.png"
+    ])
