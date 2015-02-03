@@ -115,6 +115,7 @@ extra/giblib 1.2.4-6
 extra/giflib 5.1.0-1
 extra/git 2.2.2-1
 extra/glew 1.11.0-1
+extra/glhack 1.2-7
 extra/glib-networking 2.42.0-1
 core/glib2 2.42.1-1
 core/glibc 2.20-6 (base)
@@ -350,6 +351,7 @@ extra/libxxf86dga 1.1.4-1
 extra/libxxf86vm 1.1.3-1
 extra/libyaml 0.1.6-1
 community/libzen 0.4.30-1
+extra/libzip 0.11.2-1
 core/licenses 20140629-1 (base)
 community/lightdm 1:1.12.2-1
 core/linux 3.18.2-2 (base)
@@ -378,6 +380,7 @@ extra/mesa 10.4.3-1
 extra/mesa-demos 8.2.0-3
 extra/mesa-libgl 10.4.3-1
 extra/mime-types 9-1
+local/minecraft latest-23
 extra/mirage 0.9.5.2-3
 core/mkinitcpio 18-2
 core/mkinitcpio-busybox 1.21.1-2
@@ -436,6 +439,7 @@ extra/perl-xml-sax 0.99-4
 extra/perl-xml-sax-base 1.08-3
 community/perl-xml-sax-expat 0.51-3
 extra/perl-xml-simple 2.20-3
+extra/php 5.6.5-1
 core/pinentry 0.9.0-1
 extra/pixman 0.32.6-1
 core/pkg-config 0.28-2 (base-devel)

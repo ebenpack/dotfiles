@@ -53,7 +53,7 @@ def initialize_screens():
                         widget.Prompt(foreground = "CF0C0C"),
                         widget.Notify(),
                         widget.Systray(),
-                        widget.Wlan(interface="wlp4s0"),
+                        widget.Wlan(interface="wlp4s0b1"),
                         widget.Battery(
                             energy_now_file='energy_now',
                             energy_full_file='energy_full',
