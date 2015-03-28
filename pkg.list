@@ -22,7 +22,7 @@ extra/bc 1.06.95-1
 extra/bdf-unifont 7.0.06-2
 core/binutils 2.25-1 (base-devel)
 core/bison 3.0.4-1 (base-devel)
-extra/bluez-libs 5.27-1
+extra/bluez-libs 5.28-1
 local/brightd 0.4.1-3
 local/byobu 5.87-1
 core/bzip2 1.0.6-5 (base)
@@ -38,9 +38,9 @@ community/cgdb 0.6.8-1
 extra/cifs-utils 6.4-1
 extra/clang 3.5.1-1
 community/clipit 1.4.2-5
-local/cloog 0.18.1-4
-community/closure-compiler 20141215-1
-extra/cmake 3.1.1-1
+local/cloog 0.18.3-2
+community/closure-compiler 20150126-1
+extra/cmake 3.1.2-1
 local/codecs 20110131-1
 extra/colord 1.2.8-1
 extra/compositeproto 0.4.2-3
@@ -60,8 +60,8 @@ extra/dconf 0.22.0-1
 extra/ddd 3.3.12-5
 extra/desktop-file-utils 0.22-1
 core/device-mapper 2.02.114-1 (base)
-core/dhcpcd 6.6.7-1 (base)
-core/dialog 1:1.2_20140911-1
+core/dhcpcd 6.7.1-1 (base)
+core/dialog 1:1.2_20150125-1
 core/diffutils 3.3-2 (base)
 community/djview4 4.9-3
 extra/djvulibre 3.5.26-1
@@ -86,7 +86,7 @@ core/findutils 4.4.2-6 (base base-devel)
 extra/firefox 35.0.1-1
 extra/fixesproto 5.0-3
 extra/flac 1.3.1-1
-extra/flashplugin 11.2.202.440-1
+extra/flashplugin 11.2.202.442-1
 core/flex 2.5.39-1 (base-devel)
 extra/fontconfig 2.11.1-1
 extra/fontforge 20141126-3
@@ -113,8 +113,8 @@ core/gettext 0.19.4-1 (base base-devel)
 extra/ghex 3.10.1-1
 extra/giblib 1.2.4-6
 extra/giflib 5.1.0-1
-extra/git 2.2.2-1
-extra/glew 1.11.0-1
+extra/git 2.3.0-1
+extra/glew 1.12.0-1
 extra/glhack 1.2-7
 extra/glib-networking 2.42.0-1
 core/glib2 2.42.1-1
@@ -128,8 +128,8 @@ core/gnupg 2.1.1-1
 core/gnutls 3.3.12-1
 community/go 2:1.4.1-1
 extra/gobject-introspection 1.42.0-1
-local/google-chrome 40.0.2214.94-2
-local/google-chrome-beta 41.0.2272.35-2
+local/google-chrome 40.0.2214.111-1
+local/google-chrome-beta 41.0.2272.43-1
 local/google-talkplugin 5.38.6.0-1
 core/gpgme 1.5.3-1
 core/gpm 1.20.7-4
@@ -149,15 +149,15 @@ extra/gtkmm3 3.14.0-1
 extra/gtksourceview3 3.14.3-1
 community/gtksourceviewmm 3.2.0-4
 extra/guile 2.0.11-2
-extra/gvim 7.4.580-1
+extra/gvim 7.4.617-1
 core/gzip 1.6-1 (base base-devel)
 extra/harfbuzz 0.9.38-1
 extra/harfbuzz-icu 0.9.38-1
 extra/hicolor-icon-theme 0.13-1
-community/highlight 3.20-1
+community/highlight 3.21-1
 extra/htop 1.0.3-2
 extra/hunspell 1.3.3-1
-core/hwids 20141214-1
+core/hwids 20150129-1
 core/iana-etc 2.30-4
 extra/icon-naming-utils 0.8.90-3
 extra/icu 54.1-1
@@ -188,7 +188,7 @@ extra/kbproto 1.0.6-2
 community/keepassx 0.4.3-6
 core/keyutils 1.5.9-1
 core/kmod 19-1
-community/kodi 14.0-1
+community/kodi 14.1-1
 core/krb5 1.13-1
 extra/lame 3.99.5-2
 extra/lcms 1.19-5
@@ -236,7 +236,7 @@ extra/libftdi-compat 0.20-1
 core/libgcrypt 1.6.2-1
 local/libgcrypt15 1.5.4-3
 extra/libglade 2.6.4-5
-core/libgpg-error 1.17-1
+core/libgpg-error 1.18-1
 extra/libgtop 2.30.0-1
 extra/libgusb 0.2.4-1
 extra/libice 1.0.9-1
@@ -270,7 +270,7 @@ extra/libnotify 0.7.6-1
 extra/libogg 1.3.2-1
 extra/libomxil-bellagio 0.9.3-1
 core/libpcap 1.6.2-1
-extra/libpciaccess 0.13.2-2
+extra/libpciaccess 0.13.3-1
 core/libpipeline 1.4.0-1
 extra/libpng 1.6.16-1
 extra/libproxy 0.4.11-4
@@ -353,7 +353,7 @@ extra/libyaml 0.1.6-1
 community/libzen 0.4.30-1
 extra/libzip 0.11.2-1
 core/licenses 20140629-1 (base)
-community/lightdm 1:1.12.2-1
+community/lightdm 1:1.12.2-2
 core/linux 3.18.5-1 (base)
 core/linux-api-headers 3.18.1-1
 core/linux-firmware 20141201.38e5405-1
@@ -372,13 +372,13 @@ core/m4 1.4.17-1 (base-devel)
 core/make 4.1-1 (base-devel)
 core/man-db 2.7.1-1 (base)
 core/man-pages 3.78-1 (base)
-community/mcomix 1.00-6
+community/mcomix 1.01-1
 extra/mcpp 2.7.2-5
 core/mdadm 3.3.2-1 (base)
 community/mediainfo 0.7.72-1
-extra/mesa 10.4.3-1
-extra/mesa-demos 8.2.0-3
-extra/mesa-libgl 10.4.3-1
+extra/mesa 10.4.4-1
+extra/mesa-demos 8.2.0-4
+extra/mesa-libgl 10.4.4-1
 extra/mime-types 9-1
 local/minecraft latest-23
 extra/mirage 0.9.5.2-3
@@ -396,7 +396,7 @@ community/nemiver 0.9.5-3
 core/net-tools 1.60.20130531git-1
 core/netctl 1.10-1 (base)
 core/nettle 2.7.1-1
-community/nodejs 0.10.36-2
+community/nodejs 0.10.36-3
 local/nodejs-bower 1.3.12-1
 local/nodejs-browserify 4.1.11-1
 local/nodejs-gulp 3.8.10-1
@@ -404,7 +404,7 @@ core/npth 1.1-1
 core/nspr 4.10.7-1
 core/nss 3.17.3-2
 extra/nss-mdns 0.10-6
-extra/ntp 4.2.8-1
+extra/ntp 4.2.8.p1-1
 extra/opencore-amr 0.1.3-2
 extra/openjpeg 1.5.2-1
 community/openjpeg2 2.1.0-1
@@ -419,7 +419,7 @@ core/p11-kit 0.22.1-3
 extra/p7zip 9.20.1-9
 local/package-query 1.5-2
 core/pacman 4.2.0-6 (base base-devel)
-core/pacman-mirrorlist 20150105-1
+core/pacman-mirrorlist 20150205-1
 core/pam 1.1.8-5
 core/pambase 20130928-1
 extra/pango 1.36.8-1
@@ -444,7 +444,7 @@ core/pinentry 0.9.0-1
 extra/pixman 0.32.6-1
 core/pkg-config 0.28-2 (base-devel)
 extra/polkit 0.112-2
-extra/poppler 0.29.0-1
+extra/poppler 0.30.0-1
 core/popt 1.16-7
 extra/printproto 1.0.5-3
 core/procps-ng 3.3.10-1 (base)
@@ -461,18 +461,18 @@ extra/python-setuptools 1:12.0.5-1
 community/python-six 1.9.0-1
 community/python-stevedore 1.2.0-1
 extra/python-urwid 1.3.0-1
-extra/python-virtualenv 12.0.5-1
+extra/python-virtualenv 12.0.7-1
 community/python-virtualenv-clone 0.2.5-1
 community/python-virtualenvwrapper 4.3.2-1
 extra/python-xdg 0.25-2
 extra/python2 2.7.9-1
 local/python2-backports.ssl_match_hostname 3.4.0.2-1
-extra/python2-beaker 1.6.4-2
+extra/python2-beaker 1.6.5-1
 community/python2-cairocffi 0.6-2
 community/python2-certifi 14.05.14-1
 extra/python2-cffi 0.8.6-1
 extra/python2-crypto 2.6.1-2
-community/python2-ecdsa 0.11-2
+community/python2-ecdsa 0.12-1
 extra/python2-gobject2 2.28.6-11
 community/python2-jinja 2.7.3-1
 community/python2-keybinder2 0.3.0-2
@@ -481,8 +481,8 @@ extra/python2-mako 1.0.1-1
 extra/python2-markupsafe 0.23-1
 extra/python2-notify 0.1.1-13
 community/python2-paramiko 1.15.2-1
-community/python2-pillow 2.6.2-1
-extra/python2-pip 6.0.7-1
+community/python2-pillow 2.7.0-1
+extra/python2-pip 6.0.8-1
 extra/python2-ply 3.4-4
 community/python2-pudb 2014.1-1
 community/python2-pybluez 0.20-2
@@ -494,7 +494,7 @@ community/python2-six 1.9.0-1
 community/python2-tornado 4.0.2-2
 local/python2-trollius 1.0.4-1
 extra/python2-urwid 1.3.0-1
-extra/python2-virtualenv 12.0.5-1
+extra/python2-virtualenv 12.0.7-1
 community/python2-xcffib 0.1.11-1
 community/python2-yaml 3.11-1
 extra/qt4 4.8.6-4
@@ -543,7 +543,7 @@ community/snes9x 1.53-8
 community/snes9x-gtk 1.53-8
 extra/speech-dispatcher 0.8.1-1
 extra/speex 1.2rc1-4
-core/sqlite 3.8.8.1-1
+core/sqlite 3.8.8.2-1
 community/sshfs 2.5-1
 extra/startup-notification 0.12-4
 local/sublime-text 2.0.2-1
@@ -574,7 +574,7 @@ local/ttf-mac-fonts 1-7
 local/ttf-microsoft-consolas 5.33-1
 local/ttf-ms-fonts 2.0-10
 local/ttyrec 1.0.8-2
-core/tzdata 2014j-1
+core/tzdata 2015a-1
 community/udevil 0.4.3-1
 extra/unrar 1:5.2.3-2
 extra/unzip 6.0-9
@@ -588,8 +588,8 @@ core/vi 1:050325-4 (base)
 community/vicious 2.1.3-1
 extra/videoproto 2.3.2-1
 local/vim-molokai 1.1-3
-extra/vim-runtime 7.4.580-1
-community/virtualbox 4.3.20-3
+extra/vim-runtime 7.4.617-1
+community/virtualbox 4.3.20-4
 community/virtualbox-host-modules 4.3.20-7
 extra/vlc 2.1.5-5
 extra/vte 0.28.2-5
