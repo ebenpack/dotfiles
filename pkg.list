@@ -515,6 +515,7 @@ extra/qt5-webkit 5.4.1-2 (qt qt5)
 extra/qt5-xmlpatterns 5.4.1-2 (qt qt5)
 extra/qtchooser 48-1
 local/qtile 0.9.1-2
+community/racket 6.1.1-2
 extra/randrproto 1.4.1-1
 community/ranger 1.6.1-2
 core/readline 6.3.006-1
