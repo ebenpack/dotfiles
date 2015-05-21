@@ -36,11 +36,11 @@ extra/cdparanoia 10.2-5
 extra/cdrkit 1.1.11-3
 community/cgdb 0.6.8-1
 extra/cifs-utils 6.4-1
-extra/clang 3.6.0-4
+extra/clang 3.6.0-5
 community/clipit 1.4.2-5
 local/cloog 0.18.3-3
 community/closure-compiler 20150315-1
-extra/cmake 3.2.1-1
+extra/cmake 3.2.2-1
 local/codecs 20110131-1
 extra/colord 1.2.9-2
 extra/compositeproto 0.4.2-3
@@ -51,7 +51,7 @@ core/cracklib 2.9.1-1
 core/cronie 1.4.12-1
 core/cryptsetup 1.6.6-1 (base)
 extra/ctags 5.8-5
-core/curl 7.41.0-1
+core/curl 7.42.0-1
 extra/damageproto 1.2.1-3
 core/db 5.3.28-2
 core/dbus 1.8.16-2
@@ -79,14 +79,14 @@ extra/faac 1.28-5
 extra/faad2 2.7-4
 core/fakeroot 1.20.2-1 (base-devel)
 extra/feh 2.12.1-1
-extra/ffmpeg 1:2.6.1-2
+extra/ffmpeg 1:2.6.2-1
 core/file 5.22-1 (base base-devel)
 core/filesystem 2015.02-1 (base)
 core/findutils 4.4.2-6 (base base-devel)
-extra/firefox 37.0.1-2
+extra/firefox 37.0.2-1
 extra/fixesproto 5.0-3
 extra/flac 1.3.1-1
-extra/flashplugin 11.2.202.451-1
+extra/flashplugin 11.2.202.457-1
 core/flex 2.5.39-1 (base-devel)
 extra/fontconfig 2.11.1-1
 extra/fontforge 20150330-1
@@ -108,44 +108,44 @@ extra/gdl 3.16.0-1
 community/gdlmm 3.7.3-1
 community/gens-gs 2.16.7-5
 extra/geoclue 0.12.99-2
-extra/geoclue2 2.2.0-1
+extra/geoclue2 2.2.0-2
 core/gettext 0.19.4-1 (base base-devel)
 extra/ghex 3.10.1-1
 extra/giblib 1.2.4-6
 extra/giflib 5.1.1-1
-extra/git 2.3.5-1
+extra/git 2.3.6-1
 extra/glew 1.12.0-1
 extra/glhack 1.2-7
-extra/glib-networking 2.44.0-1
+extra/glib-networking 2.44.0-2
 core/glib2 2.44.0-1
-core/glibc 2.21-2 (base)
+core/glibc 2.21-3 (base)
 extra/glibmm 2.44.0-1
 extra/glu 9.0.0-3
 core/gmp 6.0.0-2
-extra/gnome-icon-theme 3.12.0-2 (gnome)
-extra/gnome-icon-theme-symbolic 3.12.0-2 (gnome)
-core/gnupg 2.1.2-3
-core/gnutls 3.3.14-2
+extra/gnome-icon-theme 3.12.0-3
+extra/gnome-icon-theme-symbolic 3.12.0-3
+core/gnupg 2.1.3-2
+core/gnutls 3.4.0-1
 community/go 2:1.4.2-2
 extra/gobject-introspection 1.44.0-1
 extra/gobject-introspection-runtime 1.44.0-1
-local/google-chrome 41.0.2272.118-1
-local/google-chrome-beta 42.0.2311.82-1
-local/google-talkplugin 5.41.0.0-1
+local/google-chrome 42.0.2311.90-1
+local/google-chrome-beta 43.0.2357.37-1
+local/google-talkplugin 5.41.0.0-3
 core/gpgme 1.5.3-1
 core/gpm 1.20.7-4
 extra/graphite 1:1.2.4-1
 core/grep 2.21-2 (base base-devel)
 core/groff 1.22.3-3 (base-devel)
 core/grub 1:2.02.beta2-5
-extra/gsettings-desktop-schemas 3.16.0-1
+extra/gsettings-desktop-schemas 3.16.1-1
 extra/gsm 1.0.13-8
 extra/gst-plugins-base 1.4.5-1
 extra/gst-plugins-base-libs 1.4.5-1
 extra/gstreamer 1.4.5-1
 extra/gtk-update-icon-cache 2.24.27-1
 extra/gtk2 2.24.27-1
-extra/gtk3 3.16.1-2
+extra/gtk3 3.16.2-1
 extra/gtkmm3 3.16.0-1
 extra/gtksourceview3 3.16.1-1
 community/gtksourceviewmm 3.2.0-4
@@ -164,7 +164,7 @@ extra/icon-naming-utils 0.8.90-3
 extra/icu 55.1-1
 extra/ifplugd 0.28-14
 extra/imagemagick 6.9.1.0-1
-extra/imlib2 1.4.6-3
+extra/imlib2 1.4.7-1
 core/inetutils 1.9.2-2 (base)
 extra/inputproto 2.3.1-1
 core/iproute2 3.19.0-1 (base)
@@ -179,8 +179,8 @@ extra/java-runtime-common 2-2
 community/jbig2dec 0.12-1
 core/jfsutils 1.1.15-4 (base)
 community/jq 1.4-1
-extra/jre7-openjdk 7.u75_2.5.4-1
-extra/jre7-openjdk-headless 7.u75_2.5.4-1
+extra/jre7-openjdk 7.u79_2.5.5-1
+extra/jre7-openjdk-headless 7.u79_2.5.5-1
 extra/js17 17.0.0-1
 extra/json-c 0.12-2
 extra/json-glib 1.0.2-1
@@ -190,7 +190,7 @@ extra/kbproto 1.0.6-2
 community/keepassx 0.4.3-6
 core/keyutils 1.5.9-1
 core/kmod 20-1
-community/kodi 14.2-2
+community/kodi 14.2-3
 core/krb5 1.13.1-1
 extra/lame 3.99.5-2
 extra/lcms 1.19-5
@@ -215,7 +215,7 @@ extra/libcdio 0.93-1
 extra/libcdio-paranoia 10.2+0.93+1-1
 extra/libcl 1.1-4
 extra/libcroco 0.6.8-2
-extra/libcups 2.0.2-3
+extra/libcups 2.0.2-4
 extra/libdaemon 0.14-3
 extra/libdatrie 0.2.8-1
 core/libdbus 1.8.16-2
@@ -255,7 +255,7 @@ extra/libmad 0.15.1b-7
 extra/libmariadbclient 10.0.17-2
 extra/libmatroska 1.4.2-1
 community/libmediainfo 0.7.73-1
-community/libmicrohttpd 0.9.39-1
+community/libmicrohttpd 0.9.39-2
 extra/libmikmod 3.3.7-1
 extra/libmm-glib 1.4.6-1
 extra/libmms 0.6.4-1
@@ -291,7 +291,7 @@ extra/libspiro 1:0.3.20150131-1
 extra/libssh 0.6.4-1
 core/libssh2 1.5.0-1
 extra/libstdc++5 3.3.6-5
-core/libsystemd 218-2
+core/libsystemd 219-6
 extra/libtar 1.2.20-2
 core/libtasn1 4.4-1
 extra/libthai 0.1.21-1
@@ -312,9 +312,9 @@ core/libutil-linux 2.26.1-3
 extra/libva 1.5.1-1
 extra/libvdpau 1.1-1
 extra/libvisual 0.4.0-5
-extra/libvorbis 1.3.4-1
-extra/libvpx 1.3.0-1
-extra/libwbclient 4.2.0-1
+extra/libvorbis 1.3.5-1
+extra/libvpx 1.4.0-2
+extra/libwbclient 4.2.0-2
 extra/libwebp 0.4.3-1
 extra/libx11 1.6.3-1
 extra/libx264 2:144.20150223-1
@@ -361,27 +361,27 @@ core/linux 3.19.3-3 (base)
 core/linux-api-headers 3.18.5-1
 core/linux-firmware 20150206.17657c3-1
 extra/lirc 1:0.9.2.a-1
-extra/llvm 3.6.0-4
-extra/llvm-libs 3.6.0-4
+extra/llvm 3.6.0-5
+extra/llvm-libs 3.6.0-5
 core/logrotate 3.8.9-1 (base)
 community/lsb-release 1.4-14
 extra/lua 5.2.4-1
 extra/lua-lgi 0.8.0-2
 core/lvm2 2.02.116-1 (base)
-community/lxdm 0.5.0-4 (lxde)
+community/lxdm 0.5.1-1 (lxde)
 core/lz4 128-1
 core/lzo 2.09-1
 core/m4 1.4.17-1 (base-devel)
 core/make 4.1-1 (base-devel)
 core/man-db 2.7.1-1 (base)
-core/man-pages 3.82-1 (base)
+core/man-pages 3.83-1 (base)
 community/mcomix 1.01-1
 extra/mcpp 2.7.2-5
 core/mdadm 3.3.2-1 (base)
 community/mediainfo 0.7.73-1
-extra/mesa 10.5.2-1
+extra/mesa 10.5.4-1
 extra/mesa-demos 8.2.0-4
-extra/mesa-libgl 10.5.2-1
+extra/mesa-libgl 10.5.4-1
 extra/mime-types 9-1
 local/minecraft latest-23
 extra/mirage 0.9.5.2-3
@@ -390,16 +390,16 @@ core/mkinitcpio-busybox 1.21.1-2
 extra/mozilla-common 1.4-4
 core/mpfr 3.1.2.p11-1
 extra/mpg123 1.22.1-1
-extra/mplayer 37379-1
+extra/mplayer 37379-3
 extra/mtdev 1.1.5-1
-community/mupdf 1.6-1
-core/nano 2.4.0-1 (base)
+community/mupdf 1.7-1
+core/nano 2.4.1-1 (base)
 core/ncurses 5.9-7
 community/nemiver 0.9.5-3
 core/net-tools 1.60.20130531git-1
 core/netctl 1.10-1 (base)
-core/nettle 2.7.1-1
-community/nodejs 0.12.2-2
+core/nettle 3.1-1
+community/nodejs 0.12.2-3
 local/nodejs-bower 1.4.1-1
 local/nodejs-browserify 4.1.11-1
 local/nodejs-gulp 3.8.11-1
@@ -419,7 +419,7 @@ extra/opus 1.1-1
 extra/orc 0.4.23-1
 local/otf-source-code-pro-powerline-git 1.017-3
 core/p11-kit 0.23.1-2
-extra/p7zip 9.38.1-2
+extra/p7zip 9.38.1-3
 local/package-query 1.5-2
 core/pacman 4.2.1-1 (base base-devel)
 core/pacman-mirrorlist 20150315-1
@@ -442,7 +442,7 @@ extra/perl-xml-sax 0.99-4
 extra/perl-xml-sax-base 1.08-3
 community/perl-xml-sax-expat 0.51-3
 extra/perl-xml-simple 2.20-3
-extra/php 5.6.7-2
+extra/php 5.6.8-2
 core/pinentry 0.9.0-1
 extra/pixman 0.32.6-1
 core/pkg-config 0.28-2 (base-devel)
@@ -460,14 +460,14 @@ extra/pygtk 2.24.0-5
 extra/python 3.4.3-2
 community/python-cairocffi 0.6-2
 extra/python-cffi 0.9.2-2
-community/python-html2text 2015.2.18-1
-extra/python-ply 3.4-4
+community/python-html2text 2015.4.14-1
+extra/python-ply 3.5-1
 community/python-pudb 2014.1-1
-extra/python-pycparser 2.10-4
+extra/python-pycparser 2.12-1
 community/python-pygments 2.0.2-2
-extra/python-setuptools 1:15.0-1
+extra/python-setuptools 1:15.1-1
 community/python-six 1.9.0-1
-community/python-stevedore 1.3.0-1
+community/python-stevedore 1.4.0-1
 extra/python-urwid 1.3.0-2
 extra/python-virtualenv 12.1.1-1
 community/python-virtualenv-clone 0.2.5-1
@@ -492,12 +492,12 @@ extra/python2-notify 0.1.1-13
 community/python2-paramiko 1.15.2-1
 community/python2-pillow 2.8.1-1
 extra/python2-pip 6.1.1-1
-extra/python2-ply 3.4-4
+extra/python2-ply 3.5-1
 community/python2-pudb 2014.1-1
 community/python2-pybluez 0.20-3
-extra/python2-pycparser 2.10-4
+extra/python2-pycparser 2.12-1
 community/python2-pygments 2.0.2-2
-extra/python2-setuptools 1:15.0-1
+extra/python2-setuptools 1:15.1-1
 community/python2-simplejson 3.6.5-2
 community/python2-six 1.9.0-1
 community/python2-tornado 4.1.0-2
@@ -519,7 +519,7 @@ extra/qtchooser 48-1
 local/qtile 0.9.1-2
 community/racket 6.1.1-2
 extra/randrproto 1.4.1-1
-community/ranger 1.6.1-2
+community/ranger 1.7.0-1
 core/readline 6.3.006-1
 extra/recode 3.6-8
 extra/recordproto 1.14.2-2
@@ -528,7 +528,7 @@ core/reiserfsprogs 3.6.24-1 (base)
 extra/renderproto 0.11.1-3
 extra/rest 0.7.93-1
 extra/rtmpdump 20140918-2
-extra/ruby 2.2.1-1
+extra/ruby 2.2.2-1
 local/ruby-bundler 1.9.2-1
 local/ruby-compass 1.0.3-1
 local/ruby-mixlib-shellout 2.0.0-1
@@ -547,7 +547,7 @@ extra/shared-mime-info 1.4-1
 community/shedskin 0.9.4-1
 extra/slang 2.3.0-1
 extra/slim 1.3.6-5
-extra/smbclient 4.2.0-1
+extra/smbclient 4.2.0-2
 extra/smpeg 0.4.5-1
 extra/snappy 1.1.1-1
 community/snes9x 1.53-8
@@ -555,14 +555,14 @@ community/snes9x-gtk 1.53-8
 extra/speech-dispatcher 0.8.1-1
 extra/speex 1.2rc2-1
 extra/speexdsp 1.2rc3-1
-core/sqlite 3.8.8.3-1
+core/sqlite 3.8.9-1
 community/sshfs 2.5-1
 extra/startup-notification 0.12-4
 local/sublime-text-dev 3.3083-2
 core/sudo 1.8.13-1 (base-devel)
 core/sysfsutils 2.1.0-9 (base)
-core/systemd 218-2
-core/systemd-sysvcompat 218-2 (base)
+core/systemd 219-6
+core/systemd-sysvcompat 219-6 (base)
 extra/taglib 1.9.1-1
 extra/talloc 2.1.1-1
 core/tar 1.28-1 (base)
@@ -573,7 +573,7 @@ local/termrec 0.17-1
 extra/tevent 0.9.24-1
 core/texinfo 5.2-3 (base base-devel)
 core/thin-provisioning-tools 0.4.1-1
-community/tig 2.1-1
+community/tig 2.1.1-1
 community/tinyxml 2.6.2-3
 extra/tk 8.6.4-1
 community/tmux 1.9_a-2
@@ -585,9 +585,9 @@ local/ttf-mac-fonts 1-7
 local/ttf-microsoft-consolas 5.33-1
 local/ttf-ms-fonts 2.0-10
 local/ttyrec 1.0.8-2
-core/tzdata 2015b-1
+core/tzdata 2015c-1
 community/udevil 0.4.3-1
-extra/unrar 1:5.2.6-1
+extra/unrar 1:5.2.7-1
 extra/unzip 6.0-10
 core/usbutils 008-1 (base)
 core/util-linux 2.26.1-3 (base base-devel)
@@ -600,18 +600,18 @@ community/vicious 2.1.3-1
 extra/videoproto 2.3.2-1
 local/vim-molokai 1.1-3
 extra/vim-runtime 7.4.663-2
-community/virtualbox 4.3.26-2
+community/virtualbox 4.3.26-3
 community/virtualbox-host-modules 4.3.26-5
-extra/vlc 2.2.0-2
+extra/vlc 2.2.1-2
 extra/vte 0.28.2-5
-extra/vte-common 0.40.0-1
-extra/vte3 0.40.0-1
+extra/vte-common 0.40.0-2
+extra/vte3 0.40.0-2
 extra/wayland 1.7.0-1
 extra/wget 1.16.3-1
 core/which 2.21-1 (base base-devel)
 core/wireless_tools 30.pre9-1
 core/wpa_actiond 1.4-2
-core/wpa_supplicant 2.3-1
+core/wpa_supplicant 2.4-1
 extra/x264 2:144.20150223-1
 extra/x265 1.6-1
 extra/xbitmaps 1.1.1-3
@@ -627,7 +627,7 @@ extra/xdg-utils 1.1.0.git20150323-1
 extra/xextproto 7.3.0-1
 extra/xf86-input-evdev 2.9.2-1 (xorg-drivers xorg)
 extra/xf86-input-synaptics 1.8.2-2 (xorg-drivers xorg)
-extra/xf86-video-intel 2.99.917-4 (xorg-drivers xorg)
+extra/xf86-video-intel 2.99.917-5 (xorg-drivers xorg)
 extra/xf86-video-vesa 2.3.2-6 (xorg-drivers xorg)
 extra/xf86dgaproto 2.1-3
 extra/xf86vidmodeproto 2.3.1-3
@@ -644,24 +644,24 @@ extra/xorg-iceauth 1.0.7-1 (xorg-apps xorg)
 extra/xorg-luit 1.1.1-2 (xorg xorg-apps)
 extra/xorg-mkfontdir 1.0.7-2 (xorg xorg-apps)
 extra/xorg-mkfontscale 1.1.2-1 (xorg-apps xorg)
-extra/xorg-server 1.17.1-4 (xorg)
-extra/xorg-server-common 1.17.1-4
+extra/xorg-server 1.17.1-5 (xorg)
+extra/xorg-server-common 1.17.1-5
 extra/xorg-server-utils 7.6-4
 extra/xorg-sessreg 1.1.0-1 (xorg-apps xorg)
-extra/xorg-setxkbmap 1.3.0-2 (xorg-apps xorg)
-extra/xorg-twm 1.0.8-3
+extra/xorg-setxkbmap 1.3.1-1 (xorg-apps xorg)
+extra/xorg-twm 1.0.9-1
 extra/xorg-xauth 1.0.9-1 (xorg-apps xorg)
 extra/xorg-xbacklight 1.2.1-1 (xorg-apps xorg)
 extra/xorg-xclock 1.0.7-1
-extra/xorg-xcmsdb 1.0.4-2 (xorg-apps xorg)
-extra/xorg-xdpyinfo 1.3.1-1 (xorg-apps xorg)
-extra/xorg-xgamma 1.0.5-2 (xorg-apps xorg)
-extra/xorg-xhost 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xcmsdb 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xdpyinfo 1.3.2-1 (xorg-apps xorg)
+extra/xorg-xgamma 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xhost 1.0.7-1 (xorg-apps xorg)
 extra/xorg-xinit 1.3.4-2
 extra/xorg-xinput 1.6.1-1 (xorg-apps xorg)
 extra/xorg-xkbcomp 1.3.0-1 (xorg-apps xorg)
 extra/xorg-xmessage 1.0.4-2
-extra/xorg-xmodmap 1.0.8-1 (xorg-apps xorg)
+extra/xorg-xmodmap 1.0.9-1 (xorg-apps xorg)
 local/xorg-xpyb-git 20120808-3
 extra/xorg-xrandr 1.4.3-1 (xorg-apps xorg)
 extra/xorg-xrdb 1.1.0-1 (xorg-apps xorg)
@@ -669,12 +669,12 @@ extra/xorg-xrefresh 1.0.5-1 (xorg-apps xorg)
 extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
 extra/xorg-xsetroot 1.1.1-2 (xorg-apps xorg)
 extra/xproto 7.0.27-1
-extra/xterm 317-1
+extra/xterm 318-1
 extra/xvidcore 1.3.3-1
 core/xz 5.2.1-1
 extra/yajl 2.1.0-1
 local/yaourt 1.5-1
-local/zeal-git 0.0.0.837.ad685b7-1
+local/zeal-git 0.1.1.3.g32b059e-1
 community/zeromq 4.0.5-1
 extra/zita-alsa-pcmi 0.2.0-2
 extra/zita-resampler 1.3.0-3
