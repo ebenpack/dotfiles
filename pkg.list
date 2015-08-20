@@ -103,7 +103,7 @@ extra/gconf 3.2.6-3
 extra/gd 2.1.1-2
 extra/gdb 7.9.1-1
 core/gdbm 1.11-1
-extra/gdk-pixbuf2 2.31.5-1
+extra/gdk-pixbuf2 2.31.6-1
 extra/gdl 3.16.0-1
 community/gdlmm 3.7.3-1
 community/gens-gs 2.16.7-5
@@ -126,12 +126,12 @@ core/gmp 6.0.0-2
 extra/gnome-icon-theme 3.12.0-3
 extra/gnome-icon-theme-symbolic 3.12.0-3
 core/gnupg 2.1.7-1
-core/gnutls 3.4.3-1
+core/gnutls 3.4.4.1-1
 community/go 2:1.4.2-2
 extra/gobject-introspection 1.44.0-1
 extra/gobject-introspection-runtime 1.44.0-1
 local/google-chrome 44.0.2403.155-1
-local/google-chrome-beta 44.0.2403.89-1
+local/google-chrome-beta 45.0.2454.46-1
 local/google-talkplugin 5.41.0.0-3
 core/gpgme 1.5.5-1
 core/gpm 1.20.7-4
@@ -195,7 +195,7 @@ core/keyutils 1.5.9-1
 core/kmod 21-1
 community/kodi 15.1-1
 core/krb5 1.13.2-1
-extra/l-smash 2.3.0-2
+extra/l-smash 2.9.1-1
 extra/lame 3.99.5-2
 extra/lcms 1.19-5
 extra/lcms2 2.7-1
@@ -280,7 +280,7 @@ extra/libpaper 1.1.24-8
 core/libpcap 1.7.4-1
 extra/libpciaccess 0.13.4-1
 community/libpgm 5.2.122-2
-core/libpipeline 1.4.0-1
+core/libpipeline 1.4.1-1
 extra/libpng 1.6.18-1
 extra/libproxy 0.4.11-6
 extra/libpulse 6.0-2
@@ -382,7 +382,7 @@ core/lz4 131-1
 core/lzo 2.09-1
 core/m4 1.4.17-1 (base-devel)
 core/make 4.1-1 (base-devel)
-core/man-db 2.7.1-1 (base)
+core/man-db 2.7.2-1 (base)
 core/man-pages 4.02-1 (base)
 community/mcomix 1.01-1
 extra/mcpp 2.7.2-5
@@ -457,11 +457,11 @@ extra/php 5.6.12-1
 core/pinentry 0.9.5-1
 extra/pixman 0.32.6-1
 core/pkg-config 0.28-2 (base-devel)
-extra/polkit 0.112-4
+extra/polkit 0.113-2
 extra/poppler 0.33.0-1
 core/popt 1.16-7
 extra/printproto 1.0.5-3
-core/procps-ng 3.3.10-2 (base)
+core/procps-ng 3.3.11-1 (base)
 core/psmisc 22.21-2 (base)
 core/pth 2.0.7-5
 local/pycairo-xcb-git 20120807-1
@@ -476,7 +476,7 @@ extra/python-ply 3.6-1
 community/python-pudb 2014.1-1
 extra/python-pycparser 2.14-1
 community/python-pygments 2.0.2-2
-extra/python-setuptools 1:18.1-2
+extra/python-setuptools 1:18.2-1
 community/python-six 1.9.0-1
 community/python-stevedore 1.7.0-1
 extra/python-urwid 1.3.0-2
@@ -509,7 +509,7 @@ community/python2-pudb 2014.1-1
 community/python2-pybluez 0.20-3
 extra/python2-pycparser 2.14-1
 community/python2-pygments 2.0.2-2
-extra/python2-setuptools 1:18.1-2
+extra/python2-setuptools 1:18.2-1
 community/python2-simplejson 3.7.2-1
 community/python2-six 1.9.0-1
 community/python2-tornado 4.2.1-1
