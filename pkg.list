@@ -24,7 +24,7 @@ core/binutils 2.25.1-3 (base-devel)
 core/bison 3.0.4-1 (base-devel)
 extra/bluez-libs 5.34-2
 local/brightd 0.4.1-3
-local/byobu 5.94-1
+local/byobu 5.97-1
 core/bzip2 1.0.6-5 (base)
 core/ca-certificates 20150402-1
 core/ca-certificates-cacert 20140824-2
