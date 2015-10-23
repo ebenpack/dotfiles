@@ -288,6 +288,7 @@ extra/libpulse 7.0-2
 extra/librsvg 1:2.40.9-2
 extra/libsamplerate 0.1.8-3
 core/libsasl 2.1.26-7
+community/libsass 3.2.5-1
 core/libseccomp 2.2.3-1
 extra/libshout 1:2.3.1-2
 extra/libsigc++ 2.4.1-1
@@ -551,6 +552,7 @@ local/ruby-compass 1.0.3-2
 local/ruby-mixlib-shellout 2.1.0-1
 core/run-parts 4.5.1-1
 core/s-nail 14.8.5-1 (base)
+community/sassc 3.2.5-1
 extra/schroedinger 1.0.11-2
 extra/scrnsaverproto 1.2.2-2
 community/scrot 0.8.13-1
