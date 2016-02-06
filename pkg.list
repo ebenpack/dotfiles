@@ -456,7 +456,7 @@ extra/orc 0.4.24-1
 local/otf-source-code-pro-powerline-git 1.017-3
 core/p11-kit 0.23.2-1
 extra/p7zip 9.38.1-4
-local/package-query 1.7-1
+local/package-query 1.7-2
 core/pacman 4.2.1-4 (base base-devel)
 core/pacman-mirrorlist 20160124-1
 core/pam 1.2.1-3
