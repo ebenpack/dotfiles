@@ -443,6 +443,7 @@ extra/nss-mdns 0.10-6
 extra/ntp 4.2.8.p6-1
 extra/ocl-icd 2.2.8-1
 community/oniguruma 5.9.6-1
+extra/openal 1.17.1-1
 extra/opencore-amr 0.1.3-2
 extra/openjpeg 1.5.2-1
 community/openjpeg2 2.1.0-1
@@ -484,6 +485,7 @@ core/pkg-config 0.29-1 (base-devel)
 extra/polkit 0.113-4
 extra/poppler 0.39.0-1
 core/popt 1.16-7
+community/premake 4.3-4
 extra/printproto 1.0.5-3
 core/procps-ng 3.3.11-2 (base)
 core/psmisc 22.21-3 (base)
@@ -588,6 +590,7 @@ community/scrot 0.8.13-1
 extra/sdl 1.2.15-7
 extra/sdl2 2.0.4-2
 extra/sdl2_image 2.0.1-1
+extra/sdl2_ttf 2.0.13-1
 extra/sdl_image 1.2.12-3
 extra/sdl_mixer 1.2.12-4
 core/sed 4.2.2-3 (base base-devel)
@@ -627,6 +630,7 @@ community/tig 2.1.1-2
 community/tinyxml 2.6.2-4
 extra/tk 8.6.4-1
 community/tmux 2.1-1
+local/tome4 1.4.1-1
 core/traceroute 2.0.21-1
 extra/transmission-gtk 2.84-2
 extra/ttf-dejavu 2.34-2
@@ -733,6 +737,7 @@ extra/yajl 2.1.0-1
 local/yaourt 1.7-1
 local/zeal-git 0.2.1.12.ge90fdd1-1
 community/zeromq 4.1.3-4
+extra/zip 3.0-7
 extra/zita-alsa-pcmi 0.2.0-3
 extra/zita-resampler 1.3.0-5
 core/zlib 1.2.8-4
