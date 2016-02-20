@@ -21,8 +21,8 @@ export EDITOR=vim
 export VISUAL=vim
 export PAGER=less
 
-export WORKON_HOME=~/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
+#export WORKON_HOME=~/.virtualenvs
+#source /usr/bin/virtualenvwrapper.sh
 
 alias update='$HOME/.local/bin/update.sh'
 alias truecrypt="__tc"
@@ -34,4 +34,4 @@ alias gs='git status'
 alias gl='git log'
 alias gca='git commit -a'
 
-
+PATH=$PATH:~/.node_modules/bin
