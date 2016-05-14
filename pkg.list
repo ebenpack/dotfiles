@@ -162,7 +162,7 @@ core/libassuan 2.4.2-2
 extra/libasyncns 0.8-5
 extra/libatomic_ops 7.4.2-1
 extra/libavc1394 0.5.4-2
-extra/libbluray 0.9.2-1
+extra/libbluray 0.9.2-2
 extra/libbsd 0.8.3-1
 core/libcap 2.25-1
 extra/libcap-ng 0.7.7-1
