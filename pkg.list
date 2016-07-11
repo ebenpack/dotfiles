@@ -297,6 +297,7 @@ extra/libxv 1.0.10-1
 extra/libxvmc 1.0.9-1
 extra/libxxf86dga 1.1.4-1
 extra/libxxf86vm 1.1.4-1
+extra/libzip 1.1.2-1
 core/licenses 20140629-1 (base)
 local/linkchecker 9.3-2
 core/linux 4.6.3-1 (base)
@@ -362,6 +363,7 @@ extra/perl-xml-parser 2.44-3
 extra/perl-xml-sax 0.99-4
 extra/perl-xml-sax-base 1.08-3
 community/perl-xml-sax-expat 0.51-4
+extra/php 7.0.8-1
 core/pinentry 0.9.7-2
 extra/pixman 0.34.0-1
 core/pkg-config 0.29.1-1 (base-devel)
