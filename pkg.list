@@ -364,6 +364,7 @@ extra/perl-xml-sax 0.99-4
 extra/perl-xml-sax-base 1.08-3
 community/perl-xml-sax-expat 0.51-4
 extra/php 7.0.8-1
+local/phpstorm 2016.1.2-1
 core/pinentry 0.9.7-2
 extra/pixman 0.34.0-1
 core/pkg-config 0.29.1-1 (base-devel)
