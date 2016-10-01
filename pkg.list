@@ -8,6 +8,7 @@ extra/alsa-utils 1.1.2-1
 extra/apache-ant 1.9.7-1
 local/apache-spark 1.6.2-1
 core/archlinux-keyring 20160812-1
+community/arpack 3.4.0-1
 extra/at-spi2-atk 2.20.1-2
 extra/at-spi2-core 2.20.2-1
 extra/atk 2.20.0-1
@@ -68,6 +69,7 @@ extra/firefox 48.0.2-1
 extra/fixesproto 5.0-3
 extra/flac 1.3.1-3
 core/flex 2.6.1-1 (base-devel)
+extra/fltk 1.3.3-6
 local/fontconfig-infinality 2.11.95-1 (infinality-bundle)
 extra/fontsproto 2.1.3-1
 local/freetype2-infinality 2.6.3-2 (infinality-bundle)
@@ -81,11 +83,15 @@ core/gdbm 1.12-2
 extra/gdk-pixbuf2 2.34.0-2
 extra/geoclue2 2.4.4-1
 core/gettext 0.19.8.1-2 (base base-devel)
+extra/ghostscript 9.19-3
 extra/giflib 5.1.4-1
 extra/git 2.10.0-1
+extra/gl2ps 1.3.9-1
 extra/glib-networking 2.48.2-1
 core/glib2 2.48.2-1
 core/glibc 2.24-2 (base)
+extra/glpk 4.60-1
+extra/glu 9.0.0-4
 core/gmp 6.1.1-1
 extra/gnome-themes-standard 3.20.2-1 (gnome)
 core/gnupg 2.1.15-1
@@ -95,6 +101,7 @@ local/google-chrome-beta 54.0.2840.27-1
 local/google-talkplugin 5.41.0.0-3
 core/gpgme 1.6.0-3
 core/gpm 1.20.7-7
+extra/graphicsmagick 1.3.25-1
 extra/graphite 1:1.3.8-1
 core/grep 2.25-2 (base base-devel)
 core/groff 1.22.3-7 (base-devel)
@@ -110,14 +117,18 @@ extra/harfbuzz 1.3.1-1
 extra/harfbuzz-icu 1.3.1-1
 extra/hdf5 1.10.0_patch1-1
 extra/hicolor-icon-theme 0.15-1
+extra/htop 2.0.2-1
 community/http-parser 2.7.1-1
 extra/hunspell 1.4.1-1
 core/hwids 20160801-1
+extra/hwloc 1.11.4-1
 core/iana-etc 20160513-1
 extra/icu 57.1-1
+extra/ifplugd 0.28-14
 extra/imlib2 1.4.9-1
 core/inetutils 1.9.4-4 (base)
 extra/inputproto 2.3.2-1
+extra/intel-tbb 4.4_20160526-2
 extra/intel-ucode 20160714-1
 community/intellij-idea-community-edition 2:2016.2.4-1
 community/intellij-idea-libs 2:2016.2.4-1
@@ -141,6 +152,7 @@ extra/json-glib 1.2.2-1
 core/kbd 2.0.3-1
 extra/kbproto 1.0.7-1
 community/keepassx2 2.0.2-2
+extra/keychain 2.8.3-1
 core/keyutils 1.5.9-1
 core/kmod 23-1
 core/krb5 1.13.4-1
@@ -206,6 +218,7 @@ extra/libnm-glib 1.4.1dev+33+gc87b89b-1
 extra/libnotify 0.7.6-2
 extra/libogg 1.3.2-1
 extra/libomxil-bellagio 0.9.3-1
+extra/libpaper 1.1.24-9
 extra/libpciaccess 0.13.4-1
 core/libpipeline 1.4.1-1
 extra/libpng 1.6.25-1
@@ -279,7 +292,7 @@ extra/libxxf86vm 1.1.4-1
 core/licenses 20140629-1 (base)
 core/linux 4.7.4-1 (base)
 core/linux-api-headers 4.7-1
-core/linux-firmware 20160730.6bc2c60-1
+core/linux-firmware 20160915.c4c07a8-1
 extra/llvm-libs 3.8.1-1
 core/logrotate 3.10.0-1 (base)
 community/lsb-release 1.4-14
@@ -309,14 +322,19 @@ core/netctl 1.12-2 (base)
 core/nettle 3.2-2
 community/nodejs 6.6.0-1
 extra/noto-fonts 20160613-1
+extra/noto-fonts-emoji 20160714-1
 community/npm 3.10.7-1
 core/npth 1.2-1
 core/nspr 4.12-1
 core/nss 3.26-1
+extra/numactl 2.0.11-1
+local/nvm 0.32.0-1
+extra/octave 4.0.3-1
 local/oh-my-zsh-git r4128.f39dcfd-1
 local/oh-my-zsh-powerline-theme-git r80.80d72a5-1
 extra/opencore-amr 0.1.3-2
 extra/openjpeg 1.5.2-1
+extra/openmpi 1.10.4-1
 core/openresolv 3.8.1-1
 core/openssh 7.3p1-1
 core/openssl 1.0.2.h-1
@@ -371,6 +389,8 @@ extra/python2-gobject2 2.28.6-12
 community/python2-keybinder2 0.3.1-1
 extra/python2-notify 0.1.1-13
 extra/python2-virtualenv 15.0.3-1
+extra/qhull 2015.2-1
+extra/qscintilla-qt4 2.9.2-1
 extra/qt4 4.8.7-9
 extra/r 3.3.1-2
 extra/randrproto 1.5.0-1
@@ -382,6 +402,7 @@ core/reiserfsprogs 3.6.25-1 (base)
 extra/renderproto 0.11.1-3
 extra/rest 0.8.0-1
 extra/rtkit 0.11-5
+core/run-parts 4.7-1
 core/s-nail 14.8.10-1 (base)
 extra/sbc 1.3-1
 community/scala 2.11.8-1
@@ -401,6 +422,7 @@ core/sqlite 3.14.2-1
 extra/startup-notification 0.12-4
 local/sublime-text-dev 3.3114-1
 core/sudo 1.8.17.p1-1 (base-devel)
+extra/suitesparse 4.4.5-1
 core/sysfsutils 2.1.0-9 (base)
 core/systemd 231-1
 core/systemd-sysvcompat 231-1 (base)
@@ -433,6 +455,7 @@ extra/webrtc-audio-processing 0.3-1
 local/webstorm 2016.2.3-1
 core/which 2.21-2 (base base-devel)
 core/wireless_tools 30.pre9-1
+core/wpa_actiond 1.4-2
 core/wpa_supplicant 1:2.5-3
 extra/x265 2.0-1
 extra/xcb-proto 1.12-2
@@ -465,6 +488,7 @@ extra/xorg-server-common 1.18.4-1 (xorg)
 extra/xorg-setxkbmap 1.3.1-1 (xorg-apps xorg)
 extra/xorg-xkbcomp 1.3.1-1 (xorg-apps xorg)
 extra/xorg-xmessage 1.0.4-2
+extra/xorg-xrandr 1.5.0-1 (xorg-apps xorg)
 extra/xorg-xrdb 1.1.0-2 (xorg-apps xorg)
 extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
 extra/xproto 7.0.29-1

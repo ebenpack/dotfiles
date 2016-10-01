@@ -66,8 +66,8 @@ alignment top_right
 #alignment bottom_right
  
 # Gap between borders of screen and text
-gap_x 10
-gap_y 10
+gap_x 30
+gap_y 30
  
 # stuff after 'TEXT' will be formatted on screen
  
@@ -97,8 +97,8 @@ Root:  ${fs_free_perc /}%   ${fs_bar 6 /}$color
 hda1:  ${fs_free_perc /media/sda1}%   ${fs_bar 6 /media/sda1}$color
  
 ${color orange}BATTERY ${hr 2}$color
-Battery: ${battery BAT1} ${battery_time BAT1}
-${battery_bar BAT1}
+Battery: ${battery BAT0} ${battery_time BAT0}
+${battery_bar BAT0}
  
 #
 #

@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 autoload -Uz promptinit
 promptinit
 
+eval $(keychain --eval --quiet github)
+
 export TERM=xterm-256color
 export EDITOR=vim
 export VISUAL=vim
@@ -101,3 +103,4 @@ export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
 
 alias update='$HOME/.local/bin/update.sh'
+source /usr/share/nvm/init-nvm.sh

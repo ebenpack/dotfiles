@@ -111,15 +111,15 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 
 -- {{{ Wibox
 -- Create a textclock widget
-mytextclock = awful.widget.textclock("%a %b %d, %I:%M %p ")
+mytextclock = awful.widget.textclock(" %a %b %d, %I:%M %p ")
 
 -- -- Register battery widget
 batt = wibox.widget.textbox()
-vicious.register(batt, vicious.widgets.bat, "Batt: $2% Rem: $3", 61, "BAT1")
+vicious.register(batt, vicious.widgets.bat, " ⚡$2%:$3 ", 61, "BAT0")
 
 -- -- Register volume widget
--- volumewidget = wibox.widget.textbox()
--- vicious.register(volumewidget, vicious.widgets.volume)
+volwidget = wibox.widget.textbox()
+vicious.register(volwidget, vicious.widgets.volume, "🔊$1% ", 2, "PCM")
 
 -- Create a wibox for each screen and add it
 mywibox = {}
@@ -180,6 +180,7 @@ for s = 1, screen.count() do
                            awful.button({ }, 3, function () awful.layout.inc(layouts, -1) end),
                            awful.button({ }, 4, function () awful.layout.inc(layouts, 1) end),
                            awful.button({ }, 5, function () awful.layout.inc(layouts, -1) end)))
+
     -- Create a taglist widget
     mytaglist[s] = awful.widget.taglist(s, awful.widget.taglist.filter.all, mytaglist.buttons)
 
@@ -187,7 +188,11 @@ for s = 1, screen.count() do
     mytasklist[s] = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, mytasklist.buttons)
 
     -- Create the wibox
-    mywibox[s] = awful.wibox({ position = "top", screen = s })
+    mywibox[s] = awful.wibox({
+        height = 30,
+        position = "top",
+        screen = s
+    })
 
     -- Widgets that are aligned to the left
     local left_layout = wibox.layout.fixed.horizontal()
@@ -199,6 +204,9 @@ for s = 1, screen.count() do
     -- Widgets that are aligned to the right
     local right_layout = wibox.layout.fixed.horizontal()
     if s == 1 then right_layout:add(wibox.widget.systray()) end
+
+    right_layout:add(volwidget)
+    right_layout:add(batt)
     right_layout:add(mytextclock)
     right_layout:add(mylayoutbox[s])
     right_layout:add(baticon)
@@ -255,7 +263,7 @@ globalkeys = awful.util.table.join(
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
-    awful.key({ modkey, "Shift" }, "r", awesome.restart),
+    awful.key({ modkey, "Shift"   }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)    end),
@@ -280,7 +288,15 @@ globalkeys = awful.util.table.join(
                   awful.util.getdir("cache") .. "/history_eval")
               end),
     -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end)
+    awful.key({ modkey }, "p", function() menubar.show() end),
+
+   awful.key({ }, "XF86AudioRaiseVolume", function ()
+       awful.util.spawn("amixer set Master 9%+", false) end),
+   awful.key({ }, "XF86AudioLowerVolume", function ()
+       awful.util.spawn("amixer set Master 9%-", false) end),
+   awful.key({ }, "XF86AudioMute", function ()
+       awful.util.spawn("amixer set Master toggle", false) end)
+
 )
 
 clientkeys = awful.util.table.join(
@@ -445,6 +461,7 @@ end
 
 
 run_once("conky")
+run_once("dropbox")
 run_once("redshift -l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
