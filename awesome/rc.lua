@@ -115,7 +115,7 @@ mytextclock = awful.widget.textclock(" %a %b %d, %I:%M %p ")
 
 -- -- Register battery widget
 batt = wibox.widget.textbox()
-vicious.register(batt, vicious.widgets.bat, " ⚡$2%:$3 ", 61, "BAT0")
+vicious.register(batt, vicious.widgets.bat, "🔋$2%:$3 ", 61, "BAT0")
 
 -- -- Register volume widget
 volwidget = wibox.widget.textbox()
