@@ -97,8 +97,8 @@ Root:  ${fs_free_perc /}%   ${fs_bar 6 /}$color
 hda1:  ${fs_free_perc /media/sda1}%   ${fs_bar 6 /media/sda1}$color
  
 ${color orange}BATTERY ${hr 2}$color
-Battery: ${battery BAT0} ${battery_time BAT0}
-${battery_bar BAT0}
+Battery: ${battery BAT1} ${battery_time BAT1}
+${battery_bar BAT1}
  
 #
 #

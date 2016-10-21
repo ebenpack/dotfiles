@@ -115,7 +115,7 @@ mytextclock = awful.widget.textclock(" %a %b %d, %I:%M %p ")
 
 -- -- Register battery widget
 batt = wibox.widget.textbox()
-vicious.register(batt, vicious.widgets.bat, "🔋$2%:$3 ", 61, "BAT0")
+vicious.register(batt, vicious.widgets.bat, "🔋$2%:$3 ", 61, "BAT1")
 
 -- -- Register volume widget
 volwidget = wibox.widget.textbox()
@@ -455,14 +455,16 @@ client.connect_signal("manage", function (c, startup)
     end
 end)
 
-function run_once(prg)
-  awful.util.spawn_with_shell("pgrep -u $USER -x " .. prg .. " || (" .. prg .. ")")
+function run_once(prg, args)
+  args = args or ""
+  awful.util.spawn_with_shell("pgrep " .. prg .. " > /dev/null || (" .. prg .. " " .. args .. " &)")
 end
 
 
 run_once("conky")
 run_once("dropbox")
-run_once("redshift -l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
+run_once("redshift", "-l 44.6:-68.37 -t 5700:3600 -g 0.8 -m randr")
+-- run_once("compton", "-b --backend glx --paint-on-overlay --vsync opengl-swc --glx-no-stencil")
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
