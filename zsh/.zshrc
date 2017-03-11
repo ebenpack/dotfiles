@@ -99,6 +99,8 @@ export TERM=xterm-256color
 export EDITOR=vim
 export VISUAL=vim
 export PAGER=less
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv3
 export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
 
