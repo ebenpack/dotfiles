@@ -13,7 +13,7 @@ core/archlinux-keyring 20170104-1
 community/arpack 3.4.0-1
 extra/at-spi2-atk 2.22.0-1
 extra/at-spi2-core 2.22.0-1
-extra/atk 2.22+1+gd57f97d-1
+extra/atk 2.24.0-1
 core/attr 2.4.47-2
 core/autoconf 2.69-4 (base-devel)
 core/automake 1.15-2 (base-devel)
@@ -28,13 +28,13 @@ extra/blas 3.7.0-1
 local/bullet-train-oh-my-zsh-theme-git v0.0.5.r176.g7ae1dc0-1
 core/bzip2 1.0.6-6 (base)
 extra/c-ares 1.12.0-1
-core/ca-certificates 20160507-1
+core/ca-certificates 20170307-1
 core/ca-certificates-cacert 20140824-4
-core/ca-certificates-mozilla 3.29.1-1
-core/ca-certificates-utils 20160507-1
+core/ca-certificates-mozilla 3.29.3-2
+core/ca-certificates-utils 20170307-1
 extra/cairo 1.14.8-1
 extra/cantarell-fonts 1:0.0.25-3
-extra/cifs-utils 6.7-1
+extra/cifs-utils 6.7-2
 extra/colord 1.3.4-1
 extra/compositeproto 0.4.2-3
 community/compton 0.1_beta2.5-4
@@ -42,7 +42,7 @@ community/confuse 3.0-1
 extra/conky 1.10.6-1
 core/coreutils 8.26-1 (base)
 core/cracklib 2.9.6-1
-core/cryptsetup 1.7.3-1 (base)
+core/cryptsetup 1.7.4-1 (base)
 core/curl 7.53.1-1
 extra/damageproto 1.2.1-3
 core/db 5.3.28-3
@@ -61,7 +61,7 @@ community/docbook2x 0.8.8-15
 extra/dotconf 1.3-4
 local/dropbox 21.4.25-1
 core/e2fsprogs 1.43.4-1 (base)
-core/efivar 30-1
+core/efivar 31-1
 core/elfutils 0.168-1
 extra/enca 1.19-1
 core/expat 2.2.0-2
@@ -74,10 +74,10 @@ extra/fftw 3.3.6-1
 core/file 5.30-1 (base base-devel)
 core/filesystem 2016.12-2 (base)
 core/findutils 4.6.0-2 (base base-devel)
-extra/firefox 52.0-2
+extra/firefox 52.0.1-1
 extra/fixesproto 5.0+9+g4292ec1-1
 extra/flac 1.3.2-1
-core/flex 2.6.3-1 (base-devel)
+core/flex 2.6.3-2 (base-devel)
 extra/fltk 1.3.4-1
 extra/fontconfig 2.12.1-4
 extra/fontsproto 2.1.3-1
@@ -92,7 +92,7 @@ core/gdbm 1.12-2
 extra/gdk-pixbuf2 2.36.5-1
 extra/geoclue2 2.4.5-1
 core/gettext 0.19.8.1-2 (base base-devel)
-extra/ghostscript 9.20-4
+extra/ghostscript 9.21-1
 extra/giflib 5.1.4-1
 extra/git 2.12.0-1
 extra/gl2ps 1.3.9-1
@@ -110,7 +110,7 @@ extra/go 2:1.8-1
 extra/gobject-introspection-runtime 1.50.0+1+gb8d92b0-2
 local/google-chrome-beta 57.0.2987.98-1
 local/google-talkplugin 5.41.3.0-1
-core/gpgme 1.8.0-1
+core/gpgme 1.8.0-2
 core/gpm 1.20.7-7
 local/gputest 0.7.0-1
 extra/graphicsmagick 1.3.25-4
@@ -121,9 +121,9 @@ extra/gsettings-desktop-schemas 3.22.0+1+g6f52ab5-1
 extra/gsm 1.0.16-1
 extra/gst-plugins-base-libs 1.10.4-1
 extra/gstreamer 1.10.4-1
-extra/gtk-update-icon-cache 3.22.9+2+gaebe3a74ec-1
+extra/gtk-update-icon-cache 3.22.10-1
 extra/gtk2 2.24.31-1
-extra/gtk3 3.22.9+2+gaebe3a74ec-1
+extra/gtk3 3.22.10-1
 extra/gtksourceview3 3.22.2-1
 extra/guile 2.0.14-1
 core/gzip 1.8-2 (base base-devel)
@@ -145,7 +145,7 @@ extra/ijs 0.35-1
 extra/imlib2 1.4.9-1
 core/inetutils 1.9.4-5 (base)
 extra/inputproto 2.3.2-1
-extra/intel-tbb 2017_20161128-1
+extra/intel-tbb 2017_20170226-1
 extra/intel-ucode 20161104-1
 community/intellij-idea-community-edition 2:2016.3.4-1
 core/iproute2 4.10.0-2 (base)
@@ -154,8 +154,8 @@ core/iputils 20161105.1f2bb12-1 (base)
 core/iw 4.9-1
 extra/jack 0.125.0-3
 extra/jade 1.2.1-12
-community/jansson 2.9-1
-extra/jasper 2.0.10-1
+community/jansson 2.10-1
+extra/jasper 2.0.12-1
 extra/java-environment-common 2-2
 extra/java-runtime-common 2-2
 extra/jbig2dec 0.13-1
@@ -166,12 +166,12 @@ extra/jre8-openjdk-headless 8.u121-1
 extra/js 24.2.0-4
 local/js17 17.0.0-4
 extra/json-c 0.12.1-1
-extra/json-glib 1.2.2+4+gd725fb5-1
+extra/json-glib 1.2.6+7+gf98d547-1
 core/kbd 2.0.4-1
 extra/kbproto 1.0.7-1
 community/keepassx2 2.0.3-1
 extra/keychain 2.8.3-1
-core/keyutils 1.5.9-1
+core/keyutils 1.5.10-1
 core/kmod 24-1
 core/krb5 1.13.7-1
 extra/lame 3.99.5-3
@@ -221,7 +221,7 @@ extra/libglade 2.6.4-5
 extra/libglvnd 0.2.999+g4ba53457-1
 core/libgpg-error 1.27-1
 extra/libgudev 231-1
-extra/libgusb 0.2.9-1
+extra/libgusb 0.2.9-2
 extra/libice 1.0.9-1
 extra/libid3tag 0.15.1b-8
 core/libidn 1.33-1
@@ -261,7 +261,7 @@ extra/libraw1394 2.1.2-1
 extra/librsvg 2:2.40.16-1
 extra/libsamplerate 0.1.9-1
 core/libsasl 2.1.26-8
-core/libseccomp 2.3.1-1
+core/libseccomp 2.3.2-1
 core/libsecret 0.18.5-1
 extra/libshout 1:2.4.1-2
 extra/libsm 1.2.2-2
@@ -296,7 +296,7 @@ community/libvdpau-va-gl 0.4.2-1
 extra/libvorbis 1.3.5-1
 extra/libvpx 1.6.1-1
 extra/libwacom 0.24-1
-extra/libwbclient 4.5.4-1
+extra/libwbclient 4.5.6-2
 extra/libwebp 0.5.2-1
 extra/libx11 1.6.5-1
 extra/libx264 2:148.20160920-1
@@ -324,7 +324,7 @@ extra/libxpm 3.5.12-1
 extra/libxrandr 1.5.1-1
 extra/libxrender 0.9.10-1
 extra/libxshmfence 1.2-1
-extra/libxslt 1.1.29+41+gdf5330d1-1
+extra/libxslt 1.1.29+42+gac341cbd-1
 extra/libxss 1.2.2-2
 extra/libxt 1.1.5-1
 extra/libxtst 1.2.3-1
@@ -333,9 +333,9 @@ extra/libxvmc 1.0.10-1
 extra/libxxf86dga 1.1.4-1
 extra/libxxf86vm 1.1.4-1
 core/licenses 20140629-1 (base)
-core/linux 4.10.1-1 (base)
+core/linux 4.10.3-1 (base)
 core/linux-api-headers 4.10.1-1
-core/linux-firmware 20170227.5abb924-1
+core/linux-firmware 20170309.695f2d6-1
 extra/lirc 1:0.9.4.d-1
 extra/llvm-libs 3.9.1-2
 core/logrotate 3.11.0-1 (base)
@@ -350,14 +350,14 @@ core/lzo 2.10-1
 core/m4 1.4.18-1 (base-devel)
 core/make 4.2.1-1 (base-devel)
 core/man-db 2.7.6.1-2 (base)
-core/man-pages 4.09-1 (base)
-core/mdadm 3.4-1 (base)
+core/man-pages 4.10-2 (base)
+core/mdadm 4.0-1 (base)
 extra/meld 3.16.4-1
 extra/mesa 17.0.1-2
 extra/mesa-vdpau 17.0.1-2
 extra/metis 5.1.0.p3-1
 extra/mime-types 9-1
-core/mkinitcpio 22-1
+core/mkinitcpio 23-1
 core/mkinitcpio-busybox 1.25.1-1
 extra/mozilla-common 1.4-4
 core/mpfr 3.1.5.p2-1
@@ -369,13 +369,13 @@ core/ncurses 6.0+20170128-1
 extra/netcdf 4.4.1-2
 core/netctl 1.12-2 (base)
 core/nettle 3.3-1
-community/nodejs 7.7.2-1
-extra/noto-fonts 20170307-1
+community/nodejs 7.7.3-1
+extra/noto-fonts 20170307-2
 extra/noto-fonts-emoji 20170310-1
 community/npm 4.4.1-1
 core/npth 1.3-1
 core/nspr 4.13.1-1
-core/nss 3.29.1-1
+core/nss 3.29.3-2
 extra/numactl 2.0.11-1
 local/nvm 0.33.1-1
 extra/octave 4.2.1-4
@@ -390,15 +390,15 @@ core/openssh 7.4p1-2
 core/openssl 1.0.2.k-1
 extra/opus 1.1.4-1
 extra/orc 0.4.26-2
-core/p11-kit 0.23.2-1
+core/p11-kit 0.23.5-1
 local/package-query 1.8-2
 core/pacman 5.0.1-4 (base base-devel)
-core/pacman-mirrorlist 20170211-1
+core/pacman-mirrorlist 20170316-1
 core/pam 1.3.0-1
 core/pambase 20130928-1
 extra/pango 1.40.4-1
 core/patch 2.7.5-1 (base-devel)
-core/pciutils 3.5.2-1 (base)
+core/pciutils 3.5.4-1 (base)
 core/pcmciautils 018-7 (base)
 core/pcre 8.40-1
 community/pcre2 10.22-2
@@ -431,7 +431,7 @@ extra/python 3.6.0-2
 extra/python-appdirs 1.4.3-1
 extra/python-dbus-common 1.2.4-2
 extra/python-packaging 16.8-2
-extra/python-pyparsing 2.1.10-2
+extra/python-pyparsing 2.2.0-1
 extra/python-setuptools 1:34.3.2-1
 extra/python-six 1.10.0-3
 community/python-stevedore 1.21.0-1
@@ -446,12 +446,12 @@ extra/python2-gobject 3.22.0-2
 extra/python2-gobject2 2.28.6-13
 community/python2-keybinder2 0.3.1-1
 extra/python2-notify 0.1.1-13
-community/python2-psutil 5.1.3-1
+community/python2-psutil 5.2.0-1
 extra/python2-virtualenv 15.1.0-1
 extra/qhull 2015.2-1
 extra/qscintilla-qt4 2.10-1
 extra/qscintilla-qt5 2.10-1
-extra/qt4 4.8.7-12
+extra/qt4 4.8.7-16
 extra/qt5-base 5.8.0-7 (qt qt5)
 extra/r 3.3.3-1
 extra/randrproto 1.5.0-1
@@ -480,7 +480,7 @@ core/sed 4.4-1 (base base-devel)
 community/semver 5.3.0-1
 core/shadow 4.4-3 (base)
 extra/shared-mime-info 1.8-1
-extra/smbclient 4.5.4-1
+extra/smbclient 4.5.6-2
 extra/snappy 1.1.4-1
 extra/speech-dispatcher 0.8.6-1
 extra/speex 1.2.0-1
@@ -502,7 +502,7 @@ extra/tevent 1:0.9.31-1
 core/texinfo 6.3-1 (base base-devel)
 core/thin-provisioning-tools 0.6.3-1
 community/tmux 2.3-1
-extra/tslib 1.6-1
+extra/tslib 1.7-1
 extra/ttf-dejavu 2.37-1
 core/tzdata 2017a-1
 community/udevil 0.4.4-1
@@ -547,11 +547,11 @@ extra/xextproto 7.3.0-1
 extra/xf86-input-evdev 2.10.5-1 (xorg-drivers)
 extra/xf86-input-libinput 0.25.0-1 (xorg-drivers)
 extra/xf86-input-synaptics 1.9.0-1 (xorg-drivers)
-extra/xf86-video-intel 1:2.99.917+760+ge9cd8c21-1 (xorg-drivers)
-extra/xf86-video-nouveau 1.0.13-3 (xorg-drivers)
+extra/xf86-video-intel 1:2.99.917+767+g7e9e92c8-1 (xorg-drivers)
+extra/xf86-video-nouveau 1.0.14-1 (xorg-drivers)
 extra/xf86dgaproto 2.1-3
 extra/xf86vidmodeproto 2.3.1-3
-core/xfsprogs 4.9.0-1 (base)
+core/xfsprogs 4.10.0-1 (base)
 extra/xineramaproto 1.2.1-3
 extra/xkeyboard-config 2.20-1
 extra/xorg-bdftopcf 1.0.5-1 (xorg xorg-apps)
@@ -560,10 +560,10 @@ extra/xorg-font-utils 7.6-4
 extra/xorg-fonts-alias 1.0.3-1
 extra/xorg-fonts-encodings 1.0.4-4 (xorg-fonts xorg)
 extra/xorg-fonts-misc 1.0.3-5
-extra/xorg-mkfontdir 1.0.7-7 (xorg xorg-apps)
+extra/xorg-mkfontdir 1.0.7-8 (xorg xorg-apps)
 extra/xorg-mkfontscale 1.1.2-1 (xorg-apps xorg)
-extra/xorg-server 1.19.2-1 (xorg)
-extra/xorg-server-common 1.19.2-1 (xorg)
+extra/xorg-server 1.19.3-1 (xorg)
+extra/xorg-server-common 1.19.3-1 (xorg)
 extra/xorg-setxkbmap 1.3.1-1 (xorg-apps xorg)
 extra/xorg-xdpyinfo 1.3.2-1 (xorg-apps xorg)
 extra/xorg-xkbcomp 1.3.1-1 (xorg-apps xorg)
