@@ -108,7 +108,7 @@ core/gnupg 2.1.19-1
 core/gnutls 3.5.10-1
 extra/go 2:1.8-1
 extra/gobject-introspection-runtime 1.50.0+1+gb8d92b0-2
-local/google-chrome-beta 57.0.2987.98-1
+local/google-chrome-beta 58.0.3029.19-1
 local/google-talkplugin 5.41.3.0-1
 core/gpgme 1.8.0-2
 core/gpm 1.20.7-7
@@ -526,8 +526,8 @@ local/vundle 0.10.2-2
 extra/wayland 1.13.0-1
 extra/wayland-protocols 1.7-1
 extra/webrtc-audio-processing 0.3-2
-local/webstorm 2016.3.4-1
-local/webstorm-jre 2016.3.4-1
+local/webstorm 2016.3.5-1
+local/webstorm-jre 2016.3.5-1
 core/which 2.21-2 (base base-devel)
 core/wireless_tools 30.pre9-1
 core/wpa_actiond 1.4-2
